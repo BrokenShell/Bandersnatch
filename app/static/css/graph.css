@@ -1,0 +1,10 @@
+.vega-actions {
+    display: none;
+}
+#chart {
+    margin: 0 0 20px 100px;
+}
+#graph canvas {
+    border: 1px solid #000;
+    box-shadow: 0px 2px 7px rgba(0,0,0,0.5);
+}

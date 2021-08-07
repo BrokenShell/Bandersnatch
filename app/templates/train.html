@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+{% block content %}
+<h1 class="heading">Monster Trainer</h1>
+<h3 class="accuracy">
+    <span class="label">Training Score: </span>
+    <span class="answers">{{ train_score }}</span>
+    <br />
+    <span class="label">Validation Score: </span>
+    <span class="answers">{{ test_score }}</span>
+</h3>
+<form id="form" method="post" action="{{ url_for('retrain') }}">
+    <p>
+        <button type="submit" id="submit" name="submit">Retrain Model</button>
+    </p>
+</form>
+{% endblock %}

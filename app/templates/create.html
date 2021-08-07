@@ -1,0 +1,62 @@
+{% extends "layout.html" %}
+{% block content %}
+<h1 class="heading">Monster Factory</h1>
+<form id="form" method="post" action="{{ url_for('create') }}">
+    <p>
+        <span class="label">Name:</span>
+        <input name="name" placeholder="Enter Name">
+    </p>
+    <p>
+        <span class="label">Type:</span>
+        <select name="type">
+        {% for op in type_ops %}
+            {% if op == monster_type %}
+            <option selected="selected">{{ op }}</option>
+            {% else %}
+            <option>{{ op }}</option>
+            {% endif %}
+        {% endfor %}
+        </select>
+    </p>
+    <p>
+        <span class="label">Level:</span>
+        <select name="level">
+        {% for op in level_ops %}
+            {% if op == level %}
+            <option selected="selected">{{ op }}</option>
+            {% else %}
+            <option>{{ op }}</option>
+            {% endif %}
+        {% endfor %}
+        </select>
+    </p>
+    <p>
+        <span class="label">Rank:</span>
+        <select name="rank">
+        {% for op in rank_ops %}
+            {% if op == rank %}
+            <option selected="selected">{{ op }}</option>
+            {% else %}
+            <option>{{ op }}</option>
+            {% endif %}
+        {% endfor %}
+        </select>
+    </p>
+    <button type="submit" id="submit" name="submit">Generate Monster</button>
+    <br class="clear" />
+</form>
+{% if monster %}
+<h3>Monster</h3>
+<p>
+{% for key, val in monster.items() %}
+    {{ key }}: {{ val }}<br />
+{% endfor %}
+</p>
+<blockquote>
+    <p>
+        Visit the <a href="{{ url_for('train') }}">training page</a> to retrain
+        the model after creating new monsters.
+    </p>
+</blockquote>
+{% endif %}
+{% endblock %}

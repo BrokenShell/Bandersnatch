@@ -1,0 +1,32 @@
+{% extends "layout.html" %}
+{% block content %}
+<h1 class="heading">Monster Predictor</h1>
+<h3>Monster Input</h3>
+<form id="form" method="post" action="{{ url_for('predict') }}">
+    <p>
+        <span class="label">Level:</span>
+        <select name="level">
+        {% for op in level_ops %}
+            {% if op == level %}
+            <option selected="selected">{{ op }}</option>
+            {% else %}
+            <option>{{ op }}</option>
+            {% endif %}
+        {% endfor %}
+        </select>
+    </p>
+    <p><span class="label">Health:</span><input name="health" value="{{ health }}" /></p>
+    <p><span class="label">Energy:</span><input name="energy" value="{{ energy }}" /></p>
+    <p><span class="label">Sanity:</span><input name="sanity" value="{{ sanity }}" /></p>
+    <button type="submit" id="submit" name="submit">Predict Rank</button>
+    <p><br class="clear" /></p>
+</form>
+<h3 class="prediction">
+    <span class="label">Prediction: </span>
+    <span class="answers">{{ prediction }}</span>
+</h3>
+<h3 class="confidence">
+    <span class="label">Confidence: </span>
+    <span class="answers">{{ confidence }}</span>
+</h3>
+{% endblock %}

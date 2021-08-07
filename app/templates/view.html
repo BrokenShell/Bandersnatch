@@ -1,0 +1,59 @@
+{% extends "layout.html" %}
+{% block content %}
+<h1 class="heading">Monster Viewer</h1>
+{% if not empty %}
+<form id="form" method="post" action="{{ url_for('view') }}">
+    <p><span class="label">Rank:</span><select name="rank">
+        {% for op in rank_options %}
+            {% if op == rank %}
+                <option selected="selected">{{ op }}</option>
+            {% else %}
+                <option>{{ op }}</option>
+            {% endif %}
+        {% endfor %}
+    </select></p>
+    <p><span class="label">X-axis:</span><select name="x-axis">
+        {% for op in options %}
+            {% if op == x_axis %}
+                <option selected="selected">{{ op }}</option>
+            {% else %}
+                <option>{{ op }}</option>
+            {% endif %}
+        {% endfor %}
+    </select></p>
+    <p><span class="label">Y-axis:</span><select name="y-axis">
+        {% for op in options %}
+            {% if op == y_axis %}
+                <option selected="selected">{{ op }}</option>
+            {% else %}
+                <option>{{ op }}</option>
+            {% endif %}
+        {% endfor %}
+    </select></p>
+    <p><span class="label">Target:</span><select name="target">
+        {% for op in target_options %}
+            {% if op == target %}
+                <option selected="selected">{{ op }}</option>
+            {% else %}
+                <option>{{ op }}</option>
+            {% endif %}
+        {% endfor %}
+    </select></p>
+    <button type="submit" id="submit" name="submit">Generate Chart</button>
+    <br class="clear" />
+</form>
+<div id="chart">
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@4.8.1"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.0.0"></script>
+    <input id="specVal" type="hidden" value="{{ spec }}">
+    <div id="graph"></div>
+    <script type="text/javascript">
+    const specVal = document.getElementById("specVal").value;
+    const visSpec = JSON.parse(specVal);
+    vegaEmbed('#graph', visSpec);
+    </script>
+</div>
+{% endif %}
+<h3>Total Monsters: {{ total }}</h3>
+{% endblock %}
