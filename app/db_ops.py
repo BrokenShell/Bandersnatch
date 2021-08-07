@@ -1,5 +1,5 @@
 from os import getenv
-from typing import Iterator, List, Dict, Iterable
+from typing import Iterator, Dict, Iterable
 
 from pymongo import MongoClient
 import pandas as pd
