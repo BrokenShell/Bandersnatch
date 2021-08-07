@@ -11,7 +11,7 @@ from app.monsters import Monster
 
 APP = Flask(__name__)
 APP.db = DataBase()
-APP.model = load("model.job")
+APP.model = load("app/model.job")
 
 
 @APP.route("/")
@@ -212,7 +212,7 @@ def train():
 @APP.route("/retrain", methods=["POST"])
 def retrain():
     APP.model = Model()
-    dump(APP.model, "model.job")
+    dump(APP.model, "app/model.job")
     return train()
 
 
