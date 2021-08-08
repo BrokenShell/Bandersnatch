@@ -1,6 +1,7 @@
 """ Bandersnatch """
 import numpy as np
-from Fortuna import random_int, random_float
+import pandas as pd
+from Fortuna import random_int, random_float, smart_clamp
 from flask import Flask, render_template, request
 import altair as alt
 from joblib import load, dump
@@ -66,8 +67,8 @@ def view():
         color=f"{target}{get_type(monsters, target)}",
         tooltip=alt.Tooltip(list(monsters.columns)),
     ).properties(
-        width=420,
-        height=420,
+        width=400,
+        height=480,
         background=graph_bg,
         padding=40,
     ).configure(
@@ -132,7 +133,8 @@ def create():
         if com == "reset":
             APP.db.reset_db()
         elif com.isnumeric():
-            APP.db.insert_many([Monster().to_dict() for _ in range(int(com))])
+            num = smart_clamp(1, int(com), 5000)
+            APP.db.insert_many(Monster().to_dict() for _ in range(num))
         return render_template(
             "create.html",
             type_ops=Monster.type_options,
@@ -159,14 +161,15 @@ def create():
 
 @APP.route("/data", methods=["GET"])
 def data():
-    table = sorted(APP.db.find_many({}), key=lambda x: x['Time Stamp'], reverse=True)
-    total = len(table)
+    df_table = APP.db.get_df().sort_values("Time Stamp", ascending=False)
+    df_table = df_table.drop(columns=["_id"])
+    df_html = df_table.to_html(index=False)
+    total = df_table.shape[0]
 
     return render_template(
         "data.html",
-        table=table,
-        enumerate=enumerate,
         total=total,
+        df_table=df_html,
     )
 
 
@@ -217,4 +220,7 @@ def retrain():
 
 
 if __name__ == "__main__":
+    """ To run locally use the following command in the terminal:
+    $ python3 -m app.main
+    """
     APP.run()

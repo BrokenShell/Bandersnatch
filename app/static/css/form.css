@@ -47,21 +47,29 @@
 #form button#retrain {
     float: none;
 }
-#form button#submit:hover, #form button#retrain:hover {
+#form button#submit:hover,
+#form button#retrain:hover {
     color: #333;
     border: 1px solid #eee;
     background-color: #aaa;
     box-shadow: #FFF 0px 0px 3px;
+}
+#form textarea {
+    margin: 20px 0 40px 100px;
+    width: 500px;
+    height: 200px;
 }
 table {
     text-align: left;
     margin: 0 0 0 100px;
 }
 table th {
-    padding-right: 40px;
+    border-bottom: 1px solid #111;
+    padding: 5px 20px 5px 20px;
+    text-align: left;
 }
 table td {
-    padding: 5px 40px 0 0;
+    padding: 5px 20px 5px 20px;
 }
 table tr.odd-row {
     background-color: #333;

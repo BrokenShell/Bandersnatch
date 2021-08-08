@@ -62,3 +62,14 @@ class Monster:
 
     def __str__(self):
         return "\n".join(f"{key}: {val}" for key, val in self.to_dict().items()) + "\n"
+
+
+# if __name__ == '__main__':
+#     from time import sleep
+#     from app.db_ops import DataBase
+#
+#     db = DataBase()
+#     db.reset_db()
+#     for _ in range(32):
+#         db.insert_many(Monster().to_dict() for _ in range(32))
+#         sleep(1)

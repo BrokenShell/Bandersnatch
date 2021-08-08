@@ -2,30 +2,11 @@
 {% block content %}
 <h1 class="heading">Monster Table</h1>
 <h3 class="total">Total Monsters: {{ total }}</h3>
-{% if total %}
-<table>
-    <thead>
-        <tr class="odd-row">
-        {% for head in table[0].keys() %}
-            {% if head != '_id' %}
-            <th scope="col">{{ head }}</th>
-            {% endif %}
-        {% endfor %}
-        </tr>
-    </thead>
-    {% for idx, row in enumerate(table) %}
-    {% if idx % 2 == 0 %}
-    <tr class="even-row">
-    {% else %}
-    <tr class="odd-row">
-    {% endif %}
-    {% for head, cell in row.items() %}
-        {% if head != '_id' %}
-        <td>{{ cell }}</td>
-        {% endif %}
-    {% endfor %}
-    </tr>
-    {% endfor %}
-</table>
-{% endif %}
+<input id="source" type="hidden" value="{{ df_table }}" />
+<div id="table"></div>
+<script type="text/javascript">
+    const source = document.getElementById("source")
+    let target = document.getElementById("table");
+    target.innerHTML = source.value;
+</script>
 {% endblock %}
