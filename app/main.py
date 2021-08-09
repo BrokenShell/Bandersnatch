@@ -34,10 +34,9 @@ def get_type(df, col):
 @APP.route("/view", methods=["GET", "POST"])
 def view():
     raw_data = APP.db.get_df()
-    if raw_data.shape[0] == 0:
+    if APP.db.get_count() == 0:
         return render_template(
             "view.html",
-            empty=True,
             total=0,
         )
     x_axis = request.values.get("x-axis") or "Health"
@@ -48,6 +47,7 @@ def view():
     options = monsters.columns
     if rarity != "All":
         monsters = monsters[monsters['Rarity'] == rarity]
+    total = monsters.shape[0]
     text_color = "#AAA"
     graph_color = "#333"
     graph_bg = "#252525"
@@ -94,7 +94,6 @@ def view():
             "stroke": graph_color,
         },
     )
-    total = monsters.shape[0]
     return render_template(
         "view.html",
         rarity=rarity,
@@ -160,16 +159,21 @@ def create():
 
 @APP.route("/data", methods=["GET"])
 def data():
-    df_table = APP.db.get_df().sort_values("Time Stamp", ascending=False)
-    df_table = df_table.drop(columns=["_id"])
-    df_html = df_table.to_html(index=False)
-    total = df_table.shape[0]
-
-    return render_template(
-        "data.html",
-        total=total,
-        df_table=df_html,
-    )
+    total = APP.db.get_count()
+    if total > 0:
+        df_table = APP.db.get_df().sort_values("Time Stamp", ascending=False)
+        df_table = df_table.drop(columns=["_id"])
+        df_html = df_table.to_html(index=False)
+        return render_template(
+            "data.html",
+            total=total,
+            df_table=df_html,
+        )
+    else:
+        return render_template(
+            "data.html",
+            total=total,
+        )
 
 
 @APP.route("/predict", methods=["GET", "POST"])
@@ -200,21 +204,22 @@ def predict():
 
 @APP.route("/train", methods=["GET", "POST"])
 def train():
-    train_acc, test_acc = APP.model.score()
-    train_score = f"{100 * train_acc:.2f}%"
-    test_score = f"{100*test_acc:.2f}%"
+    available = APP.db.get_count() - APP.model.total
+    _, test_acc = APP.model.score()
+    test_score = f"{100 * test_acc:.2f}%"
 
     return render_template(
         "train.html",
-        train_score=train_score,
         test_score=test_score,
+        available=available,
     )
 
 
 @APP.route("/retrain", methods=["POST"])
 def retrain():
-    APP.model = Model()
-    dump(APP.model, "app/model.job")
+    if APP.db.get_count() > 100:
+        APP.model = Model()
+        dump(APP.model, "app/model.job")
     return train()
 
 

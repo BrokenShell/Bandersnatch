@@ -22,6 +22,7 @@ class Model:
         )
         self.model = RandomForestClassifier()
         self.model.fit(self.X_train, self.y_train)
+        self.total = db.get_count()
 
     def __call__(self, feature_basis):
         prediction, *_ = self.model.predict([feature_basis])

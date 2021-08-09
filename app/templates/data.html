@@ -2,6 +2,7 @@
 {% block content %}
 <h1 class="heading">Monster Table</h1>
 <h3 class="total">Total Monsters: {{ total }}</h3>
+{% if total > 0 %}
 <input id="source" type="hidden" value="{{ df_table }}" />
 <div id="table"></div>
 <script type="text/javascript">
@@ -9,4 +10,5 @@
     let target = document.getElementById("table");
     target.innerHTML = source.value;
 </script>
+{% endif %}
 {% endblock %}

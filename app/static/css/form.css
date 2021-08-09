@@ -33,7 +33,7 @@
     color: #8888c6;
     opacity: 0.5;
 }
-#form button#submit, #form button#retrain {
+#form button#submit {
     padding: 3px 0;
     width: 167px;
     cursor: pointer;
@@ -44,7 +44,7 @@
     border-radius: 3px;
     box-shadow: #000 0px 0px 3px;
 }
-#form button#retrain {
+#form button#submit.retrain {
     float: none;
 }
 #form button#submit:hover,
@@ -61,7 +61,7 @@
 }
 table {
     text-align: left;
-    margin: 0 0 0 100px;
+    margin: 0 0 0 82px;
 }
 table th {
     border-bottom: 1px solid #111;

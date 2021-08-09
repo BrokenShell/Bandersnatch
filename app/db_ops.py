@@ -20,7 +20,7 @@ class DataBase:
     def insert(self, insert_obj: Dict):
         self.connect().insert_one(insert_obj)
 
-    def find_many(self, query_obj: Dict, limit=5000) -> Iterator[Dict]:
+    def find_many(self, query_obj: Dict, limit=0) -> Iterator[Dict]:
         return self.connect().find(query_obj, limit=limit)
 
     def insert_many(self, insert_obj: Iterable[Dict]):
@@ -37,6 +37,9 @@ class DataBase:
 
     def get_df(self) -> pd.DataFrame:
         return pd.DataFrame(self.find_many({}))
+
+    def get_count(self):
+        return self.connect().find({}).count()
 
     def __str__(self):
         return f"{self.get_df()}"
