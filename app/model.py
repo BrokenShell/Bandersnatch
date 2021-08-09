@@ -12,8 +12,8 @@ class Model:
         df = db.get_df().drop(columns=[
             "_id", "Name", "Damage", "Type", "Time Stamp",
         ])
-        target = df["Rank"]
-        features = df.drop(columns=["Rank"])
+        target = df["Rarity"]
+        features = df.drop(columns=["Rarity"])
         self.X_train, self.X_test, self.y_train, self.y_test = train_test_split(
             features,
             target,

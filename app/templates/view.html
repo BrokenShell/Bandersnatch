@@ -3,9 +3,9 @@
 <h1 class="heading">Monster Viewer</h1>
 {% if not empty %}
 <form id="form" method="post" action="{{ url_for('view') }}">
-    <p><span class="label">Rank:</span><select name="rank">
-        {% for op in rank_options %}
-            {% if op == rank %}
+    <p><span class="label">Filter:</span><select name="rarity">
+        {% for op in rarity_options %}
+            {% if op == rarity %}
                 <option selected="selected">{{ op }}</option>
             {% else %}
                 <option>{{ op }}</option>

@@ -1,6 +1,5 @@
 """ Bandersnatch """
 import numpy as np
-import pandas as pd
 from Fortuna import random_int, random_float, smart_clamp
 from flask import Flask, render_template, request
 import altair as alt
@@ -8,7 +7,7 @@ from joblib import load, dump
 
 from app.db_ops import DataBase
 from app.model import Model
-from app.monsters import Monster
+from MonsterLab import Monster, Random
 
 APP = Flask(__name__)
 APP.db = DataBase()
@@ -43,18 +42,18 @@ def view():
         )
     x_axis = request.values.get("x-axis") or "Health"
     y_axis = request.values.get("y-axis") or "Energy"
-    target = request.values.get("target") or "Rank"
-    rank = request.values.get("rank") or "All"
+    target = request.values.get("target") or "Rarity"
+    rarity = request.values.get("rarity") or "All"
     monsters = raw_data.drop(columns=['_id'])
     options = monsters.columns
-    if rank != "All":
-        monsters = monsters[monsters['Rank'] == rank]
+    if rarity != "All":
+        monsters = monsters[monsters['Rarity'] == rarity]
     text_color = "#AAA"
     graph_color = "#333"
     graph_bg = "#252525"
     graph = alt.Chart(
         monsters,
-        title=f"{rank} Monsters",
+        title=f"{rarity} Monsters",
     ).mark_circle(size=100).encode(
         x=alt.X(
             f"{x_axis}{get_type(monsters, x_axis)}",
@@ -98,8 +97,8 @@ def view():
     total = monsters.shape[0]
     return render_template(
         "view.html",
-        rank=rank,
-        rank_options=["All", "Rank 1", "Rank 2", "Rank 3", "Rank 4", "Rank 5"],
+        rarity=rarity,
+        rarity_options=["All", "Rank 1", "Rank 2", "Rank 3", "Rank 4", "Rank 5"],
         options=options,
         x_axis=x_axis,
         y_axis=y_axis,
@@ -113,19 +112,19 @@ def view():
 @APP.route("/create", methods=["GET", "POST"])
 def create():
     name = request.values.get("name")
-    monster_type = request.values.get("type") or Monster.random_type()
-    level = int(request.values.get("level") or Monster.random_level())
-    rank = request.values.get("rank") or Monster.random_rank()
+    monster_type = request.values.get("type") or Random.random_type()
+    level = int(request.values.get("level") or Random.random_level())
+    rarity = request.values.get("rarity") or Random.random_rank()
 
     if not name:
         return render_template(
             "create.html",
-            type_ops=Monster.type_options,
+            type_ops=Random.random_name.cat_keys,
             monster_type=monster_type,
-            level_ops=Monster.level_options,
+            level_ops=list(range(1, 21)),
             level=level,
-            rank_ops=Monster.rank_options,
-            rank=rank,
+            rarity_ops=list(Random.dice.keys()),
+            rarity=rarity,
         )
 
     if name.startswith("/"):
@@ -137,24 +136,24 @@ def create():
             APP.db.insert_many(Monster().to_dict() for _ in range(num))
         return render_template(
             "create.html",
-            type_ops=Monster.type_options,
+            type_ops=Random.random_name.cat_keys,
             monster_type=monster_type,
-            level_ops=Monster.level_options,
+            level_ops=list(range(1, 21)),
             level=level,
-            rank_ops=Monster.rank_options,
-            rank=rank,
+            rarity_ops=list(Random.dice.keys()),
+            rarity=rarity,
         )
 
-    monster = Monster(name, monster_type, level, rank)
+    monster = Monster(name, monster_type, level, rarity)
     APP.db.insert(monster.to_dict())
     return render_template(
         "create.html",
-        type_ops=Monster.type_options,
+        type_ops=Random.random_name.cat_keys,
         monster_type=monster_type,
-        level_ops=Monster.level_options,
+        level_ops=list(range(1, 21)),
         level=level,
-        rank_ops=Monster.rank_options,
-        rank=rank,
+        rarity_ops=list(Random.dice.keys()),
+        rarity=rarity,
         monster=monster.to_dict(),
     )
 

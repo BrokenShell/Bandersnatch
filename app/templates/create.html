@@ -31,10 +31,10 @@
         </select>
     </p>
     <p>
-        <span class="label">Rank:</span>
-        <select name="rank">
-        {% for op in rank_ops %}
-            {% if op == rank %}
+        <span class="label">Rarity:</span>
+        <select name="rarity">
+        {% for op in rarity_ops %}
+            {% if op == rarity %}
             <option selected="selected">{{ op }}</option>
             {% else %}
             <option>{{ op }}</option>
@@ -46,7 +46,7 @@
     <br class="clear" />
 </form>
 {% if monster %}
-<h3>Monster</h3>
+<h3>Monster Added</h3>
 <p>
 {% for key, val in monster.items() %}
     {{ key }}: {{ val }}<br />
