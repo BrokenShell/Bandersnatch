@@ -33,7 +33,7 @@
     color: #8888c6;
     opacity: 0.5;
 }
-#form button#submit {
+button {
     padding: 3px 0;
     width: 167px;
     cursor: pointer;
@@ -42,17 +42,16 @@
     float: right;
     border: 1px solid #000;
     border-radius: 3px;
-    box-shadow: #000 0px 0px 3px;
+    box-shadow: #000 0 0 3px;
 }
-#form button#submit.retrain {
+button.classic {
     float: none;
 }
-#form button#submit:hover,
-#form button#retrain:hover {
+button:hover {
     color: #333;
     border: 1px solid #eee;
     background-color: #aaa;
-    box-shadow: #FFF 0px 0px 3px;
+    box-shadow: #FFF 0 0 3px;
 }
 #form textarea {
     margin: 20px 0 40px 100px;

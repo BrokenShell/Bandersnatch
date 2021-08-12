@@ -20,7 +20,13 @@ class Model:
             test_size=0.20,
             stratify=target,
         )
-        self.model = RandomForestClassifier()
+        self.model = RandomForestClassifier(
+            max_depth=12,
+            bootstrap=False,
+            n_jobs=-1,
+            random_state=42,
+            n_estimators=333,
+        )
         self.model.fit(self.X_train, self.y_train)
         self.total = db.get_count()
 
@@ -29,10 +35,19 @@ class Model:
         probability, *_ = self.model.predict_proba([feature_basis])
         return prediction, max(probability)
 
+    @property
+    def info(self):
+        output = (
+            f"Model: {str(self.model)}",
+            f"Testing Score: {100*self.score():.5f}",
+            f"Total Row Count: {self.total}",
+            f"Training Row Count: {self.X_train.shape[0]}",
+            f"Testing Row Count: {self.total - self.X_train.shape[0]}",
+        )
+        return "\n".join(output)
+
     def score(self):
-        train_score = self.model.score(self.X_train, self.y_train)
-        test_score = self.model.score(self.X_test, self.y_test)
-        return train_score - 0.0001, test_score
+        return self.model.score(self.X_test, self.y_test)
 
 
 if __name__ == '__main__':

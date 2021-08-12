@@ -10,15 +10,11 @@
     <br>
 </h3>
 <p>
-    If you have untrained monsters, it's a good idea to train them.
-<br>
-    This will retrain the machine learning model to include the new recruits.
+    <button class="classic" onclick=window.location.replace("/retrain")>
+        Retrain Model
+    </button>
+    <button class="classic" onclick=window.location.replace("/download")>
+        Download Model
+    </button>
 </p>
-<form id="form" method="post" action="{{ url_for('retrain') }}">
-    <p>
-        <button type="submit" id="submit" name="submit" class="retrain">
-            Train Monsters
-        </button>
-    </p>
-</form>
 {% endblock %}

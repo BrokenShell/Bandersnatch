@@ -1,7 +1,9 @@
 """ Bandersnatch """
+from zipfile import ZipFile
+
 import numpy as np
-from Fortuna import random_int, random_float, smart_clamp
-from flask import Flask, render_template, request
+from Fortuna import random_int, random_float
+from flask import Flask, render_template, request, send_file
 import altair as alt
 from joblib import load, dump
 
@@ -33,6 +35,7 @@ def get_type(df, col):
 
 @APP.route("/view", methods=["GET", "POST"])
 def view():
+    alt.data_transformers.disable_max_rows()
     raw_data = APP.db.get_df()
     if APP.db.get_count() == 0:
         return render_template(
@@ -42,18 +45,19 @@ def view():
     x_axis = request.values.get("x-axis") or "Health"
     y_axis = request.values.get("y-axis") or "Energy"
     target = request.values.get("target") or "Rarity"
-    rarity = request.values.get("rarity") or "All"
+    filter_by = request.values.get("filter_by") or "All"
     monsters = raw_data.drop(columns=['_id'])
     options = monsters.columns
-    if rarity != "All":
-        monsters = monsters[monsters['Rarity'] == rarity]
+    if filter_by != "All":
+        monsters = monsters[monsters['Rarity'] == filter_by]
     total = monsters.shape[0]
     text_color = "#AAA"
     graph_color = "#333"
     graph_bg = "#252525"
     graph = alt.Chart(
         monsters,
-        title=f"{rarity} Monsters",
+        title=f"{filter_by} Monsters",
+
     ).mark_circle(size=100).encode(
         x=alt.X(
             f"{x_axis}{get_type(monsters, x_axis)}",
@@ -94,10 +98,19 @@ def view():
             "stroke": graph_color,
         },
     )
+    rarity_options = [
+        "All",
+        "Rank 0",
+        "Rank 1",
+        "Rank 2",
+        "Rank 3",
+        "Rank 4",
+        "Rank 5",
+    ]
     return render_template(
         "view.html",
-        rarity=rarity,
-        rarity_options=["All", "Rank 1", "Rank 2", "Rank 3", "Rank 4", "Rank 5"],
+        rarity=filter_by,
+        rarity_options=rarity_options,
         options=options,
         x_axis=x_axis,
         y_axis=y_axis,
@@ -131,8 +144,7 @@ def create():
         if com == "reset":
             APP.db.reset_db()
         elif com.isnumeric():
-            num = smart_clamp(1, int(com), 5000)
-            APP.db.insert_many(Monster().to_dict() for _ in range(num))
+            APP.db.insert_many(Monster().to_dict() for _ in range(int(com)))
         return render_template(
             "create.html",
             type_ops=Random.random_name.cat_keys,
@@ -187,7 +199,7 @@ def predict():
     energy = float(request.values.get("energy") or rand())
     sanity = float(request.values.get("sanity") or rand())
     prediction, probability = APP.model([level, health, energy, sanity])
-    train_score, test_score = APP.model.score()
+    test_score = APP.model.score()
     confidence = f"{100*probability*test_score:.2f}%"
 
     return render_template(
@@ -205,8 +217,7 @@ def predict():
 @APP.route("/train", methods=["GET", "POST"])
 def train():
     available = APP.db.get_count() - APP.model.total
-    _, test_acc = APP.model.score()
-    test_score = f"{100 * test_acc:.2f}%"
+    test_score = f"{100 * APP.model.score():.2f}%"
 
     return render_template(
         "train.html",
@@ -215,12 +226,29 @@ def train():
     )
 
 
-@APP.route("/retrain", methods=["POST"])
+def log_model():
+    with open("app/model_notes.txt", "w") as file:
+        file.write(APP.model.info)
+
+
+@APP.route("/retrain", methods=["GET", "POST"])
 def retrain():
-    if APP.db.get_count() > 100:
+    if all(x > 2 for x in APP.db.get_df()["Rarity"].value_counts()):
         APP.model = Model()
         dump(APP.model, "app/model.job")
+        log_model()
+        df = APP.db.get_df()
+        df.to_csv("app/data.csv", index=False)
     return train()
+
+
+@APP.route("/download", methods=["GET"])
+def download():
+    with ZipFile("app/saved_model.zip", "w") as archive:
+        archive.write("app/model_notes.txt", "saved_model/notes.txt")
+        archive.write("app/data.csv", "saved_model/data.csv")
+        archive.write("app/model.job", "saved_model/model.job")
+    return send_file("saved_model.zip", as_attachment=True)
 
 
 if __name__ == "__main__":
