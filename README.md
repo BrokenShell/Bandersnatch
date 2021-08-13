@@ -1,5 +1,4 @@
-# Bandersnatch: Monster Data Science App
-
+# Bandersnatch: Data Science Monster App
 
 ### Components
 - Logic: Python3

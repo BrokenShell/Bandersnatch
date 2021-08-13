@@ -38,7 +38,7 @@ class Model:
     @property
     def info(self):
         output = (
-            f"Model: {str(self.model)}",
+            f"Model: {self.model}",
             f"Testing Score: {100*self.score():.5f}",
             f"Total Row Count: {self.total}",
             f"Training Row Count: {self.X_train.shape[0]}",

@@ -22,19 +22,19 @@ def home():
     return render_template("home.html", monster=monster.to_dict())
 
 
-def get_type(df, col):
-    data_type = {
-        np.float64: ":Q",
-        np.int64: ":O",
-    }
-    if not df[col].empty:
-        return data_type.get(type(df[col].iloc[0]), ":N")
-    else:
-        return ""
-
-
 @APP.route("/view", methods=["GET", "POST"])
 def view():
+
+    def get_type(df, col):
+        data_type = {
+            np.float64: ":Q",
+            np.int64: ":O",
+        }
+        if not df[col].empty:
+            return data_type.get(type(df[col].iloc[0]), ":N")
+        else:
+            return ""
+
     alt.data_transformers.disable_max_rows()
     raw_data = APP.db.get_df()
     if APP.db.get_count() == 0:
@@ -216,29 +216,32 @@ def predict():
 
 @APP.route("/train", methods=["GET", "POST"])
 def train():
-    available = APP.db.get_count() - APP.model.total
+    trained = APP.model.total
+    available = APP.db.get_count() - trained
     test_score = f"{100 * APP.model.score():.2f}%"
 
     return render_template(
         "train.html",
         test_score=test_score,
+        trained=trained,
         available=available,
     )
 
 
-def log_model():
-    with open("app/model_notes.txt", "w") as file:
-        file.write(APP.model.info)
-
-
 @APP.route("/retrain", methods=["GET", "POST"])
 def retrain():
+
+    def log_model():
+        with open("app/model_notes.txt", "w") as file:
+            file.write(APP.model.info)
+
     if all(x > 2 for x in APP.db.get_df()["Rarity"].value_counts()):
         APP.model = Model()
         dump(APP.model, "app/model.job")
         log_model()
         df = APP.db.get_df()
         df.to_csv("app/data.csv", index=False)
+
     return train()
 
 
