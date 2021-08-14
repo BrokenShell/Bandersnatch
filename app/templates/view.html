@@ -1,7 +1,7 @@
 {% extends "layout.html" %}
 {% block content %}
-    <h1 class="heading">Monster Viewer</h1>
-    <h2 class="highlight">Interactive Graph</h2>
+    <h1 class="heading">Dynamic Monster Viewer</h1>
+    <h2 class="highlight">Interactive Graph of Live Data</h2>
     {% if total > 0 %}
         <form id="form" method="post" action="{{ url_for('view') }}">
             <p><label>Filter:
