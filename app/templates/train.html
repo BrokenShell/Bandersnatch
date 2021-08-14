@@ -1,23 +1,29 @@
 {% extends "layout.html" %}
 {% block content %}
-<h1 class="heading">Monster Trainer</h1>
-<h3 class="accuracy">
-    <span class="label">Validation Score: </span>
-    <span class="answers">{{ test_score }}</span>
-    <br>
-    <span class="label">Trained Monsters: </span>
-    <span class="answers">{{ trained }}</span>
-    <br>
-    <span class="label">Untrained Monsters: </span>
-    <span class="answers">{{ available }}</span>
-    <br>
-</h3>
-<p>
-    <button class="classic" onclick=window.location.replace("/retrain")>
-        Retrain Model
-    </button>
-    <button class="classic" onclick=window.location.replace("/download")>
-        Download Model
-    </button>
-</p>
+    <h1 class="heading">Monster Trainer</h1>
+    <h2 class="highlight">Current Model Status</h2>
+    <h5>
+        Name: <span class="highlight">{{ name }}</span>
+        <br>
+        Time Stamp: <span class="highlight">{{ time_stamp }}</span>
+        <br>
+        Validation Score: <span class="highlight">{{ test_score }}</span>
+        <br>
+        Total Monsters Seen: <span class="highlight">{{ total }}</span>
+        <br>
+        Available Unseen Monsters: <span class="highlight">{{ available }}</span>
+        <br>
+    </h5>
+    <p>
+        <button class="classic" onclick=window.location.replace("/retrain")>
+            Retrain Model
+        </button>
+        <button class="classic" onclick=window.location.replace("/download")>
+            Download Model
+        </button>
+    </p>
+    <div class="hidden">
+        <h4>Raw Data</h4>
+        <p>{{ info }}</p>
+    </div>
 {% endblock %}

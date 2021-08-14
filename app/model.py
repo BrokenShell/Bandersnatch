@@ -1,3 +1,6 @@
+from datetime import datetime
+
+import pytz
 from joblib import dump, load
 from sklearn.model_selection import train_test_split
 
@@ -19,16 +22,31 @@ class Model:
             target,
             test_size=0.20,
             stratify=target,
+            random_state=42,
         )
+        self.total_db = db.get_count()
+        self.total_trained = self.y_train.shape[0]
+        self.total_tested = self.y_test.shape[0]
         self.model = RandomForestClassifier(
-            max_depth=12,
-            bootstrap=False,
+            class_weight={
+                'Rank 0': 0.306059,
+                'Rank 1': 0.249341,
+                'Rank 2': 0.194335,
+                'Rank 3': 0.138978,
+                'Rank 4': 0.083304,
+                'Rank 5': 0.027983,
+            },
             n_jobs=-1,
             random_state=42,
             n_estimators=333,
         )
+        self.name = str(self.model).split('(')[0]
+        lambda_time = pytz.timezone('US/Pacific')
+        start_time = datetime.now(lambda_time)
         self.model.fit(self.X_train, self.y_train)
-        self.total = db.get_count()
+        stop_time = datetime.now(lambda_time)
+        self.duration = stop_time - start_time
+        self.time_stamp = stop_time.strftime('%Y-%m-%d %H:%M:%S')
 
     def __call__(self, feature_basis):
         prediction, *_ = self.model.predict([feature_basis])
@@ -39,10 +57,12 @@ class Model:
     def info(self):
         output = (
             f"Model: {self.model}",
-            f"Testing Score: {100*self.score():.5f}",
-            f"Total Row Count: {self.total}",
-            f"Training Row Count: {self.X_train.shape[0]}",
-            f"Testing Row Count: {self.total - self.X_train.shape[0]}",
+            f"Time Stamp: {self.time_stamp}",
+            f"Testing Score: {100*self.score():.3f}%",
+            f"Total Row Count: {self.total_db}",
+            f"Training Row Count: {self.total_trained}",
+            f"Testing Row Count: {self.total_tested}",
+            f"Time to Train: {self.duration}",
         )
         return "\n".join(output)
 
@@ -51,6 +71,4 @@ class Model:
 
 
 if __name__ == '__main__':
-    model = Model()
-    dump(model, "model.job")
-    saved_model = load("model.job")
+    dump(Model(), "model.job")

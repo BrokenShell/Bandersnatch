@@ -1,25 +1,42 @@
 """ Bandersnatch """
 from zipfile import ZipFile
+from os import path
 
-import numpy as np
 from Fortuna import random_int, random_float
+from MonsterLab import Monster, Random
 from flask import Flask, render_template, request, send_file
-import altair as alt
+from apscheduler.schedulers.background import BackgroundScheduler
 from joblib import load, dump
+import altair as alt
+import numpy as np
 
 from app.db_ops import DataBase
 from app.model import Model
-from MonsterLab import Monster, Random
+
 
 APP = Flask(__name__)
 APP.db = DataBase()
-APP.model = load("app/model.job")
+APP.scheduler = BackgroundScheduler()
+
+
+def init_model(force=False):
+    if not force and path.exists("app/model.job"):
+        APP.model = load("app/model.job")
+    else:
+        APP.model = Model()
+        dump(APP.model, "app/model.job")
+        APP.db.get_df().to_csv("app/data.csv", index=False)
+        with open("app/model_notes.txt", "w") as file:
+            file.write(APP.model.info)
+
+
+APP.scheduler.add_job(func=init_model)
+APP.scheduler.start()
 
 
 @APP.route("/")
 def home():
-    monster = Monster()
-    return render_template("home.html", monster=monster.to_dict())
+    return render_template("home.html")
 
 
 @APP.route("/view", methods=["GET", "POST"])
@@ -216,14 +233,18 @@ def predict():
 
 @APP.route("/train", methods=["GET", "POST"])
 def train():
-    trained = APP.model.total
-    available = APP.db.get_count() - trained
-    test_score = f"{100 * APP.model.score():.2f}%"
+    name = APP.model.name
+    time_stamp = APP.model.time_stamp
+    test_score = f"{100 * APP.model.score():.3f}%"
+    total = APP.model.total_db
+    available = APP.db.get_count() - total
 
     return render_template(
         "train.html",
+        name=name,
+        time_stamp=time_stamp,
         test_score=test_score,
-        trained=trained,
+        total=total,
         available=available,
     )
 
@@ -231,16 +252,8 @@ def train():
 @APP.route("/retrain", methods=["GET", "POST"])
 def retrain():
 
-    def log_model():
-        with open("app/model_notes.txt", "w") as file:
-            file.write(APP.model.info)
-
     if all(x > 2 for x in APP.db.get_df()["Rarity"].value_counts()):
-        APP.model = Model()
-        dump(APP.model, "app/model.job")
-        log_model()
-        df = APP.db.get_df()
-        df.to_csv("app/data.csv", index=False)
+        init_model(force=True)
 
     return train()
 

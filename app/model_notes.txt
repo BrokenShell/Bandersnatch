@@ -1,6 +1,0 @@
-Model: RandomForestClassifier(bootstrap=False, max_depth=12, n_estimators=333,
-                       n_jobs=-1, random_state=42)
-Testing Score: 90.38462
-Total Row Count: 256
-Training Row Count: 204
-Testing Row Count: 52

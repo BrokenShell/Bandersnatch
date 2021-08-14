@@ -22,17 +22,6 @@
     padding: 0 8px;
     float: right;
 }
-#form h4 {
-    margin: 10px 0 10px;
-}
-#form span.label {
-    margin-right: 10px;
-}
-#form span.note {
-    font-size: 0.8em;
-    color: #8888c6;
-    opacity: 0.5;
-}
 button {
     padding: 3px 0;
     width: 167px;
@@ -40,9 +29,9 @@ button {
     margin-right: 19px;
     margin-top: 2px;
     float: right;
-    border: 1px solid #000;
+    border: 1px solid #111111;
     border-radius: 3px;
-    box-shadow: #000 0 0 3px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.5);
 }
 button.classic {
     float: none;
@@ -51,40 +40,25 @@ button:hover {
     color: #333;
     border: 1px solid #eee;
     background-color: #aaa;
-    box-shadow: #FFF 0 0 3px;
+    box-shadow: 0 0 5px rgba(255,255,255,0.5);
 }
 #form textarea {
     margin: 20px 0 40px 100px;
     width: 500px;
     height: 200px;
 }
-table {
+table.dataframe {
     text-align: left;
     margin: 0 0 0 82px;
 }
-table th {
-    border-bottom: 1px solid #111;
+table.dataframe th {
+    color: #dddddd;
+    border-bottom: 1px solid #111111;
     padding: 5px 20px 5px 20px;
     text-align: left;
 }
-table td {
+table.dataframe td {
+    color: #aaaaaa;
+    border-bottom: 1px solid #111111;
     padding: 5px 20px 5px 20px;
-}
-table tr.odd-row {
-    background-color: #333;
-}
-h3.prediction {
-    margin-top: 60px;
-}
-h3.confidence {
-    margin-top: -10px;
-}
-h3.accuracy {
-    margin-bottom: 40px;
-}
-h3.total {
-    margin-bottom: 40px;
-}
-span.answers {
-    color: #EEE;
 }

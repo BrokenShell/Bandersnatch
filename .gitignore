@@ -3,3 +3,6 @@
 .env
 /scratch.py
 /NOTES.md
+/app/model.job
+/app/model_notes.txt
+/app/saved_model.zip

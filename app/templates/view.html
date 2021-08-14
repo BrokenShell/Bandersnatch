@@ -1,6 +1,7 @@
 {% extends "layout.html" %}
 {% block content %}
     <h1 class="heading">Monster Viewer</h1>
+    <h2 class="highlight">Interactive Graph</h2>
     {% if total > 0 %}
         <form id="form" method="post" action="{{ url_for('view') }}">
             <p><label>Filter:
@@ -61,5 +62,5 @@
             </script>
         </div>
     {% endif %}
-    <h3>Total Monsters: {{ total }}</h3>
+    <h3>Total Monsters: <span class="highlight">{{ total }}</span></h3>
 {% endblock %}

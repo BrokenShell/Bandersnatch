@@ -26,19 +26,19 @@ class DataBase:
     def insert_many(self, insert_obj: Iterable[Dict]):
         self.connect().insert_many(insert_obj)
 
-    def update(self, query, data):
-        self.connect().update_one(query, {"$set": data})
+    def update(self, query: Dict, data_update: Dict):
+        self.connect().update_one(query, {"$set": data_update})
 
-    def delete(self, query_obj):
+    def delete(self, query_obj: Dict):
         self.connect().delete_many(query_obj)
 
     def reset_db(self):
         self.connect().delete_many({})
 
-    def get_df(self) -> pd.DataFrame:
-        return pd.DataFrame(self.find_many({}))
+    def get_df(self, limit=0) -> pd.DataFrame:
+        return pd.DataFrame(self.find_many({}, limit=limit))
 
-    def get_count(self):
+    def get_count(self) -> int:
         return self.connect().find({}).count()
 
     def __str__(self):

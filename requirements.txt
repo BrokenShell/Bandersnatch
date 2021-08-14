@@ -10,3 +10,5 @@ numpy~=1.20.3
 scikit-learn~=0.24.2
 joblib~=1.0.1
 MonsterLab~=1.0.3
+APScheduler~=3.7.0
+pytz~=2021.1
