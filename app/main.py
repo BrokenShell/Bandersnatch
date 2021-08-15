@@ -242,11 +242,11 @@ def retrain():
 
 @APP.route("/download", methods=["GET"])
 def download():
-    with ZipFile("app/saved_model.zip", "w") as archive:
-        archive.write("app/model_notes.txt", "saved_model/notes.txt")
-        archive.write("app/data.csv", "saved_model/data.csv")
-        archive.write("app/model.job", "saved_model/model.job")
-    return send_file("saved_model.zip", as_attachment=True)
+    with ZipFile("app/saved_model/saved_model.zip", "w") as archive:
+        archive.write("app/saved_model/model_notes.txt", "saved_model/notes.txt")
+        archive.write("app/saved_model/data.csv", "saved_model/data.csv")
+        archive.write("app/saved_model/model.job", "saved_model/model.job")
+    return send_file("saved_model/saved_model.zip", as_attachment=True)
 
 
 if __name__ == "__main__":

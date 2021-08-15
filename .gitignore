@@ -2,7 +2,4 @@
 .env
 /scratch.py
 /NOTES.md
-/app/model.job
-/app/model_notes.txt
-/app/saved_model.zip
-/app/data.csv
+/app/saved_model/saved_model.zip

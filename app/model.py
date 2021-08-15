@@ -72,17 +72,13 @@ class Model:
 
 
 def init_model(force=False):
-    if not force and path.exists("app/model.job"):
-        model = load("app/model.job")
+    if not force and path.exists("app/saved_model/model.job"):
+        model = load("app/saved_model/model.job")
     else:
         model = Model()
         db = DataBase()
-        dump(model, "app/model.job")
-        db.get_df().to_csv("app/data.csv", index=False)
-        with open("app/model_notes.txt", "w") as file:
+        dump(model, "app/saved_model/model.job")
+        db.get_df().to_csv("app/saved_model/data.csv", index=False)
+        with open("app/saved_model/model_notes.txt", "w") as file:
             file.write(model.info)
     return model
-
-
-if __name__ == '__main__':
-    dump(Model(), "model.job")
