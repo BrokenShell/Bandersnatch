@@ -1,4 +1,5 @@
 """ Bandersnatch """
+import atexit
 from zipfile import ZipFile
 from os import path
 
@@ -31,17 +32,18 @@ def init_model(force=False):
 
 
 def auto_add():
-    APP.db.insert(Monster().to_dict())
+    APP.db.insert_many(Monster().to_dict() for _ in range(6))
 
 
 APP.model = init_model()
-APP.scheduler = BackgroundScheduler()
+APP.scheduler = BackgroundScheduler(daemon=False)
 APP.scheduler.add_job(
     func=auto_add,
     trigger="interval",
-    minutes=1,
+    minutes=5,
 )
 APP.scheduler.start()
+atexit.register(lambda: APP.scheduler.shutdown())
 
 
 @APP.route("/")
@@ -283,4 +285,4 @@ if __name__ == "__main__":
     """ To run locally use the following command in the terminal:
     $ python3 -m app.main
     """
-    APP.run()
+    APP.run(debug=False)
