@@ -263,7 +263,9 @@ def train():
 def retrain():
 
     if all(x > 2 for x in APP.db.get_df()["Rarity"].value_counts()):
-        init_model(force=True)
+        APP.model = init_model(force=True)
+    else:
+        print("Training Error! Get more data.")
 
     return train()
 
