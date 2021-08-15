@@ -3,6 +3,7 @@ from datetime import datetime
 import pytz
 from joblib import dump, load
 from sklearn.model_selection import train_test_split
+from os import path
 
 from app.db_ops import DataBase
 from sklearn.ensemble import RandomForestClassifier
@@ -68,6 +69,19 @@ class Model:
 
     def score(self):
         return self.model.score(self.X_test, self.y_test)
+
+
+def init_model(force=False):
+    if not force and path.exists("app/model.job"):
+        model = load("app/model.job")
+    else:
+        model = Model()
+        db = DataBase()
+        dump(model, "app/model.job")
+        db.get_df().to_csv("app/data.csv", index=False)
+        with open("app/model_notes.txt", "w") as file:
+            file.write(model.info)
+    return model
 
 
 if __name__ == '__main__':

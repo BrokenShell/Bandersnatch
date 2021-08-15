@@ -1,49 +1,19 @@
 """ Bandersnatch """
-import atexit
 from zipfile import ZipFile
-from os import path
 
 from Fortuna import random_int, random_float
 from MonsterLab import Monster, Random
 from flask import Flask, render_template, request, send_file
-from apscheduler.schedulers.background import BackgroundScheduler
-from joblib import load, dump
 import altair as alt
 import numpy as np
 
 from app.db_ops import DataBase
-from app.model import Model
+from app.model import init_model
 
 
 APP = Flask(__name__)
 APP.db = DataBase()
-
-
-def init_model(force=False):
-    if not force and path.exists("app/model.job"):
-        model = load("app/model.job")
-    else:
-        model = Model()
-        dump(model, "app/model.job")
-        APP.db.get_df().to_csv("app/data.csv", index=False)
-        with open("app/model_notes.txt", "w") as file:
-            file.write(model.info)
-    return model
-
-
-def auto_add():
-    APP.db.insert_many(Monster().to_dict() for _ in range(6))
-
-
 APP.model = init_model()
-APP.scheduler = BackgroundScheduler(daemon=False)
-APP.scheduler.add_job(
-    func=auto_add,
-    trigger="interval",
-    minutes=5,
-)
-APP.scheduler.start()
-atexit.register(lambda: APP.scheduler.shutdown())
 
 
 @APP.route("/")
@@ -263,12 +233,10 @@ def train():
 
 @APP.route("/retrain", methods=["GET", "POST"])
 def retrain():
-
     if all(x > 2 for x in APP.db.get_df()["Rarity"].value_counts()):
         APP.model = init_model(force=True)
     else:
         print("Training Error! Get more data.")
-
     return train()
 
 
