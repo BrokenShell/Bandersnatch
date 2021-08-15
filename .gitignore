@@ -1,4 +1,3 @@
-# Project exclude paths
 /venv/
 .env
 /scratch.py
@@ -6,3 +5,4 @@
 /app/model.job
 /app/model_notes.txt
 /app/saved_model.zip
+/app/data.csv

@@ -10,12 +10,6 @@ p {
     line-height: 1.5em;
     text-align: left;
 }
-code {
-    color: #999999;
-    font-family: monospace;
-    font-size: 0.9em;
-    line-height: 1.5em;
-}
 strong, b {
     color: #cca76e;
 }
@@ -49,9 +43,10 @@ nav a:hover {
     text-decoration: none;
 }
 h1, h2, h3, h4, h5 {
-    margin: 40px 100px;
+    margin: 20px 100px;
     font-family: Monaco, sans-serif;
     color: #aaaaaa;
+    line-height: 1.55em;
 }
 h1 {
     font-size: 2em;
@@ -79,12 +74,9 @@ header h1 a:link, header h1 a:active, header h1 a:visited, header h1 a:hover {
     text-decoration: none;
 }
 h1.heading {
-    margin: 40px 60px;
+    margin: 40px 60px 20px;
     font-size: 2em;
     color: #cca76e;
-}
-.sub-head {
-    margin-bottom: 10px;
 }
 blockquote {
     margin: 40px 100px;
@@ -118,10 +110,10 @@ blockquote cite:before {
     margin-bottom: 100px;
 }
 .container ul {
-    margin: 0 0 40px 0;
+    margin: 0 0 20px 0;
 }
 .container ol {
-    margin: 0 0 40px 10px;
+    margin: 0 0 20px 10px;
 }
 .container li {
     color: #aaaaaa;
@@ -153,12 +145,12 @@ footer p {
     clear: both;
     display: block;
 }
-pre {
-    margin: 20px 0 20px 100px;
-}
 .hidden {
     display: none;
 }
 .highlight {
     color: #dddddd;
+}
+h2.highlight {
+    margin-bottom: 20px;
 }

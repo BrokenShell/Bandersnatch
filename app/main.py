@@ -16,21 +16,31 @@ from app.model import Model
 
 APP = Flask(__name__)
 APP.db = DataBase()
-APP.scheduler = BackgroundScheduler()
 
 
 def init_model(force=False):
     if not force and path.exists("app/model.job"):
-        APP.model = load("app/model.job")
+        model = load("app/model.job")
     else:
-        APP.model = Model()
-        dump(APP.model, "app/model.job")
+        model = Model()
+        dump(model, "app/model.job")
         APP.db.get_df().to_csv("app/data.csv", index=False)
         with open("app/model_notes.txt", "w") as file:
-            file.write(APP.model.info)
+            file.write(model.info)
+    return model
 
 
-APP.scheduler.add_job(func=init_model)
+def auto_add():
+    APP.db.insert(Monster().to_dict())
+
+
+APP.model = init_model()
+APP.scheduler = BackgroundScheduler()
+APP.scheduler.add_job(
+    func=auto_add,
+    trigger="interval",
+    minutes=1,
+)
 APP.scheduler.start()
 
 
