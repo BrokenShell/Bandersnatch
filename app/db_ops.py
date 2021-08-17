@@ -9,10 +9,12 @@ from dotenv import load_dotenv
 class DataBase:
     """ MongoDB Data Model """
     load_dotenv()
-    db_url = getenv('DB_URL')
+    db_url = getenv("DB_URL")
+    db_name = getenv("DB_NAME")
+    db_table = getenv("DB_TABLE")
 
     def connect(self):
-        return MongoClient(self.db_url).monster_db.rpgz_monsters
+        return MongoClient(self.db_url)[self.db_name][self.db_table]
 
     def find(self, query_obj: Dict) -> Dict:
         return self.connect().find_one(query_obj)
