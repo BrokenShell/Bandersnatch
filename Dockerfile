@@ -9,8 +9,8 @@ RUN apt-get upgrade -y
 # Sysytem Depencencies
 ENV PYTHONUNBUFFERED=1
 RUN apt-get -yqq install python3-pip python3-dev
+RUN apt-get -y g++
 RUN python3 -m pip install --upgrade pip
-
 RUN python3 -m pip install setuptools wheel Cython
 RUN python3 -m pip install Fortuna --no-cache-dir
 
