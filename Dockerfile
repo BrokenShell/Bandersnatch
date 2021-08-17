@@ -11,12 +11,10 @@ ENV PYTHONUNBUFFERED=1
 RUN apt-get -yqq install python3-pip python3-dev
 RUN apt-get -y g++
 RUN python3 -m pip install --upgrade pip
-RUN python3 -m pip install setuptools wheel Cython
-RUN python3 -m pip install Fortuna --no-cache-dir
 
 # App Dependencies
 COPY requirements.txt .
-RUN pip install -r requirements.txt
+RUN pip install -r requirements.txt --no-cache-dir
 COPY app app
 COPY .env .env
 
