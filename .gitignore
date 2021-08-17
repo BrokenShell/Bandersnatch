@@ -3,3 +3,8 @@
 /scratch.py
 /NOTES.md
 /app/saved_model/saved_model.zip
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
