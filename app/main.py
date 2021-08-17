@@ -251,6 +251,6 @@ def download():
 
 if __name__ == "__main__":
     """ To run locally use the following command in the terminal:
-    $ python3 -m app.main
+    $ python -m app.main
     """
-    APP.run(debug=False)
+    APP.run()

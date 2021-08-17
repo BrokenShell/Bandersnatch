@@ -12,3 +12,4 @@ joblib~=1.0.1
 MonsterLab~=1.0.8
 APScheduler~=3.7.0
 pytz~=2021.1
+uvicorn[standard]~=0.15.0
