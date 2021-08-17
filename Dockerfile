@@ -10,7 +10,9 @@ RUN apt-get upgrade -y
 ENV PYTHONUNBUFFERED=1
 RUN apt-get -yqq install python3-pip python3-dev
 RUN python3 -m pip install --upgrade pip
-RUN python3 -m pip install Fortuna --no-binary :all:
+
+RUN python3 -m pip install setuptools wheel Cython
+RUN python3 -m pip install Fortuna --no-cache-dir
 
 # App Dependencies
 COPY requirements.txt .
