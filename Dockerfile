@@ -9,9 +9,8 @@ RUN apt-get upgrade -y
 # Sysytem Depencencies
 ENV PYTHONUNBUFFERED=1
 RUN apt-get -yqq install python3-pip python3-dev
-RUN apt-get -y install gcc
 RUN python3 -m pip install --upgrade pip
-RUN python3 -m pip install Fortuna
+RUN python3 -m pip install Fortuna --no-binary :all:
 
 # App Dependencies
 COPY requirements.txt .
