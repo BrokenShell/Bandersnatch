@@ -6,7 +6,7 @@ import pandas as pd
 from dotenv import load_dotenv
 
 
-class DataBase:
+class Data:
     """ MongoDB Data Model """
     load_dotenv()
     db_url = getenv("DB_URL")

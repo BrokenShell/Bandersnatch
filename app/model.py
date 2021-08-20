@@ -5,14 +5,13 @@ from joblib import dump, load
 from sklearn.model_selection import train_test_split
 from os import path
 
-from app.db_ops import DataBase
+from app.data import Data
 from sklearn.ensemble import RandomForestClassifier
 
 
 class Model:
 
-    def __init__(self):
-        db = DataBase()
+    def __init__(self, db: Data):
         df = db.get_df().drop(columns=[
             "_id", "Name", "Damage", "Type", "Time Stamp",
         ])
@@ -71,12 +70,11 @@ class Model:
         return self.model.score(self.X_test, self.y_test)
 
 
-def init_model(force=False):
+def init_model(db: Data, force=False):
     if not force and path.exists("app/saved_model/model.job"):
         model = load("app/saved_model/model.job")
     else:
-        model = Model()
-        db = DataBase()
+        model = Model(db)
         dump(model, "app/saved_model/model.job")
         db.get_df().to_csv("app/saved_model/data.csv", index=False)
         with open("app/saved_model/model_notes.txt", "w") as file:

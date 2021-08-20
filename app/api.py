@@ -7,21 +7,21 @@ from flask import Flask, render_template, request, send_file
 import altair as alt
 import numpy as np
 
-from app.db_ops import DataBase
+from app.data import Data
 from app.model import init_model
 
 
-APP = Flask(__name__)
-APP.db = DataBase()
-APP.model = init_model()
+API = Flask(__name__)
+API.db = Data()
+API.model = init_model(API.db)
 
 
-@APP.route("/")
+@API.route("/")
 def home():
-    return render_template("home.html")
+    return render_template("index.html")
 
 
-@APP.route("/view", methods=["GET", "POST"])
+@API.route("/view", methods=["GET", "POST"])
 def view():
 
     def get_type(df, col):
@@ -35,8 +35,8 @@ def view():
             return ""
 
     alt.data_transformers.disable_max_rows()
-    raw_data = APP.db.get_df()
-    if APP.db.get_count() == 0:
+    raw_data = API.db.get_df()
+    if API.db.get_count() == 0:
         return render_template(
             "view.html",
             total=0,
@@ -120,7 +120,7 @@ def view():
     )
 
 
-@APP.route("/create", methods=["GET", "POST"])
+@API.route("/create", methods=["GET", "POST"])
 def create():
     name = request.values.get("name")
     monster_type = request.values.get("type") or Random.random_type()
@@ -141,9 +141,9 @@ def create():
     if name.startswith("/"):
         _, com = name.split("/")
         if com == "reset":
-            APP.db.reset_db()
+            API.db.reset_db()
         elif com.isnumeric():
-            APP.db.insert_many(Monster().to_dict() for _ in range(int(com)))
+            API.db.insert_many(Monster().to_dict() for _ in range(int(com)))
         return render_template(
             "create.html",
             type_ops=Random.random_name.cat_keys,
@@ -155,7 +155,7 @@ def create():
         )
 
     monster = Monster(name, monster_type, level, rarity)
-    APP.db.insert(monster.to_dict())
+    API.db.insert(monster.to_dict())
     return render_template(
         "create.html",
         type_ops=Random.random_name.cat_keys,
@@ -168,11 +168,11 @@ def create():
     )
 
 
-@APP.route("/data", methods=["GET"])
+@API.route("/data", methods=["GET"])
 def data():
-    total = APP.db.get_count()
+    total = API.db.get_count()
     if total > 0:
-        df_table = APP.db.get_df().sort_values("Time Stamp", ascending=False)
+        df_table = API.db.get_df().sort_values("Time Stamp", ascending=False)
         df_table = df_table.drop(columns=["_id"])
         df_html = df_table.to_html(index=False)
         return render_template(
@@ -187,7 +187,7 @@ def data():
         )
 
 
-@APP.route("/predict", methods=["GET", "POST"])
+@API.route("/predict", methods=["GET", "POST"])
 def predict():
 
     def rand():
@@ -197,8 +197,8 @@ def predict():
     health = float(request.values.get("health") or rand())
     energy = float(request.values.get("energy") or rand())
     sanity = float(request.values.get("sanity") or rand())
-    prediction, probability = APP.model([level, health, energy, sanity])
-    test_score = APP.model.score()
+    prediction, probability = API.model([level, health, energy, sanity])
+    test_score = API.model.score()
     confidence = f"{100*probability*test_score:.2f}%"
 
     return render_template(
@@ -213,13 +213,13 @@ def predict():
     )
 
 
-@APP.route("/train", methods=["GET", "POST"])
+@API.route("/train", methods=["GET", "POST"])
 def train():
-    name = APP.model.name
-    time_stamp = APP.model.time_stamp
-    test_score = f"{100 * APP.model.score():.3f}%"
-    total = APP.model.total_db
-    available = APP.db.get_count() - total
+    name = API.model.name
+    time_stamp = API.model.time_stamp
+    test_score = f"{100 * API.model.score():.3f}%"
+    total = API.model.total_db
+    available = API.db.get_count() - total
 
     return render_template(
         "train.html",
@@ -231,16 +231,16 @@ def train():
     )
 
 
-@APP.route("/retrain", methods=["GET", "POST"])
+@API.route("/retrain", methods=["GET", "POST"])
 def retrain():
-    if all(x > 2 for x in APP.db.get_df()["Rarity"].value_counts()):
-        APP.model = init_model(force=True)
+    if all(x > 2 for x in API.db.get_df()["Rarity"].value_counts()):
+        API.model = init_model(API.db, force=True)
     else:
         print("Training Error! Get more data.")
     return train()
 
 
-@APP.route("/download", methods=["GET"])
+@API.route("/download", methods=["GET"])
 def download():
     with ZipFile("app/saved_model/saved_model.zip", "w") as archive:
         archive.write("app/saved_model/model_notes.txt", "saved_model/notes.txt")
@@ -253,4 +253,4 @@ if __name__ == "__main__":
     """ To run locally use the following command in the terminal:
     $ python -m app.main
     """
-    APP.run()
+    API.run()

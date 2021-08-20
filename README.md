@@ -1,4 +1,8 @@
 # Bandersnatch: Data Science Monster App
+## Machine Learning Engineer Edition
+
+[Deployed App](https://bandersnatch-app.herokuapp.com/)
+
 
 ### Components
 - Logic: Python3
@@ -8,19 +12,18 @@
 - Styling: CSS3
 - Database: MongoDB
 - Graphs: Altair
-- Machine Learning: Scikit
+- Machine Learning: Scikit Learn
 - Hosting: Heroku
+- RNG Engine: [Fortuna](https://pypi.org/project/Fortuna/)
+- Random Monsters: [MonsterLab](https://pypi.org/project/MonsterLab/)
+
 
 ### Features
 - Data Creation
-    - Random
-    - Custom
 - Data Viewing
-    - Raw Data
-    - Interactive Graph
 - Model Training
-- Rank Prediction
-    - Input Features => Predicted Target
+- Predictions
+
 
 ### Monster Fields
 - Name
@@ -32,3 +35,4 @@
     - Health
     - Energy
     - Sanity
+- Time Stamp: String
