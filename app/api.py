@@ -13,7 +13,7 @@ from app.model import init_model
 
 API = Flask(__name__)
 API.db = Data()
-API.model = init_model(API.db)
+# API.model = init_model(API.db)
 
 
 @API.route("/")
