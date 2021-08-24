@@ -10,29 +10,29 @@
           href="{{ url_for('static', filename='css/form.css') }}">
     <link rel="stylesheet"
           href="{{ url_for('static', filename='css/graph.css') }}">
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='css/colors.css') }}">
     <link rel="icon"
           href="{{ url_for('static', filename='images/favicon.png') }}">
 </head>
 <body>
-<div class="wrapper">
-    <header>
-        <h1><a href="/">Bandersnatch</a></h1>
-    </header>
-    <nav>
-        <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="{{ url_for('create') }}">Create</a></li>
-            <li><a href="{{ url_for('data') }}">Data</a></li>
-            <li><a href="{{ url_for('view') }}">View</a></li>
-            <li><a href="{{ url_for('train') }}">Train</a></li>
-            <li><a href="{{ url_for('predict') }}">Predict</a></li>
-        </ul>
-    </nav>
-    <div class="container">
-        {% block content %}
-        {% endblock %}
-    </div>
-    <footer><p class="right">&lambda; Lambda School Labs</p></footer>
-</div>
+<header>
+    <h1><a href="/">Bandersnatch</a></h1>
+</header>
+<nav>
+    <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="{{ url_for('create') }}">Create</a></li>
+        <li><a href="{{ url_for('data') }}">Data</a></li>
+        <li><a href="{{ url_for('view') }}">View</a></li>
+        <li><a href="{{ url_for('train') }}">Train</a></li>
+        <li><a href="{{ url_for('predict') }}">Predict</a></li>
+    </ul>
+</nav>
+<section>
+    {% block content %}
+    {% endblock %}
+</section>
+<footer><p class="right">&lambda; Lambda School Labs</p></footer>
 </body>
 </html>

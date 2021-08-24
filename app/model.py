@@ -38,7 +38,6 @@ class Model:
             },
             n_jobs=-1,
             random_state=42,
-            n_estimators=333,
         )
         self.name = str(self.model).split('(')[0]
         lambda_time = pytz.timezone('US/Pacific')
@@ -58,7 +57,7 @@ class Model:
         output = (
             f"Model: {self.model}",
             f"Time Stamp: {self.time_stamp}",
-            f"Testing Score: {100*self.score():.3f}%",
+            f"Testing Score: {100 * self.score():.3f}%",
             f"Total Row Count: {self.total_db}",
             f"Training Row Count: {self.total_trained}",
             f"Testing Row Count: {self.total_tested}",

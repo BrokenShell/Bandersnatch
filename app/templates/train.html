@@ -22,6 +22,16 @@
         <button class="classic" onclick="download_model()">Download Model
         </button>
     </p>
+    <blockquote id="message" class="hidden">
+        <p>The downloaded model requires the Bandersnatch app.</p>
+        <pre># Python Example
+from app.model import Model
+from joblib import load
+
+model = load('model.joblib')
+prediction = model([2, 3, 3, 3])
+print(prediction)</pre>
+    </blockquote>
     <script type="application/javascript">
         function retrain_model() {
             const target = document.getElementById("status");
@@ -30,6 +40,8 @@
         }
 
         function download_model() {
+            const ele = document.getElementById("message");
+            ele.classList.remove("hidden");
             window.location.replace("/download");
         }
     </script>

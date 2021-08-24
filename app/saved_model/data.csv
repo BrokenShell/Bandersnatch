@@ -1,1025 +1,257 @@
 _id,Name,Type,Level,Rarity,Damage,Health,Energy,Sanity,Time Stamp
-611ec129df9be13db6ac4634,Goblin Villager,Devilkin,4,Rank 1,4d4+2,17.77,16.74,15.17,2021-08-19 13:38:01
-611ec129df9be13db6ac4635,Green Archfey,Fey,5,Rank 2,5d6+3,31.57,29.73,32.83,2021-08-19 13:38:01
-611ec129df9be13db6ac4636,Quasit,Demonic,9,Rank 1,9d4+2,36.1,37.49,36.01,2021-08-19 13:38:01
-611ec129df9be13db6ac4637,Ice Mephit,Elemental,6,Rank 0,6d2+3,12.49,12.32,12.78,2021-08-19 13:38:01
-611ec129df9be13db6ac4638,Goblin Villager,Devilkin,4,Rank 0,4d2,7.01,8.6,8.21,2021-08-19 13:38:01
-611ec129df9be13db6ac4639,Black Faerie,Fey,3,Rank 3,3d8+1,23.26,24.39,24.0,2021-08-19 13:38:01
-611ec129df9be13db6ac463a,Imp,Demonic,4,Rank 0,4d2+2,8.95,7.9,8.79,2021-08-19 13:38:01
-611ec129df9be13db6ac463b,Death Knight,Undead,5,Rank 0,5d2,9.74,10.73,9.65,2021-08-19 13:38:01
-611ec129df9be13db6ac463c,Steam Mephit,Elemental,6,Rank 2,6d6,34.07,35.3,38.74,2021-08-19 13:38:01
-611ec129df9be13db6ac463d,Mud Devil,Devilkin,7,Rank 1,7d4,28.99,27.02,27.91,2021-08-19 13:38:01
-611ec129df9be13db6ac463e,Red Faerie,Fey,10,Rank 1,10d4+2,38.93,41.84,39.29,2021-08-19 13:38:01
-611ec129df9be13db6ac463f,Nightmare,Demonic,7,Rank 0,7d2,13.97,14.99,14.23,2021-08-19 13:38:01
-611ec129df9be13db6ac4640,Mud Elemental,Elemental,7,Rank 0,7d2,13.49,13.4,14.79,2021-08-19 13:38:01
-611ec129df9be13db6ac4641,Onyx Wyrmling,Dragon,6,Rank 2,6d6+2,34.38,34.37,36.35,2021-08-19 13:38:01
-611ec129df9be13db6ac4642,Goblin Villager,Devilkin,5,Rank 3,5d8+1,38.47,37.5,41.91,2021-08-19 13:38:01
-611ec129df9be13db6ac4643,Black Demon,Demonic,7,Rank 1,7d4+3,29.85,28.44,26.41,2021-08-19 13:38:01
-611ec129df9be13db6ac4644,Djinni,Elemental,4,Rank 0,4d2+4,8.97,7.29,7.35,2021-08-19 13:38:01
-611ec129df9be13db6ac4645,Green Wyrmling,Dragon,4,Rank 0,4d2,7.61,8.87,7.32,2021-08-19 13:38:01
-611ec129df9be13db6ac4646,Pit Lord,Devilkin,5,Rank 1,5d4+3,20.73,20.44,19.25,2021-08-19 13:38:01
-611ec129df9be13db6ac4647,Red Faerie,Fey,5,Rank 2,5d6,28.35,28.65,28.39,2021-08-19 13:38:01
-611ec129df9be13db6ac4648,Imp,Demonic,6,Rank 0,6d2+4,11.15,12.94,11.78,2021-08-19 13:38:01
-611ec129df9be13db6ac4649,Ghostly Villager,Undead,3,Rank 2,3d6,19.95,18.43,18.79,2021-08-19 13:38:01
-611ec129df9be13db6ac464a,Onyx Drake,Dragon,6,Rank 4,6d10+1,63.56,55.71,61.42,2021-08-19 13:38:01
-611ec129df9be13db6ac464b,Red Faerie,Fey,6,Rank 0,6d2+3,12.31,12.45,12.67,2021-08-19 13:38:01
-611ec129df9be13db6ac464c,Hell Hound,Demonic,9,Rank 3,9d8+2,68.77,72.87,75.9,2021-08-19 13:38:01
-611ec129df9be13db6ac464d,Zombie Villager,Undead,8,Rank 0,8d2+4,15.38,15.79,16.12,2021-08-19 13:38:01
-611ec129df9be13db6ac464e,Blue Dragon,Dragon,2,Rank 3,2d8+5,16.99,13.39,15.08,2021-08-19 13:38:01
-611ec129df9be13db6ac464f,Succubus,Devilkin,9,Rank 3,9d8+2,70.73,73.48,71.96,2021-08-19 13:38:01
-611ec129df9be13db6ac4650,Steam Archfey,Fey,8,Rank 2,8d6+1,45.43,45.28,48.52,2021-08-19 13:38:01
-611ec129df9be13db6ac4651,Imp,Demonic,8,Rank 1,8d4+3,33.23,31.6,31.3,2021-08-19 13:38:01
-611ec129df9be13db6ac4652,Ghostly Villager,Undead,8,Rank 0,8d2+2,16.76,15.16,15.35,2021-08-19 13:38:01
-611ec129df9be13db6ac4653,Green Wyrmling,Dragon,5,Rank 4,5d10+2,51.52,53.08,46.09,2021-08-19 13:38:01
-611ec129df9be13db6ac4654,Red Faerie,Fey,4,Rank 5,4d12+3,49.33,45.24,45.77,2021-08-19 13:38:01
-611ec129df9be13db6ac4655,Wraith,Undead,3,Rank 1,3d4,12.8,11.3,12.95,2021-08-19 13:38:01
-611ec129df9be13db6ac4656,Dust Elemental,Elemental,4,Rank 2,4d6+5,25.83,23.14,24.21,2021-08-19 13:38:01
-611ec129df9be13db6ac4657,Ice Devil,Devilkin,8,Rank 1,8d4+2,32.38,32.43,31.55,2021-08-19 13:38:01
-611ec129df9be13db6ac4658,Hell Hound,Demonic,8,Rank 1,8d4+3,30.63,32.94,32.58,2021-08-19 13:38:01
-611ec129df9be13db6ac4659,Demilich,Undead,8,Rank 4,8d10+3,83.68,75.42,79.39,2021-08-19 13:38:01
-611ec129df9be13db6ac465a,White Drake,Dragon,8,Rank 0,8d2+2,16.19,15.9,16.81,2021-08-19 13:38:01
-611ec129df9be13db6ac465b,Kobold Villager,Devilkin,2,Rank 4,2d10+1,21.19,24.62,21.84,2021-08-19 13:38:01
-611ec129df9be13db6ac465c,Blue Faerie,Fey,4,Rank 1,4d4+1,16.62,14.25,14.97,2021-08-19 13:38:01
-611ec129df9be13db6ac465d,Imp,Demonic,5,Rank 2,5d6+5,30.21,29.64,28.65,2021-08-19 13:38:01
-611ec129df9be13db6ac465e,Ghoul,Undead,9,Rank 4,9d10+1,93.3,91.49,91.58,2021-08-19 13:38:01
-611ec129df9be13db6ac465f,Red Drake,Dragon,4,Rank 1,4d4+5,15.06,16.47,16.0,2021-08-19 13:38:01
-611ec129df9be13db6ac4660,Steam Spirit,Fey,3,Rank 3,3d8+3,26.56,22.54,24.28,2021-08-19 13:38:01
-611ec129df9be13db6ac4661,Hell Hound,Demonic,7,Rank 3,7d8+1,58.86,56.02,53.23,2021-08-19 13:38:01
-611ec129df9be13db6ac4662,Banshee,Undead,1,Rank 3,1d8+2,10.86,6.25,4.81,2021-08-19 13:38:01
-611ec129df9be13db6ac4663,Mud Mephit,Elemental,1,Rank 1,1d4+4,4.03,4.06,4.29,2021-08-19 13:38:01
-611ec129df9be13db6ac4664,Faerie Dragon,Dragon,4,Rank 0,4d2+1,8.04,7.57,7.5,2021-08-19 13:38:01
-611ec129df9be13db6ac4665,Goblin Guard,Devilkin,7,Rank 1,7d4+1,26.4,28.69,27.33,2021-08-19 13:38:01
-611ec129df9be13db6ac4666,Quasit,Demonic,6,Rank 0,6d2+1,11.99,11.82,12.28,2021-08-19 13:38:01
-611ec129df9be13db6ac4667,Ice Elemental,Elemental,5,Rank 2,5d6+2,32.87,31.22,31.4,2021-08-19 13:38:01
-611ec129df9be13db6ac4668,Kobold Villager,Devilkin,6,Rank 0,6d2+3,11.07,12.54,12.81,2021-08-19 13:38:01
-611ec129df9be13db6ac4669,Nightmare,Demonic,5,Rank 3,5d8+2,36.58,39.6,36.07,2021-08-19 13:38:01
-611ec129df9be13db6ac466a,Lich King,Undead,5,Rank 1,5d4,19.94,20.29,18.93,2021-08-19 13:38:01
-611ec129df9be13db6ac466b,Mud Mephit,Elemental,2,Rank 0,2d2,4.58,4.62,4.54,2021-08-19 13:38:01
-611ec129df9be13db6ac466c,Kobold Guard,Devilkin,6,Rank 2,6d6+4,36.87,36.25,37.35,2021-08-19 13:38:01
-611ec129df9be13db6ac466d,Red Faerie,Fey,6,Rank 1,6d4+3,25.77,23.38,23.71,2021-08-19 13:38:01
-611ec129df9be13db6ac466e,Night Hag,Demonic,5,Rank 0,5d2,10.13,9.84,10.9,2021-08-19 13:38:01
-611ec129df9be13db6ac466f,Steam Mephit,Elemental,7,Rank 3,7d8,55.71,58.05,56.14,2021-08-19 13:38:01
-611ec129df9be13db6ac4670,Green Wyrmling,Dragon,7,Rank 1,7d4+3,28.44,27.51,27.59,2021-08-19 13:38:01
-611ec129df9be13db6ac4671,Goblin Villager,Devilkin,8,Rank 1,8d4+1,30.03,30.87,30.13,2021-08-19 13:38:01
-611ec129df9be13db6ac4672,Black Faerie,Fey,5,Rank 0,5d2+1,10.96,9.22,9.48,2021-08-19 13:38:01
-611ec129df9be13db6ac4673,Zombie Villager,Undead,7,Rank 0,7d2,13.97,13.46,13.36,2021-08-19 13:38:01
-611ec129df9be13db6ac4674,Mud Mephit,Elemental,4,Rank 1,4d4,15.1,14.15,16.93,2021-08-19 13:38:01
-611ec129df9be13db6ac4675,Goblin Villager,Devilkin,3,Rank 0,3d2+2,5.83,5.64,5.22,2021-08-19 13:38:01
-611ec129df9be13db6ac4676,Nightmare,Demonic,6,Rank 0,6d2+1,11.35,12.83,11.71,2021-08-19 13:38:01
-611ec129df9be13db6ac4677,Mud Elemental,Elemental,6,Rank 3,6d8+1,47.69,44.52,46.42,2021-08-19 13:38:01
-611ec129df9be13db6ac4678,White Wyrmling,Dragon,5,Rank 0,5d2+3,10.51,9.98,9.52,2021-08-19 13:38:01
-611ec129df9be13db6ac4679,Prince of Fear,Devilkin,1,Rank 1,1d4,5.78,4.11,3.86,2021-08-19 13:38:01
-611ec129df9be13db6ac467a,Nightmare,Demonic,6,Rank 3,6d8+1,45.38,44.74,49.26,2021-08-19 13:38:01
-611ec129df9be13db6ac467b,Skeletal Villager,Undead,6,Rank 5,6d12,74.78,74.43,73.34,2021-08-19 13:38:01
-611ec129df9be13db6ac467c,Efreeti,Elemental,6,Rank 1,6d4+3,24.86,24.22,22.08,2021-08-19 13:38:01
-611ec129df9be13db6ac467d,Green Wyrmling,Dragon,4,Rank 2,4d6,25.41,24.64,26.46,2021-08-19 13:38:01
-611ec129df9be13db6ac467e,Black Faerie,Fey,6,Rank 2,6d6+5,38.66,34.98,38.52,2021-08-19 13:38:01
-611ec129df9be13db6ac467f,Hook Horror,Demonic,4,Rank 0,4d2,7.4,7.89,7.9,2021-08-19 13:38:01
-611ec129df9be13db6ac4680,Ghast,Undead,8,Rank 0,8d2+1,16.48,16.79,15.69,2021-08-19 13:38:01
-611ec129df9be13db6ac4681,Faerie Dragon,Dragon,5,Rank 1,5d4+2,20.87,20.15,20.19,2021-08-19 13:38:01
-611ec129df9be13db6ac4682,Blue Faerie,Fey,4,Rank 4,4d10+3,35.71,41.3,38.12,2021-08-19 13:38:01
-611ec129df9be13db6ac4683,Night Hag,Demonic,5,Rank 2,5d6+2,32.77,29.4,29.07,2021-08-19 13:38:01
-611ec129df9be13db6ac4684,Spore Elemental,Elemental,5,Rank 1,5d4+1,18.1,21.27,21.0,2021-08-19 13:38:01
-611ec129df9be13db6ac4685,Kobold Villager,Devilkin,4,Rank 2,4d6+2,25.62,24.36,26.66,2021-08-19 13:38:01
-611ec129df9be13db6ac4686,Hell Hound,Demonic,11,Rank 2,11d6+2,65.73,66.85,68.77,2021-08-19 13:38:01
-611ec129df9be13db6ac4687,Vampire,Undead,8,Rank 0,8d2,16.35,16.7,16.5,2021-08-19 13:38:01
-611ec129df9be13db6ac4688,Black Drake,Dragon,6,Rank 1,6d4+5,24.32,22.68,24.7,2021-08-19 13:38:01
-611ec129df9be13db6ac4689,Goblin Villager,Devilkin,6,Rank 3,6d8,49.02,47.68,44.8,2021-08-19 13:38:01
-611ec129df9be13db6ac468a,Red Faerie,Fey,6,Rank 2,6d6+1,34.32,38.79,34.88,2021-08-19 13:38:01
-611ec129df9be13db6ac468b,Ghoul,Undead,5,Rank 2,5d6+2,30.76,29.7,30.98,2021-08-19 13:38:01
-611ec129df9be13db6ac468c,Mud Elemental,Elemental,3,Rank 0,3d2,6.99,6.93,6.44,2021-08-19 13:38:01
-611ec129df9be13db6ac468d,Green Dragon,Dragon,5,Rank 2,5d6,31.94,27.52,32.1,2021-08-19 13:38:01
-611ec129df9be13db6ac468e,Steam Spirit,Fey,6,Rank 0,6d2+2,12.19,11.74,12.69,2021-08-19 13:38:01
-611ec129df9be13db6ac468f,Lich,Undead,6,Rank 0,6d2+1,11.76,11.52,11.21,2021-08-19 13:38:01
-611ec129df9be13db6ac4690,Black Wyrmling,Dragon,4,Rank 0,4d2+4,7.41,7.75,7.7,2021-08-19 13:38:01
-611ec129df9be13db6ac4691,Kobold Villager,Devilkin,9,Rank 3,9d8+2,75.61,70.73,68.27,2021-08-19 13:38:01
-611ec129df9be13db6ac4692,Hell Hound,Demonic,3,Rank 3,3d8+1,25.77,22.83,22.3,2021-08-19 13:38:01
-611ec129df9be13db6ac4693,Dracolich,Undead,5,Rank 0,5d2+1,9.78,9.63,9.6,2021-08-19 13:38:01
-611ec129df9be13db6ac4694,Djinni,Elemental,3,Rank 5,3d12,35.33,33.47,32.87,2021-08-19 13:38:01
-611ec129df9be13db6ac4695,Blue Wyrmling,Dragon,11,Rank 1,11d4+3,42.97,44.22,43.52,2021-08-19 13:38:01
-611ec129df9be13db6ac4696,Kobold Villager,Devilkin,6,Rank 0,6d2+1,12.58,12.09,12.0,2021-08-19 13:38:01
-611ec129df9be13db6ac4697,Steam Spirit,Fey,8,Rank 0,8d2,16.94,15.3,16.9,2021-08-19 13:38:01
-611ec129df9be13db6ac4698,Skeletal Villager,Undead,5,Rank 0,5d2,9.23,9.05,9.71,2021-08-19 13:38:01
-611ec129df9be13db6ac4699,Steam Elemental,Elemental,8,Rank 0,8d2,15.5,16.14,15.48,2021-08-19 13:38:01
-611ec129df9be13db6ac469a,Pit Lord,Devilkin,3,Rank 1,3d4,10.05,13.15,11.96,2021-08-19 13:38:01
-611ec129df9be13db6ac469b,Hell Hound,Demonic,8,Rank 0,8d2+2,15.44,16.74,15.77,2021-08-19 13:38:01
-611ec129df9be13db6ac469c,Mud Mephit,Elemental,10,Rank 2,10d6,59.79,59.3,57.55,2021-08-19 13:38:01
-611ec129df9be13db6ac469d,Goblin Villager,Devilkin,3,Rank 3,3d8+3,27.88,24.35,26.04,2021-08-19 13:38:01
-611ec129df9be13db6ac469e,Copper Faerie,Fey,4,Rank 1,4d4+1,16.11,17.78,14.95,2021-08-19 13:38:01
-611ec129df9be13db6ac469f,Lich,Undead,3,Rank 1,3d4+2,11.2,12.0,11.73,2021-08-19 13:38:01
-611ec129df9be13db6ac46a0,Red Wyrmling,Dragon,6,Rank 1,6d4,24.94,24.48,23.43,2021-08-19 13:38:01
-611ec129df9be13db6ac46a1,Kobold Archer,Devilkin,6,Rank 0,6d2,11.48,12.51,12.83,2021-08-19 13:38:01
-611ec129df9be13db6ac46a2,Mud Spirit,Fey,7,Rank 1,7d4+3,26.58,27.77,26.96,2021-08-19 13:38:01
-611ec129df9be13db6ac46a3,Quasit,Demonic,8,Rank 3,8d8,61.1,66.56,62.41,2021-08-19 13:38:01
-611ec129df9be13db6ac46a4,Zombie Villager,Undead,5,Rank 0,5d2+3,9.35,10.23,9.64,2021-08-19 13:38:01
-611ec129df9be13db6ac46a5,Steam Mephit,Elemental,6,Rank 0,6d2,11.36,12.5,11.63,2021-08-19 13:38:01
-611ec129df9be13db6ac46a6,Blue Dragon,Dragon,6,Rank 1,6d4+4,23.98,23.22,24.41,2021-08-19 13:38:01
-611ec129df9be13db6ac46a7,Prince of Fear,Devilkin,2,Rank 0,2d2+3,3.47,3.58,4.0,2021-08-19 13:38:01
-611ec129df9be13db6ac46a8,Onyx Faerie,Fey,11,Rank 0,11d2,21.7,21.05,22.27,2021-08-19 13:38:01
-611ec129df9be13db6ac46a9,Pit Fiend,Demonic,4,Rank 0,4d2+2,7.81,8.99,8.66,2021-08-19 13:38:01
-611ec129df9be13db6ac46aa,Ice Elemental,Elemental,5,Rank 3,5d8,43.75,40.77,40.11,2021-08-19 13:38:01
-611ec129df9be13db6ac46ab,Faerie Dragon,Dragon,6,Rank 1,6d4+3,24.48,23.28,23.74,2021-08-19 13:38:01
-611ec129df9be13db6ac46ac,Goblin Villager,Devilkin,5,Rank 2,5d6,28.99,29.38,31.9,2021-08-19 13:38:01
-611ec129df9be13db6ac46ad,Green Faerie,Fey,11,Rank 3,11d8+3,90.92,85.6,91.99,2021-08-19 13:38:01
-611ec129df9be13db6ac46ae,Balor,Demonic,8,Rank 0,8d2+1,16.85,16.25,15.13,2021-08-19 13:38:01
-611ec129df9be13db6ac46af,Steam Elemental,Elemental,7,Rank 3,7d8+1,54.93,57.07,56.99,2021-08-19 13:38:01
-611ec129df9be13db6ac46b0,Green Drake,Dragon,4,Rank 3,4d8,32.73,34.06,34.96,2021-08-19 13:38:01
-611ec129df9be13db6ac46b1,Ice Spirit,Fey,4,Rank 2,4d6,24.61,24.82,22.69,2021-08-19 13:38:01
-611ec129df9be13db6ac46b2,Skeletal Villager,Undead,6,Rank 0,6d2+3,11.04,12.32,12.94,2021-08-19 13:38:01
-611ec129df9be13db6ac46b3,Mud Mephit,Elemental,4,Rank 1,4d4,15.14,15.27,16.43,2021-08-19 13:38:01
-611ec129df9be13db6ac46b4,Goblin Archer,Devilkin,8,Rank 2,8d6+3,46.93,46.18,47.48,2021-08-19 13:38:01
-611ec129df9be13db6ac46b5,Ice Spirit,Fey,8,Rank 4,8d10+1,83.58,75.92,83.61,2021-08-19 13:38:01
-611ec129df9be13db6ac46b6,Green Demon,Demonic,6,Rank 3,6d8+3,47.75,46.59,46.54,2021-08-19 13:38:01
-611ec129df9be13db6ac46b7,Ghostly Archer,Undead,8,Rank 4,8d10+2,76.33,76.42,81.33,2021-08-19 13:38:01
-611ec129df9be13db6ac46b8,Green Wyrmling,Dragon,9,Rank 1,9d4,37.97,35.72,35.12,2021-08-19 13:38:01
-611ec129df9be13db6ac46b9,Goblin Archer,Devilkin,7,Rank 3,7d8,56.0,53.59,55.54,2021-08-19 13:38:01
-611ec129df9be13db6ac46ba,Steam Spirit,Fey,4,Rank 1,4d4+3,15.56,17.97,15.56,2021-08-19 13:38:01
-611ec129df9be13db6ac46bb,Nightmare,Demonic,5,Rank 2,5d6+2,30.39,31.51,31.01,2021-08-19 13:38:01
-611ec129df9be13db6ac46bc,Zombie Villager,Undead,7,Rank 2,7d6,39.57,40.25,41.72,2021-08-19 13:38:01
-611ec129df9be13db6ac46bd,Dust Mephit,Elemental,4,Rank 0,4d2,7.1,8.7,7.03,2021-08-19 13:38:01
-611ec129df9be13db6ac46be,Green Drake,Dragon,4,Rank 1,4d4+2,15.64,15.56,15.24,2021-08-19 13:38:01
-611ec129df9be13db6ac46bf,Pit Lord,Devilkin,7,Rank 2,7d6+1,40.09,42.58,41.45,2021-08-19 13:38:01
-611ec129df9be13db6ac46c0,Black Archfey,Fey,6,Rank 1,6d4+4,25.52,23.91,23.29,2021-08-19 13:38:01
-611ec129df9be13db6ac46c1,Hell Hound,Demonic,5,Rank 2,5d6,28.85,31.61,31.3,2021-08-19 13:38:01
-611ec129df9be13db6ac46c2,Skeletal Archer,Undead,4,Rank 0,4d2,7.61,8.18,8.25,2021-08-19 13:38:01
-611ec129df9be13db6ac46c3,Red Wyrmling,Dragon,6,Rank 0,6d2+1,11.97,12.75,11.29,2021-08-19 13:38:01
-611ec129df9be13db6ac46c4,Pit Lord,Devilkin,4,Rank 1,4d4,16.71,16.15,17.91,2021-08-19 13:38:01
-611ec129df9be13db6ac46c5,Spore Spirit,Fey,3,Rank 0,3d2+2,5.21,6.24,5.62,2021-08-19 13:38:01
-611ec129df9be13db6ac46c6,Hook Horror,Demonic,4,Rank 4,4d10,44.88,43.39,41.93,2021-08-19 13:38:01
-611ec129df9be13db6ac46c7,Vampire,Undead,3,Rank 2,3d6+3,17.75,19.46,15.69,2021-08-19 13:38:01
-611ec129df9be13db6ac46c8,Black Drake,Dragon,2,Rank 4,2d10+3,20.06,19.3,16.64,2021-08-19 13:38:01
-611ec129df9be13db6ac46c9,Goblin Archer,Devilkin,5,Rank 0,5d2+1,9.52,10.62,10.13,2021-08-19 13:38:01
-611ec129df9be13db6ac46ca,Imp,Demonic,7,Rank 0,7d2,14.08,14.33,14.08,2021-08-19 13:38:01
-611ec129df9be13db6ac46cb,Efreeti,Elemental,9,Rank 3,9d8+3,75.5,73.5,69.77,2021-08-19 13:38:01
-611ec129df9be13db6ac46cc,Faerie Dragon,Dragon,8,Rank 2,8d6+1,47.55,48.19,48.5,2021-08-19 13:38:01
-611ec129df9be13db6ac46cd,Blue Faerie,Fey,6,Rank 0,6d2+1,12.52,12.75,12.4,2021-08-19 13:38:01
-611ec129df9be13db6ac46ce,Quasit,Demonic,7,Rank 0,7d2+1,14.41,14.71,14.66,2021-08-19 13:38:01
-611ec129df9be13db6ac46cf,Ghast,Undead,7,Rank 1,7d4+2,27.87,27.34,28.05,2021-08-19 13:38:01
-611ec129df9be13db6ac46d0,Copper Drake,Dragon,4,Rank 0,4d2,7.96,8.96,7.5,2021-08-19 13:38:01
-611ec129df9be13db6ac46d1,Green Faerie,Fey,10,Rank 1,10d4+1,38.05,40.22,39.43,2021-08-19 13:38:01
-611ec129df9be13db6ac46d2,Ghoul,Undead,10,Rank 1,10d4+1,40.43,41.53,38.65,2021-08-19 13:38:01
-611ec129df9be13db6ac46d3,Steam Elemental,Elemental,2,Rank 3,2d8+1,19.84,16.16,13.33,2021-08-19 13:38:01
-611ec129df9be13db6ac46d4,Green Drake,Dragon,7,Rank 3,7d8+3,53.02,54.25,57.93,2021-08-19 13:38:01
-611ec129df9be13db6ac46d5,Goblin Villager,Devilkin,5,Rank 0,5d2+3,10.72,10.23,9.34,2021-08-19 13:38:01
-611ec129df9be13db6ac46d6,Quasit,Demonic,2,Rank 3,2d8+1,17.6,15.07,16.14,2021-08-19 13:38:01
-611ec129df9be13db6ac46d7,Ghast,Undead,8,Rank 2,8d6+3,49.84,46.49,49.09,2021-08-19 13:38:01
-611ec129df9be13db6ac46d8,Red Wyrmling,Dragon,5,Rank 0,5d2+1,9.3,9.71,10.21,2021-08-19 13:38:01
-611ec129df9be13db6ac46d9,Succubus,Devilkin,7,Rank 0,7d2,13.13,13.66,14.39,2021-08-19 13:38:01
-611ec129df9be13db6ac46da,Night Hag,Demonic,5,Rank 2,5d6,29.81,29.74,29.99,2021-08-19 13:38:01
-611ec129df9be13db6ac46db,Ghoul,Undead,9,Rank 2,9d6+1,51.69,52.03,53.99,2021-08-19 13:38:01
-611ec129df9be13db6ac46dc,Ice Mephit,Elemental,7,Rank 0,7d2,14.84,14.09,13.5,2021-08-19 13:38:01
-611ec129df9be13db6ac46dd,Faerie Dragon,Dragon,6,Rank 0,6d2,12.15,11.16,11.31,2021-08-19 13:38:01
-611ec129df9be13db6ac46de,Blue Faerie,Fey,4,Rank 4,4d10,38.33,43.73,39.63,2021-08-19 13:38:01
-611ec129df9be13db6ac46df,Onyx Demon,Demonic,7,Rank 2,7d6+1,39.91,42.6,41.49,2021-08-19 13:38:01
-611ec129df9be13db6ac46e0,Spore Elemental,Elemental,5,Rank 2,5d6+2,31.54,31.07,31.74,2021-08-19 13:38:01
-611ec129df9be13db6ac46e1,White Dragon,Dragon,6,Rank 2,6d6,38.65,36.17,34.98,2021-08-19 13:38:01
-611ec129df9be13db6ac46e2,Kobold Archer,Devilkin,6,Rank 4,6d10,59.57,55.86,64.32,2021-08-19 13:38:01
-611ec129df9be13db6ac46e3,Imp,Demonic,5,Rank 1,5d4+2,20.15,20.41,18.98,2021-08-19 13:38:01
-611ec129df9be13db6ac46e4,Skeletal Villager,Undead,6,Rank 1,6d4+3,23.94,24.59,23.32,2021-08-19 13:38:01
-611ec129df9be13db6ac46e5,Green Dragon,Dragon,4,Rank 1,4d4,14.02,15.7,16.84,2021-08-19 13:38:01
-611ec129df9be13db6ac46e6,Goblin Archer,Devilkin,6,Rank 3,6d8+1,45.27,47.07,51.4,2021-08-19 13:38:01
-611ec129df9be13db6ac46e7,Night Hag,Demonic,6,Rank 0,6d2+1,12.78,11.79,11.23,2021-08-19 13:38:01
-611ec129df9be13db6ac46e8,Skeletal Archer,Undead,9,Rank 2,9d6+3,53.66,55.72,51.21,2021-08-19 13:38:01
-611ec129df9be13db6ac46e9,Djinni,Elemental,8,Rank 5,8d12+4,91.55,94.01,91.43,2021-08-19 13:38:01
-611ec129df9be13db6ac46ea,Green Wyrmling,Dragon,3,Rank 0,3d2,6.36,5.71,5.19,2021-08-19 13:38:01
-611ec129df9be13db6ac46eb,Mud Spirit,Fey,4,Rank 1,4d4+3,15.47,16.95,14.52,2021-08-19 13:38:01
-611ec129df9be13db6ac46ec,Night Hag,Demonic,7,Rank 3,7d8+4,58.71,55.17,57.32,2021-08-19 13:38:01
-611ec129df9be13db6ac46ed,Steam Mephit,Elemental,9,Rank 3,9d8+1,74.17,70.14,71.97,2021-08-19 13:38:01
-611ec129df9be13db6ac46ee,White Drake,Dragon,4,Rank 4,4d10+3,43.45,36.66,43.86,2021-08-19 13:38:01
-611ec129df9be13db6ac46ef,Green Faerie,Fey,10,Rank 5,10d12+3,124.94,119.82,121.98,2021-08-19 13:38:01
-611ec129df9be13db6ac46f0,Ghast,Undead,9,Rank 2,9d6+2,52.38,54.63,56.89,2021-08-19 13:38:01
-611ec129df9be13db6ac46f1,Mud Mephit,Elemental,4,Rank 0,4d2,7.12,8.25,8.81,2021-08-19 13:38:01
-611ec129df9be13db6ac46f2,Pit Lord,Devilkin,2,Rank 3,2d8+4,17.41,13.14,13.01,2021-08-19 13:38:01
-611ec129df9be13db6ac46f3,Mud Spirit,Fey,8,Rank 4,8d10+4,84.12,83.77,78.76,2021-08-19 13:38:01
-611ec129df9be13db6ac46f4,Imp,Demonic,8,Rank 0,8d2+3,16.2,15.78,16.69,2021-08-19 13:38:01
-611ec129df9be13db6ac46f5,Ghostly Villager,Undead,8,Rank 0,8d2+1,16.51,15.13,15.79,2021-08-19 13:38:01
-611ec129df9be13db6ac46f6,Red Wyrmling,Dragon,7,Rank 1,7d4+2,29.35,28.22,27.6,2021-08-19 13:38:01
-611ec129df9be13db6ac46f7,Goblin Villager,Devilkin,3,Rank 1,3d4,13.46,13.97,13.78,2021-08-19 13:38:01
-611ec129df9be13db6ac46f8,Black Faerie,Fey,6,Rank 3,6d8+1,48.72,49.27,48.44,2021-08-19 13:38:01
-611ec129df9be13db6ac46f9,Night Hag,Demonic,1,Rank 2,1d6+1,5.76,7.86,5.76,2021-08-19 13:38:01
-611ec129df9be13db6ac46fa,Djinni,Elemental,6,Rank 0,6d2+1,12.45,11.48,12.84,2021-08-19 13:38:01
-611ec129df9be13db6ac46fb,White Dragon,Dragon,6,Rank 3,6d8,51.17,46.22,50.02,2021-08-19 13:38:01
-611ec129df9be13db6ac46fc,Mud Devil,Devilkin,7,Rank 0,7d2+2,14.75,14.23,13.46,2021-08-19 13:38:01
-611ec129df9be13db6ac46fd,Balor,Demonic,5,Rank 0,5d2+3,10.91,11.0,9.3,2021-08-19 13:38:01
-611ec129df9be13db6ac46fe,Wraith,Undead,4,Rank 0,4d2,8.26,8.62,8.54,2021-08-19 13:38:01
-611ec129df9be13db6ac46ff,Steam Mephit,Elemental,5,Rank 2,5d6+1,29.9,28.12,28.44,2021-08-19 13:38:01
-611ec129df9be13db6ac4700,Kobold Guard,Devilkin,6,Rank 2,6d6+3,35.38,37.54,36.79,2021-08-19 13:38:01
-611ec129df9be13db6ac4701,Copper Faerie,Fey,5,Rank 5,5d12+2,63.96,54.55,62.19,2021-08-19 13:38:01
-611ec129df9be13db6ac4702,Wraith,Undead,5,Rank 0,5d2,9.26,10.66,9.79,2021-08-19 13:38:01
-611ec129df9be13db6ac4703,Pseudodragon,Dragon,5,Rank 0,5d2,10.25,10.41,10.66,2021-08-19 13:38:01
-611ec129df9be13db6ac4704,Succubus,Devilkin,8,Rank 2,8d6+1,46.16,46.12,49.73,2021-08-19 13:38:01
-611ec129df9be13db6ac4705,Night Hag,Demonic,5,Rank 2,5d6+2,28.91,30.95,28.75,2021-08-19 13:38:01
-611ec129df9be13db6ac4706,Mummy,Undead,8,Rank 0,8d2+4,15.05,15.3,15.1,2021-08-19 13:38:01
-611ec129df9be13db6ac4707,Steam Elemental,Elemental,8,Rank 1,8d4+1,33.35,33.05,31.45,2021-08-19 13:38:01
-611ec129df9be13db6ac4708,Brass Drake,Dragon,6,Rank 0,6d2,12.6,11.55,11.37,2021-08-19 13:38:01
-611ec129df9be13db6ac4709,Goblin Villager,Devilkin,6,Rank 3,6d8+1,47.21,47.53,50.53,2021-08-19 13:38:01
-611ec129df9be13db6ac470a,Green Faerie,Fey,8,Rank 0,8d2+5,16.57,16.05,15.24,2021-08-19 13:38:01
-611ec129df9be13db6ac470b,Quasit,Demonic,7,Rank 0,7d2+2,13.76,14.79,14.32,2021-08-19 13:38:01
-611ec129df9be13db6ac470c,Vampire,Undead,3,Rank 0,3d2,6.5,6.98,5.24,2021-08-19 13:38:01
-611ec129df9be13db6ac470d,Blue Drake,Dragon,3,Rank 1,3d4,12.61,10.51,13.65,2021-08-19 13:38:01
-611ec129df9be13db6ac470e,Goblin Villager,Devilkin,2,Rank 2,2d6,9.73,9.25,10.94,2021-08-19 13:38:01
-611ec129df9be13db6ac470f,Black Faerie,Fey,11,Rank 3,11d8+4,86.16,90.44,87.2,2021-08-19 13:38:01
-611ec129df9be13db6ac4710,Imp,Demonic,8,Rank 2,8d6,50.42,46.5,49.7,2021-08-19 13:38:01
-611ec129df9be13db6ac4711,Mud Elemental,Elemental,5,Rank 0,5d2+3,10.38,10.08,9.7,2021-08-19 13:38:01
-611ec129df9be13db6ac4712,Pit Lord,Devilkin,11,Rank 0,11d2+1,22.22,22.32,22.34,2021-08-19 13:38:01
-611ec129df9be13db6ac4713,Red Faerie,Fey,6,Rank 0,6d2+1,11.33,11.22,12.07,2021-08-19 13:38:01
-611ec129df9be13db6ac4714,Pit Fiend,Demonic,6,Rank 2,6d6+1,34.74,33.62,34.8,2021-08-19 13:38:01
-611ec129df9be13db6ac4715,Dust Mephit,Elemental,6,Rank 3,6d8+2,44.51,48.73,50.01,2021-08-19 13:38:01
-611ec129df9be13db6ac4716,Black Wyrmling,Dragon,7,Rank 0,7d2,14.95,14.18,14.71,2021-08-19 13:38:01
-611ec129df9be13db6ac4717,Kobold Villager,Devilkin,5,Rank 1,5d4+1,19.83,19.74,18.88,2021-08-19 13:38:01
-611ec129df9be13db6ac4718,Mud Archfey,Fey,5,Rank 2,5d6+3,31.12,29.76,28.45,2021-08-19 13:38:01
-611ec129df9be13db6ac4719,Banshee,Undead,6,Rank 0,6d2,11.74,11.05,12.75,2021-08-19 13:38:01
-611ec129df9be13db6ac471a,Steam Mephit,Elemental,7,Rank 1,7d4+4,26.07,27.07,28.74,2021-08-19 13:38:01
-611ec129df9be13db6ac471b,Onyx Wyrmling,Dragon,4,Rank 0,4d2+2,8.51,8.9,7.86,2021-08-19 13:38:01
-611ec129df9be13db6ac471c,Kobold Archer,Devilkin,3,Rank 0,3d2,6.29,5.69,5.01,2021-08-19 13:38:01
-611ec129df9be13db6ac471d,Green Faerie,Fey,10,Rank 0,10d2+1,20.09,19.69,20.83,2021-08-19 13:38:01
-611ec129df9be13db6ac471e,Quasit,Demonic,8,Rank 2,8d6+2,49.27,46.58,46.09,2021-08-19 13:38:01
-611ec129df9be13db6ac471f,Lich,Undead,2,Rank 2,2d6,13.13,14.49,10.95,2021-08-19 13:38:01
-611ec129df9be13db6ac4720,Ice Elemental,Elemental,4,Rank 1,4d4+1,15.88,16.04,16.12,2021-08-19 13:38:01
-611ec129df9be13db6ac4721,Blue Dragon,Dragon,5,Rank 0,5d2,10.76,9.04,10.66,2021-08-19 13:38:01
-611ec129df9be13db6ac4722,Steam Devil,Devilkin,6,Rank 2,6d6+1,36.33,37.62,38.36,2021-08-19 13:38:01
-611ec129df9be13db6ac4723,Blue Faerie,Fey,9,Rank 1,9d4,36.5,35.39,36.66,2021-08-19 13:38:01
-611ec129df9be13db6ac4724,Hell Hound,Demonic,4,Rank 3,4d8+1,29.4,33.55,28.95,2021-08-19 13:38:01
-611ec129df9be13db6ac4725,Djinni,Elemental,6,Rank 2,6d6,34.37,37.49,38.04,2021-08-19 13:38:01
-611ec129df9be13db6ac4726,Copper Wyrmling,Dragon,7,Rank 1,7d4+1,26.11,29.12,27.89,2021-08-19 13:38:01
-611ec129df9be13db6ac4727,Steam Spirit,Fey,6,Rank 4,6d10+4,61.59,57.66,61.11,2021-08-19 13:38:01
-611ec129df9be13db6ac4728,Banshee,Undead,4,Rank 2,4d6+1,22.95,26.41,22.92,2021-08-19 13:38:01
-611ec129df9be13db6ac4729,Green Drake,Dragon,7,Rank 1,7d4+3,27.82,27.9,26.97,2021-08-19 13:38:01
-611ec129df9be13db6ac472a,Blue Faerie,Fey,4,Rank 3,4d8+1,28.18,35.84,31.91,2021-08-19 13:38:01
-611ec129df9be13db6ac472b,Banshee,Undead,2,Rank 1,2d4,6.67,8.99,9.07,2021-08-19 13:38:01
-611ec129df9be13db6ac472c,Blue Drake,Dragon,2,Rank 1,2d4,7.35,7.46,7.81,2021-08-19 13:38:01
-611ec129df9be13db6ac472d,Mud Devil,Devilkin,5,Rank 1,5d4+1,18.22,20.62,18.64,2021-08-19 13:38:01
-611ec129df9be13db6ac472e,Green Archfey,Fey,4,Rank 0,4d2+2,8.38,7.09,8.06,2021-08-19 13:38:01
-611ec129df9be13db6ac472f,Quasit,Demonic,9,Rank 5,9d12,108.01,107.15,111.74,2021-08-19 13:38:01
-611ec129df9be13db6ac4730,Revenant,Undead,7,Rank 0,7d2+1,13.76,13.92,14.53,2021-08-19 13:38:01
-611ec129df9be13db6ac4731,Mud Elemental,Elemental,8,Rank 0,8d2+1,16.98,15.4,15.68,2021-08-19 13:38:01
-611ec129df9be13db6ac4732,Onyx Drake,Dragon,7,Rank 4,7d10+5,69.66,66.66,70.08,2021-08-19 13:38:01
-611ec129df9be13db6ac4733,Goblin Archer,Devilkin,4,Rank 3,4d8,31.03,29.37,32.61,2021-08-19 13:38:01
-611ec129df9be13db6ac4734,Blue Faerie,Fey,7,Rank 2,7d6+3,44.19,43.48,44.57,2021-08-19 13:38:01
-611ec129df9be13db6ac4735,Hook Horror,Demonic,4,Rank 0,4d2+2,8.36,8.35,8.1,2021-08-19 13:38:01
-611ec129df9be13db6ac4736,Zombie Villager,Undead,9,Rank 2,9d6+3,56.67,55.96,52.15,2021-08-19 13:38:01
-611ec129df9be13db6ac4737,Green Wyrmling,Dragon,5,Rank 0,5d2+1,10.42,10.29,10.96,2021-08-19 13:38:01
-611ec129df9be13db6ac4738,Incubus,Devilkin,7,Rank 4,7d10+3,69.2,72.19,66.04,2021-08-19 13:38:01
-611ec129df9be13db6ac4739,Steam Archfey,Fey,8,Rank 2,8d6+3,45.51,50.6,50.8,2021-08-19 13:38:01
-611ec129df9be13db6ac473a,Night Hag,Demonic,7,Rank 1,7d4,28.54,26.77,26.64,2021-08-19 13:38:01
-611ec129df9be13db6ac473b,Djinni,Elemental,8,Rank 0,8d2+1,16.83,15.16,15.98,2021-08-19 13:38:01
-611ec129df9be13db6ac473c,Green Dragon,Dragon,6,Rank 2,6d6,37.58,38.68,35.32,2021-08-19 13:38:01
-611ec129df9be13db6ac473d,Prince of Fear,Devilkin,4,Rank 2,4d6,23.61,24.87,25.58,2021-08-19 13:38:01
-611ec129df9be13db6ac473e,Steam Spirit,Fey,7,Rank 2,7d6+1,43.99,41.03,42.97,2021-08-19 13:38:01
-611ec129df9be13db6ac473f,Revenant,Undead,5,Rank 2,5d6+3,29.88,31.68,31.28,2021-08-19 13:38:01
-611ec129df9be13db6ac4740,Djinni,Elemental,4,Rank 5,4d12+1,50.62,48.82,51.06,2021-08-19 13:38:01
-611ec129df9be13db6ac4741,Goblin Guard,Devilkin,8,Rank 2,8d6,48.46,46.09,45.6,2021-08-19 13:38:01
-611ec129df9be13db6ac4742,Green Faerie,Fey,7,Rank 1,7d4,27.88,26.8,27.98,2021-08-19 13:38:01
-611ec129df9be13db6ac4743,Quasit,Demonic,5,Rank 4,5d10,50.2,50.5,48.56,2021-08-19 13:38:01
-611ec129df9be13db6ac4744,Djinni,Elemental,5,Rank 0,5d2+2,10.59,9.45,10.75,2021-08-19 13:38:01
-611ec129df9be13db6ac4745,Blue Wyrmling,Dragon,6,Rank 1,6d4+1,22.45,25.51,25.4,2021-08-19 13:38:01
-611ec129df9be13db6ac4746,Succubus,Devilkin,6,Rank 3,6d8+4,50.41,48.16,45.28,2021-08-19 13:38:01
-611ec129df9be13db6ac4747,Ice Spirit,Fey,4,Rank 2,4d6+3,25.45,25.96,25.53,2021-08-19 13:38:01
-611ec129df9be13db6ac4748,Imp,Demonic,5,Rank 0,5d2,9.2,9.13,9.83,2021-08-19 13:38:01
-611ec129df9be13db6ac4749,Zombie Villager,Undead,4,Rank 2,4d6,22.91,26.82,21.82,2021-08-19 13:38:01
-611ec129df9be13db6ac474a,White Drake,Dragon,11,Rank 0,11d2+3,21.79,22.03,21.23,2021-08-19 13:38:01
-611ec129df9be13db6ac474b,Steam Spirit,Fey,6,Rank 1,6d4+2,23.77,24.76,22.37,2021-08-19 13:38:01
-611ec129df9be13db6ac474c,Blue Demon,Demonic,5,Rank 0,5d2+3,10.74,10.52,9.19,2021-08-19 13:38:01
-611ec129df9be13db6ac474d,Zombie Villager,Undead,3,Rank 0,3d2+1,6.92,6.65,5.84,2021-08-19 13:38:01
-611ec129df9be13db6ac474e,Steam Mephit,Elemental,7,Rank 3,7d8,55.62,56.42,54.65,2021-08-19 13:38:01
-611ec129df9be13db6ac474f,Green Drake,Dragon,6,Rank 2,6d6+2,35.16,34.08,33.74,2021-08-19 13:38:01
-611ec129df9be13db6ac4750,Prince of Fear,Devilkin,8,Rank 2,8d6,48.91,48.8,46.93,2021-08-19 13:38:01
-611ec129df9be13db6ac4751,Imp,Demonic,10,Rank 0,10d2,19.72,19.54,19.52,2021-08-19 13:38:01
-611ec129df9be13db6ac4752,Ghoul,Undead,6,Rank 0,6d2+3,11.59,12.75,11.64,2021-08-19 13:38:01
-611ec129df9be13db6ac4753,Green Drake,Dragon,10,Rank 1,10d4,39.0,40.59,39.31,2021-08-19 13:38:01
-611ec129df9be13db6ac4754,Goblin Villager,Devilkin,4,Rank 0,4d2+1,8.95,8.8,7.97,2021-08-19 13:38:01
-611ec129df9be13db6ac4755,Blue Faerie,Fey,1,Rank 1,1d4+4,3.37,3.83,4.11,2021-08-19 13:38:01
-611ec129df9be13db6ac4756,Blue Demon,Demonic,9,Rank 0,9d2+2,18.02,17.45,17.52,2021-08-19 13:38:01
-611ec129df9be13db6ac4757,Mud Mephit,Elemental,3,Rank 3,3d8+4,22.68,25.2,24.22,2021-08-19 13:38:01
-611ec129df9be13db6ac4758,Blue Dragon,Dragon,6,Rank 0,6d2+2,12.54,11.66,11.72,2021-08-19 13:38:01
-611ec129df9be13db6ac4759,Goblin Villager,Devilkin,8,Rank 1,8d4,30.3,33.35,32.95,2021-08-19 13:38:01
-611ec129df9be13db6ac475a,Black Demon,Demonic,6,Rank 0,6d2+1,12.1,11.08,11.69,2021-08-19 13:38:01
-611ec129df9be13db6ac475b,Ice Mephit,Elemental,4,Rank 2,4d6+3,24.58,25.53,25.55,2021-08-19 13:38:01
-611ec129df9be13db6ac475c,Wyvern,Dragon,3,Rank 0,3d2,6.55,5.85,6.22,2021-08-19 13:38:01
-611ec129df9be13db6ac475d,Red Faerie,Fey,9,Rank 1,9d4+4,34.45,36.49,35.26,2021-08-19 13:38:01
-611ec129df9be13db6ac475e,Ghoul,Undead,6,Rank 0,6d2,11.05,11.83,12.42,2021-08-19 13:38:01
-611ec129df9be13db6ac475f,Faerie Dragon,Dragon,2,Rank 3,2d8,17.66,15.45,16.61,2021-08-19 13:38:01
-611ec129df9be13db6ac4760,Green Faerie,Fey,2,Rank 1,2d4+3,7.94,8.14,8.93,2021-08-19 13:38:01
-611ec129df9be13db6ac4761,Ghostly Villager,Undead,12,Rank 0,12d2+1,24.11,23.77,23.24,2021-08-19 13:38:01
-611ec129df9be13db6ac4762,Mud Elemental,Elemental,5,Rank 0,5d2+1,9.6,9.6,9.07,2021-08-19 13:38:01
-611ec129df9be13db6ac4763,Dust Devil,Devilkin,8,Rank 0,8d2,16.0,16.55,16.91,2021-08-19 13:38:01
-611ec129df9be13db6ac4764,Steam Spirit,Fey,8,Rank 1,8d4,31.36,31.03,32.28,2021-08-19 13:38:01
-611ec129df9be13db6ac4765,Imp,Demonic,5,Rank 1,5d4,20.95,20.83,21.65,2021-08-19 13:38:01
-611ec129df9be13db6ac4766,Skeletal Guard,Undead,6,Rank 1,6d4+1,23.65,24.12,23.35,2021-08-19 13:38:01
-611ec129df9be13db6ac4767,Faerie Dragon,Dragon,6,Rank 4,6d10+1,59.79,63.84,56.16,2021-08-19 13:38:01
-611ec129df9be13db6ac4768,Mud Devil,Devilkin,10,Rank 1,10d4+2,40.25,40.1,40.21,2021-08-19 13:38:01
-611ec129df9be13db6ac4769,Quasit,Demonic,12,Rank 0,12d2+1,23.35,24.59,23.52,2021-08-19 13:38:01
-611ec129df9be13db6ac476a,Ghast,Undead,4,Rank 0,4d2+5,7.09,8.2,7.58,2021-08-19 13:38:01
-611ec129df9be13db6ac476b,Steam Mephit,Elemental,7,Rank 0,7d2+2,13.69,14.4,13.69,2021-08-19 13:38:01
-611ec129df9be13db6ac476c,Blue Drake,Dragon,11,Rank 0,11d2+2,22.97,22.85,21.7,2021-08-19 13:38:01
-611ec129df9be13db6ac476d,Goblin Villager,Devilkin,5,Rank 0,5d2,10.87,9.55,10.86,2021-08-19 13:38:01
-611ec129df9be13db6ac476e,Mud Spirit,Fey,5,Rank 3,5d8+5,37.75,39.94,38.53,2021-08-19 13:38:01
-611ec129df9be13db6ac476f,Wraith,Undead,8,Rank 3,8d8,61.25,66.36,62.25,2021-08-19 13:38:01
-611ec129df9be13db6ac4770,Wyvern,Dragon,4,Rank 0,4d2+2,7.7,8.66,8.51,2021-08-19 13:38:01
-611ec129df9be13db6ac4771,Kobold Villager,Devilkin,7,Rank 0,7d2+4,14.35,14.73,13.36,2021-08-19 13:38:01
-611ec129df9be13db6ac4772,Blue Faerie,Fey,5,Rank 3,5d8+4,37.19,39.16,38.15,2021-08-19 13:38:01
-611ec129df9be13db6ac4773,Hell Hound,Demonic,5,Rank 1,5d4+1,21.54,18.46,20.85,2021-08-19 13:38:01
-611ec129df9be13db6ac4774,Zombie Villager,Undead,3,Rank 2,3d6+4,20.74,16.25,15.04,2021-08-19 13:38:01
-611ec129df9be13db6ac4775,Steam Mephit,Elemental,11,Rank 3,11d8+1,89.1,86.37,88.37,2021-08-19 13:38:01
-611ec129df9be13db6ac4776,Wyvern,Dragon,10,Rank 0,10d2+5,20.83,19.34,19.34,2021-08-19 13:38:01
-611ec129df9be13db6ac4777,Pit Lord,Devilkin,8,Rank 2,8d6+2,48.24,47.41,50.61,2021-08-19 13:38:01
-611ec129df9be13db6ac4778,Copper Faerie,Fey,9,Rank 2,9d6,55.43,56.37,53.03,2021-08-19 13:38:01
-611ec129df9be13db6ac4779,Banshee,Undead,4,Rank 4,4d10+3,41.97,37.52,37.24,2021-08-19 13:38:01
-611ec129df9be13db6ac477a,Djinni,Elemental,4,Rank 2,4d6,26.9,24.1,25.84,2021-08-19 13:38:01
-611ec129df9be13db6ac477b,Goblin Guard,Devilkin,4,Rank 1,4d4+3,16.07,15.98,17.92,2021-08-19 13:38:01
-611ec129df9be13db6ac477c,Dust Spirit,Fey,8,Rank 1,8d4+3,32.44,31.41,30.53,2021-08-19 13:38:01
-611ec129df9be13db6ac477d,Imp,Demonic,5,Rank 2,5d6,29.79,32.38,32.04,2021-08-19 13:38:01
-611ec129df9be13db6ac477e,Steam Mephit,Elemental,3,Rank 4,3d10+3,33.7,32.11,33.81,2021-08-19 13:38:01
-611ec129df9be13db6ac477f,Green Wyrmling,Dragon,5,Rank 4,5d10,46.15,50.45,45.0,2021-08-19 13:38:01
-611ec129df9be13db6ac4780,Pit Lord,Devilkin,5,Rank 1,5d4,20.39,18.97,20.1,2021-08-19 13:38:01
-611ec129df9be13db6ac4781,Red Faerie,Fey,8,Rank 4,8d10+1,78.2,76.9,80.76,2021-08-19 13:38:01
-611ec129df9be13db6ac4782,Hell Hound,Demonic,7,Rank 2,7d6+3,41.15,44.25,39.56,2021-08-19 13:38:01
-611ec129df9be13db6ac4783,Ghostly Archer,Undead,3,Rank 2,3d6+3,16.17,20.59,19.1,2021-08-19 13:38:01
-611ec129df9be13db6ac4784,Faerie Dragon,Dragon,6,Rank 1,6d4,23.65,25.73,24.67,2021-08-19 13:38:01
-611ec129df9be13db6ac4785,Mud Devil,Devilkin,4,Rank 1,4d4+1,15.81,16.26,15.03,2021-08-19 13:38:01
-611ec129df9be13db6ac4786,Nightmare,Demonic,3,Rank 2,3d6+1,18.88,20.31,20.0,2021-08-19 13:38:01
-611ec129df9be13db6ac4787,Ghostly Villager,Undead,4,Rank 3,4d8+1,30.22,33.44,33.18,2021-08-19 13:38:01
-611ec129df9be13db6ac4788,Ice Mephit,Elemental,5,Rank 1,5d4+3,20.43,20.37,21.69,2021-08-19 13:38:01
-611ec129df9be13db6ac4789,White Wyrmling,Dragon,5,Rank 3,5d8,43.48,39.73,40.55,2021-08-19 13:38:01
-611ec129df9be13db6ac478a,Goblin Archer,Devilkin,2,Rank 1,2d4+1,9.18,7.43,8.59,2021-08-19 13:38:01
-611ec129df9be13db6ac478b,Steam Spirit,Fey,3,Rank 3,3d8+5,20.03,24.87,26.32,2021-08-19 13:38:01
-611ec129df9be13db6ac478c,Quasit,Demonic,9,Rank 1,9d4,37.66,37.13,35.62,2021-08-19 13:38:01
-611ec129df9be13db6ac478d,Steam Mephit,Elemental,5,Rank 0,5d2+1,9.15,9.73,10.76,2021-08-19 13:38:01
-611ec129df9be13db6ac478e,Green Drake,Dragon,6,Rank 0,6d2+2,12.06,11.82,11.09,2021-08-19 13:38:01
-611ec129df9be13db6ac478f,Mud Devil,Devilkin,5,Rank 1,5d4+2,20.33,21.32,19.06,2021-08-19 13:38:01
-611ec129df9be13db6ac4790,Mud Spirit,Fey,3,Rank 2,3d6+2,15.02,17.69,20.29,2021-08-19 13:38:01
-611ec129df9be13db6ac4791,Quasit,Demonic,7,Rank 4,7d10+2,72.28,71.38,72.33,2021-08-19 13:38:01
-611ec129df9be13db6ac4792,Steam Elemental,Elemental,9,Rank 2,9d6,56.64,56.66,51.66,2021-08-19 13:38:01
-611ec129df9be13db6ac4793,Goblin Villager,Devilkin,7,Rank 0,7d2+3,14.62,13.9,13.59,2021-08-19 13:38:01
-611ec129df9be13db6ac4794,Mud Spirit,Fey,5,Rank 3,5d8+1,36.76,43.43,40.62,2021-08-19 13:38:01
-611ec129df9be13db6ac4795,Quasit,Demonic,8,Rank 2,8d6,49.65,48.76,47.6,2021-08-19 13:38:01
-611ec129df9be13db6ac4796,Mummy,Undead,6,Rank 3,6d8+1,45.75,48.87,45.37,2021-08-19 13:38:01
-611ec129df9be13db6ac4797,Mud Mephit,Elemental,6,Rank 0,6d2+4,12.3,12.45,12.95,2021-08-19 13:38:01
-611ec129df9be13db6ac4798,Blue Wyrmling,Dragon,7,Rank 3,7d8+2,53.35,56.13,52.51,2021-08-19 13:38:01
-611ec129df9be13db6ac4799,Green Faerie,Fey,4,Rank 1,4d4,16.61,15.38,16.66,2021-08-19 13:38:01
-611ec129df9be13db6ac479a,Revenant,Undead,5,Rank 3,5d8+4,40.06,38.11,43.32,2021-08-19 13:38:01
-611ec129df9be13db6ac479b,White Wyrmling,Dragon,5,Rank 2,5d6,30.38,30.65,27.11,2021-08-19 13:38:01
-611ec129df9be13db6ac479c,Goblin Villager,Devilkin,5,Rank 1,5d4,21.68,20.87,18.17,2021-08-19 13:38:01
-611ec129df9be13db6ac479d,Green Faerie,Fey,6,Rank 0,6d2+2,11.24,12.96,11.69,2021-08-19 13:38:01
-611ec129df9be13db6ac479e,Imp,Demonic,4,Rank 5,4d12,42.7,48.15,47.46,2021-08-19 13:38:01
-611ec129df9be13db6ac479f,Ghast,Undead,4,Rank 0,4d2+4,7.87,7.98,7.46,2021-08-19 13:38:01
-611ec129df9be13db6ac47a0,Mud Mephit,Elemental,8,Rank 1,8d4+1,32.46,31.97,30.06,2021-08-19 13:38:01
-611ec129df9be13db6ac47a1,Black Drake,Dragon,8,Rank 2,8d6,46.91,46.55,49.46,2021-08-19 13:38:01
-611ec129df9be13db6ac47a2,Succubus,Devilkin,6,Rank 0,6d2+1,12.28,11.04,12.02,2021-08-19 13:38:01
-611ec129df9be13db6ac47a3,Nightmare,Demonic,5,Rank 0,5d2+3,10.56,10.08,10.2,2021-08-19 13:38:01
-611ec129df9be13db6ac47a4,Efreeti,Elemental,4,Rank 1,4d4+1,17.35,14.03,14.32,2021-08-19 13:38:01
-611ec129df9be13db6ac47a5,Pseudodragon,Dragon,8,Rank 3,8d8+2,67.5,60.14,61.81,2021-08-19 13:38:01
-611ec129df9be13db6ac47a6,Steam Devil,Devilkin,9,Rank 2,9d6+3,52.81,53.74,52.08,2021-08-19 13:38:01
-611ec129df9be13db6ac47a7,Onyx Archfey,Fey,8,Rank 1,8d4+4,32.36,30.29,32.42,2021-08-19 13:38:01
-611ec129df9be13db6ac47a8,Hook Horror,Demonic,7,Rank 5,7d12,89.14,88.77,80.01,2021-08-19 13:38:01
-611ec129df9be13db6ac47a9,Skeletal Villager,Undead,5,Rank 1,5d4+1,20.92,19.41,21.61,2021-08-19 13:38:01
-611ec129df9be13db6ac47aa,Dust Mephit,Elemental,9,Rank 0,9d2+2,17.78,18.0,17.69,2021-08-19 13:38:01
-611ec129df9be13db6ac47ab,Black Wyrmling,Dragon,5,Rank 1,5d4+2,19.89,19.86,21.15,2021-08-19 13:38:01
-611ec129df9be13db6ac47ac,Spore Spirit,Fey,3,Rank 1,3d4+1,12.66,11.5,13.08,2021-08-19 13:38:01
-611ec129df9be13db6ac47ad,Quasit,Demonic,7,Rank 0,7d2+2,13.47,14.11,14.44,2021-08-19 13:38:01
-611ec129df9be13db6ac47ae,Ghostly Villager,Undead,9,Rank 2,9d6+3,54.9,51.01,53.62,2021-08-19 13:38:01
-611ec129df9be13db6ac47af,Onyx Wyrmling,Dragon,7,Rank 4,7d10+2,65.36,70.79,71.36,2021-08-19 13:38:01
-611ec129df9be13db6ac47b0,Steam Devil,Devilkin,5,Rank 1,5d4+5,20.28,21.92,20.44,2021-08-19 13:38:01
-611ec129df9be13db6ac47b1,Black Faerie,Fey,4,Rank 3,4d8+4,31.12,32.15,31.44,2021-08-19 13:38:01
-611ec129df9be13db6ac47b2,Hook Horror,Demonic,6,Rank 1,6d4+3,23.8,24.93,23.65,2021-08-19 13:38:01
-611ec129df9be13db6ac47b3,Zombie Villager,Undead,5,Rank 0,5d2+4,10.06,9.43,9.36,2021-08-19 13:38:01
-611ec129df9be13db6ac47b4,Efreeti,Elemental,6,Rank 0,6d2+4,12.63,12.77,12.88,2021-08-19 13:38:01
-611ec129df9be13db6ac47b5,Blue Wyrmling,Dragon,7,Rank 4,7d10+4,66.12,73.43,69.4,2021-08-19 13:38:01
-611ec129df9be13db6ac47b6,Kobold Archer,Devilkin,9,Rank 1,9d4,37.38,35.26,36.44,2021-08-19 13:38:01
-611ec129df9be13db6ac47b7,White Faerie,Fey,7,Rank 3,7d8,56.84,57.48,55.2,2021-08-19 13:38:01
-611ec129df9be13db6ac47b8,Green Demon,Demonic,6,Rank 0,6d2+4,11.39,12.35,12.32,2021-08-19 13:38:01
-611ec129df9be13db6ac47b9,Mud Elemental,Elemental,6,Rank 2,6d6+1,33.5,35.98,37.43,2021-08-19 13:38:01
-611ec129df9be13db6ac47ba,Copper Drake,Dragon,8,Rank 0,8d2,16.4,16.2,16.58,2021-08-19 13:38:01
-611ec129df9be13db6ac47bb,Steam Spirit,Fey,6,Rank 2,6d6+1,34.83,34.55,36.39,2021-08-19 13:38:01
-611ec129df9be13db6ac47bc,Quasit,Demonic,9,Rank 3,9d8,69.29,75.57,71.92,2021-08-19 13:38:01
-611ec129df9be13db6ac47bd,Steam Mephit,Elemental,7,Rank 2,7d6+1,42.66,42.55,40.35,2021-08-19 13:38:01
-611ec129df9be13db6ac47be,Blue Dragon,Dragon,9,Rank 3,9d8+4,74.78,70.07,72.75,2021-08-19 13:38:01
-611ec129df9be13db6ac47bf,Steam Devil,Devilkin,6,Rank 0,6d2+1,11.3,12.31,12.77,2021-08-19 13:38:01
-611ec129df9be13db6ac47c0,Green Faerie,Fey,4,Rank 2,4d6+4,22.59,22.68,23.82,2021-08-19 13:38:01
-611ec129df9be13db6ac47c1,Night Hag,Demonic,10,Rank 1,10d4+1,38.54,39.94,38.07,2021-08-19 13:38:01
-611ec129df9be13db6ac47c2,Mud Mephit,Elemental,11,Rank 0,11d2+3,22.19,21.67,22.93,2021-08-19 13:38:01
-611ec129df9be13db6ac47c3,Goblin Archer,Devilkin,7,Rank 3,7d8+1,54.85,59.66,56.84,2021-08-19 13:38:01
-611ec129df9be13db6ac47c4,White Faerie,Fey,7,Rank 2,7d6+5,42.36,39.86,40.46,2021-08-19 13:38:01
-611ec129df9be13db6ac47c5,Black Demon,Demonic,6,Rank 3,6d8,50.03,48.65,46.53,2021-08-19 13:38:01
-611ec129df9be13db6ac47c6,Steam Elemental,Elemental,6,Rank 2,6d6+1,34.35,36.46,37.35,2021-08-19 13:38:01
-611ec129df9be13db6ac47c7,Succubus,Devilkin,6,Rank 3,6d8+1,46.26,45.67,46.56,2021-08-19 13:38:01
-611ec129df9be13db6ac47c8,Steam Spirit,Fey,7,Rank 4,7d10+4,66.67,72.42,72.86,2021-08-19 13:38:01
-611ec129df9be13db6ac47c9,Night Hag,Demonic,8,Rank 0,8d2,15.96,16.71,16.38,2021-08-19 13:38:01
-611ec129df9be13db6ac47ca,Ghostly Villager,Undead,5,Rank 1,5d4+1,21.42,18.94,18.2,2021-08-19 13:38:01
-611ec129df9be13db6ac47cb,Mud Elemental,Elemental,8,Rank 1,8d4+3,33.4,33.75,31.31,2021-08-19 13:38:01
-611ec129df9be13db6ac47cc,Black Wyrmling,Dragon,5,Rank 3,5d8+4,39.85,39.36,39.04,2021-08-19 13:38:01
-611ec129df9be13db6ac47cd,Red Faerie,Fey,4,Rank 1,4d4+4,15.71,15.45,16.51,2021-08-19 13:38:01
-611ec129df9be13db6ac47ce,Wraith,Undead,5,Rank 0,5d2+1,9.86,10.75,9.33,2021-08-19 13:38:01
-611ec129df9be13db6ac47cf,Green Dragon,Dragon,5,Rank 3,5d8,40.36,37.08,38.16,2021-08-19 13:38:01
-611ec129df9be13db6ac47d0,Mud Devil,Devilkin,4,Rank 4,4d10+2,35.63,44.57,39.58,2021-08-19 13:38:01
-611ec129df9be13db6ac47d1,Mud Spirit,Fey,7,Rank 0,7d2+4,13.99,14.73,14.11,2021-08-19 13:38:01
-611ec129df9be13db6ac47d2,Quasit,Demonic,7,Rank 0,7d2+2,14.82,13.15,13.18,2021-08-19 13:38:01
-611ec129df9be13db6ac47d3,Djinni,Elemental,4,Rank 2,4d6+2,23.09,24.12,23.04,2021-08-19 13:38:01
-611ec129df9be13db6ac47d4,White Drake,Dragon,5,Rank 3,5d8,40.22,39.26,36.73,2021-08-19 13:38:01
-611ec129df9be13db6ac47d5,Steam Spirit,Fey,4,Rank 3,4d8,31.35,35.1,35.85,2021-08-19 13:38:01
-611ec129df9be13db6ac47d6,Balor,Demonic,7,Rank 0,7d2+1,14.91,13.2,13.21,2021-08-19 13:38:01
-611ec129df9be13db6ac47d7,Banshee,Undead,7,Rank 0,7d2,13.92,13.11,14.62,2021-08-19 13:38:01
-611ec129df9be13db6ac47d8,Mud Elemental,Elemental,6,Rank 2,6d6,37.54,36.7,36.78,2021-08-19 13:38:01
-611ec129df9be13db6ac47d9,Steam Devil,Devilkin,8,Rank 0,8d2+3,16.69,16.28,15.71,2021-08-19 13:38:01
-611ec129df9be13db6ac47da,Emerald Demon,Demonic,8,Rank 1,8d4,32.94,33.04,33.28,2021-08-19 13:38:01
-611ec129df9be13db6ac47db,Djinni,Elemental,3,Rank 0,3d2,5.88,5.41,6.02,2021-08-19 13:38:01
-611ec129df9be13db6ac47dc,Wyvern,Dragon,11,Rank 1,11d4+2,44.68,44.65,43.99,2021-08-19 13:38:01
-611ec129df9be13db6ac47dd,Kobold Archer,Devilkin,5,Rank 1,5d4+4,18.28,20.91,19.99,2021-08-19 13:38:01
-611ec129df9be13db6ac47de,Green Faerie,Fey,6,Rank 0,6d2,11.48,12.93,11.04,2021-08-19 13:38:01
-611ec129df9be13db6ac47df,Poltergeist,Undead,9,Rank 0,9d2+3,17.56,18.9,18.44,2021-08-19 13:38:01
-611ec129df9be13db6ac47e0,Steam Mephit,Elemental,8,Rank 3,8d8+2,60.72,65.73,66.05,2021-08-19 13:38:01
-611ec129df9be13db6ac47e1,Blue Drake,Dragon,5,Rank 2,5d6+4,31.05,28.76,30.33,2021-08-19 13:38:01
-611ec129df9be13db6ac47e2,Green Faerie,Fey,8,Rank 1,8d4,31.32,31.12,33.02,2021-08-19 13:38:01
-611ec129df9be13db6ac47e3,Black Demon,Demonic,10,Rank 0,10d2,20.61,19.95,19.19,2021-08-19 13:38:01
-611ec129df9be13db6ac47e4,Skeletal Guard,Undead,8,Rank 1,8d4+3,32.26,32.92,33.29,2021-08-19 13:38:01
-611ec129df9be13db6ac47e5,Green Dragon,Dragon,9,Rank 1,9d4+3,37.22,36.75,35.96,2021-08-19 13:38:01
-611ec129df9be13db6ac47e6,Kobold Villager,Devilkin,5,Rank 3,5d8+4,40.59,42.2,40.34,2021-08-19 13:38:01
-611ec129df9be13db6ac47e7,Mud Spirit,Fey,5,Rank 2,5d6+4,29.51,32.74,27.39,2021-08-19 13:38:01
-611ec129df9be13db6ac47e8,Quasit,Demonic,5,Rank 0,5d2+4,10.11,9.37,10.2,2021-08-19 13:38:01
-611ec129df9be13db6ac47e9,Ghoul,Undead,9,Rank 3,9d8,72.04,69.18,70.85,2021-08-19 13:38:01
-611ec129df9be13db6ac47ea,Steam Elemental,Elemental,10,Rank 1,10d4+2,40.87,40.55,39.99,2021-08-19 13:38:01
-611ec129df9be13db6ac47eb,Kobold Guard,Devilkin,10,Rank 2,10d6,59.49,58.61,57.25,2021-08-19 13:38:01
-611ec129df9be13db6ac47ec,Imp,Demonic,8,Rank 0,8d2+2,16.8,15.18,16.67,2021-08-19 13:38:01
-611ec129df9be13db6ac47ed,Steam Mephit,Elemental,4,Rank 3,4d8+2,34.5,32.9,31.0,2021-08-19 13:38:01
-611ec129df9be13db6ac47ee,Red Wyrmling,Dragon,5,Rank 0,5d2+3,10.91,10.3,9.58,2021-08-19 13:38:01
-611ec129df9be13db6ac47ef,Red Faerie,Fey,5,Rank 1,5d4,20.34,19.46,19.36,2021-08-19 13:38:01
-611ec129df9be13db6ac47f0,Hook Horror,Demonic,5,Rank 0,5d2,10.73,9.95,9.24,2021-08-19 13:38:01
-611ec129df9be13db6ac47f1,Efreeti,Elemental,6,Rank 2,6d6+1,37.55,33.74,36.53,2021-08-19 13:38:01
-611ec129df9be13db6ac47f2,Succubus,Devilkin,10,Rank 4,10d10,96.83,103.99,101.59,2021-08-19 13:38:01
-611ec129df9be13db6ac47f3,Green Faerie,Fey,7,Rank 1,7d4,28.97,28.5,29.24,2021-08-19 13:38:01
-611ec129df9be13db6ac47f4,Night Hag,Demonic,12,Rank 4,12d10+1,121.94,117.51,116.81,2021-08-19 13:38:01
-611ec129df9be13db6ac47f5,Ghostly Guard,Undead,5,Rank 0,5d2+2,10.4,9.78,9.99,2021-08-19 13:38:01
-611ec129df9be13db6ac47f6,Steam Elemental,Elemental,4,Rank 0,4d2+4,7.88,7.93,7.25,2021-08-19 13:38:01
-611ec129df9be13db6ac47f7,Faerie Dragon,Dragon,7,Rank 2,7d6+5,41.6,42.51,41.07,2021-08-19 13:38:01
-611ec129df9be13db6ac47f8,Mud Devil,Devilkin,9,Rank 1,9d4+4,35.39,35.74,34.84,2021-08-19 13:38:01
-611ec129df9be13db6ac47f9,Blue Faerie,Fey,6,Rank 4,6d10+1,63.0,61.11,63.63,2021-08-19 13:38:01
-611ec129df9be13db6ac47fa,Ghast,Undead,3,Rank 4,3d10+1,32.12,28.73,26.46,2021-08-19 13:38:01
-611ec129df9be13db6ac47fb,Pseudodragon,Dragon,7,Rank 2,7d6,43.27,41.24,42.4,2021-08-19 13:38:01
-611ec129df9be13db6ac47fc,Ice Spirit,Fey,5,Rank 2,5d6+2,29.91,32.82,30.38,2021-08-19 13:38:01
-611ec129df9be13db6ac47fd,Quasit,Demonic,6,Rank 1,6d4,25.91,22.25,25.02,2021-08-19 13:38:01
-611ec129df9be13db6ac47fe,Lich,Undead,3,Rank 3,3d8+2,26.9,27.22,23.88,2021-08-19 13:38:01
-611ec129df9be13db6ac47ff,Steam Mephit,Elemental,3,Rank 1,3d4+5,12.66,11.97,13.35,2021-08-19 13:38:01
-611ec129df9be13db6ac4800,Onyx Drake,Dragon,4,Rank 0,4d2+2,7.19,7.95,8.7,2021-08-19 13:38:01
-611ec129df9be13db6ac4801,Dust Spirit,Fey,9,Rank 0,9d2,17.3,17.06,17.24,2021-08-19 13:38:01
-611ec129df9be13db6ac4802,Quasit,Demonic,5,Rank 0,5d2,10.91,9.96,9.79,2021-08-19 13:38:01
-611ec129df9be13db6ac4803,Banshee,Undead,6,Rank 4,6d10+2,64.34,55.93,58.23,2021-08-19 13:38:01
-611ec129df9be13db6ac4804,Red Drake,Dragon,8,Rank 0,8d2,15.24,15.0,15.97,2021-08-19 13:38:01
-611ec129df9be13db6ac4805,Copper Faerie,Fey,4,Rank 0,4d2+1,8.47,8.43,8.37,2021-08-19 13:38:01
-611ec129df9be13db6ac4806,Wraith,Undead,4,Rank 1,4d4+5,15.79,16.75,15.94,2021-08-19 13:38:01
-611ec129df9be13db6ac4807,Steam Elemental,Elemental,5,Rank 1,5d4+3,21.26,21.8,20.45,2021-08-19 13:38:01
-611ec129df9be13db6ac4808,Faerie Dragon,Dragon,6,Rank 1,6d4,25.69,23.32,24.13,2021-08-19 13:38:01
-611ec129df9be13db6ac4809,Goblin Villager,Devilkin,6,Rank 0,6d2,11.37,11.83,11.68,2021-08-19 13:38:01
-611ec129df9be13db6ac480a,Dust Spirit,Fey,6,Rank 2,6d6+2,37.44,35.42,34.6,2021-08-19 13:38:01
-611ec129df9be13db6ac480b,Night Hag,Demonic,10,Rank 0,10d2+4,20.21,19.61,19.11,2021-08-19 13:38:01
-611ec129df9be13db6ac480c,Efreeti,Elemental,7,Rank 1,7d4+2,27.41,26.93,29.27,2021-08-19 13:38:01
-611ec129df9be13db6ac480d,Blue Wyrmling,Dragon,8,Rank 0,8d2+1,16.38,15.45,15.57,2021-08-19 13:38:01
-611ec129df9be13db6ac480e,Succubus,Devilkin,5,Rank 2,5d6+4,29.38,30.75,28.21,2021-08-19 13:38:01
-611ec129df9be13db6ac480f,Onyx Faerie,Fey,6,Rank 5,6d12,69.93,77.29,70.06,2021-08-19 13:38:01
-611ec129df9be13db6ac4810,Hell Hound,Demonic,5,Rank 0,5d2,9.43,9.35,9.41,2021-08-19 13:38:01
-611ec129df9be13db6ac4811,Zombie Villager,Undead,7,Rank 2,7d6+2,40.55,42.71,41.44,2021-08-19 13:38:01
-611ec129df9be13db6ac4812,Ice Mephit,Elemental,4,Rank 2,4d6,24.19,22.53,24.88,2021-08-19 13:38:01
-611ec129df9be13db6ac4813,Sapphire Wyrmling,Dragon,9,Rank 3,9d8,70.34,74.91,70.73,2021-08-19 13:38:01
-611ec129df9be13db6ac4814,Ice Devil,Devilkin,7,Rank 5,7d12,86.29,86.42,85.17,2021-08-19 13:38:01
-611ec129df9be13db6ac4815,Dust Spirit,Fey,8,Rank 0,8d2+2,15.76,16.63,15.01,2021-08-19 13:38:01
-611ec129df9be13db6ac4816,Imp,Demonic,6,Rank 3,6d8,47.42,48.74,44.23,2021-08-19 13:38:01
-611ec129df9be13db6ac4817,Zombie Villager,Undead,4,Rank 1,4d4+2,16.59,15.26,14.68,2021-08-19 13:38:01
-611ec129df9be13db6ac4818,Djinni,Elemental,2,Rank 1,2d4+2,8.76,9.66,9.68,2021-08-19 13:38:01
-611ec129df9be13db6ac4819,Red Wyrmling,Dragon,4,Rank 1,4d4+4,16.78,15.61,15.86,2021-08-19 13:38:01
-611ec129df9be13db6ac481a,Steam Devil,Devilkin,8,Rank 3,8d8+2,60.2,60.67,60.37,2021-08-19 13:38:01
-611ec129df9be13db6ac481b,Night Hag,Demonic,5,Rank 0,5d2,10.3,9.29,9.4,2021-08-19 13:38:01
-611ec129df9be13db6ac481c,Mud Mephit,Elemental,8,Rank 3,8d8+1,62.03,66.74,63.67,2021-08-19 13:38:01
-611ec129df9be13db6ac481d,Blue Drake,Dragon,7,Rank 0,7d2+1,14.14,14.91,13.29,2021-08-19 13:38:01
-611ec129df9be13db6ac481e,Kobold Guard,Devilkin,8,Rank 3,8d8+4,64.17,60.61,67.95,2021-08-19 13:38:01
-611ec129df9be13db6ac481f,Hook Horror,Demonic,6,Rank 3,6d8,48.11,48.86,46.56,2021-08-19 13:38:01
-611ec129df9be13db6ac4820,Ghoul,Undead,9,Rank 1,9d4,36.31,35.69,36.47,2021-08-19 13:38:01
-611ec129df9be13db6ac4821,Dust Mephit,Elemental,8,Rank 0,8d2+1,15.26,15.75,15.64,2021-08-19 13:38:01
-611ec129df9be13db6ac4822,Green Drake,Dragon,3,Rank 2,3d6+2,19.8,16.35,19.75,2021-08-19 13:38:01
-611ec129df9be13db6ac4823,Pit Lord,Devilkin,8,Rank 4,8d10,76.81,78.71,76.32,2021-08-19 13:38:01
-611ec129df9be13db6ac4824,Black Faerie,Fey,8,Rank 0,8d2+3,16.39,15.6,15.71,2021-08-19 13:38:01
-611ec129df9be13db6ac4825,Quasit,Demonic,6,Rank 0,6d2+3,12.2,11.19,12.01,2021-08-19 13:38:01
-611ec129df9be13db6ac4826,Dracolich,Undead,6,Rank 2,6d6+2,35.94,37.6,33.91,2021-08-19 13:38:01
-611ec129df9be13db6ac4827,Steam Mephit,Elemental,5,Rank 2,5d6+5,28.07,28.71,30.74,2021-08-19 13:38:01
-611ec129df9be13db6ac4828,Onyx Wyrmling,Dragon,7,Rank 0,7d2+4,14.79,13.11,14.85,2021-08-19 13:38:01
-611ec129df9be13db6ac4829,Succubus,Devilkin,4,Rank 0,4d2+2,7.38,8.65,7.5,2021-08-19 13:38:01
-611ec129df9be13db6ac482a,Hook Horror,Demonic,6,Rank 0,6d2+1,11.49,11.11,12.33,2021-08-19 13:38:01
-611ec129df9be13db6ac482b,Mud Mephit,Elemental,6,Rank 0,6d2+2,11.16,12.55,12.45,2021-08-19 13:38:01
-611ec129df9be13db6ac482c,Dust Devil,Devilkin,2,Rank 0,2d2+2,4.32,3.26,3.58,2021-08-19 13:38:01
-611ec129df9be13db6ac482d,Hook Horror,Demonic,3,Rank 0,3d2,6.09,5.49,6.84,2021-08-19 13:38:01
-611ec129df9be13db6ac482e,Ghostly Villager,Undead,6,Rank 0,6d2+4,11.28,12.5,11.8,2021-08-19 13:38:01
-611ec129df9be13db6ac482f,Steam Mephit,Elemental,8,Rank 5,8d12+3,90.4,92.44,100.11,2021-08-19 13:38:01
-611ec129df9be13db6ac4830,Blue Drake,Dragon,6,Rank 0,6d2+4,11.03,12.03,12.89,2021-08-19 13:38:01
-611ec129df9be13db6ac4831,Green Faerie,Fey,5,Rank 2,5d6+3,30.69,29.25,30.09,2021-08-19 13:38:01
-611ec129df9be13db6ac4832,Imp,Demonic,5,Rank 2,5d6+1,30.34,30.86,31.1,2021-08-19 13:38:01
-611ec129df9be13db6ac4833,Dust Mephit,Elemental,11,Rank 3,11d8+3,88.87,88.03,87.21,2021-08-19 13:38:01
-611ec129df9be13db6ac4834,Prince of Fear,Devilkin,4,Rank 0,4d2,7.7,8.16,7.52,2021-08-19 13:38:01
-611ec129df9be13db6ac4835,Hell Hound,Demonic,3,Rank 3,3d8,22.03,25.0,25.17,2021-08-19 13:38:01
-611ec129df9be13db6ac4836,Djinni,Elemental,5,Rank 1,5d4,21.91,20.53,21.28,2021-08-19 13:38:01
-611ec129df9be13db6ac4837,Red Wyrmling,Dragon,4,Rank 1,4d4,16.09,14.77,15.39,2021-08-19 13:38:01
-611ec129df9be13db6ac4838,Succubus,Devilkin,15,Rank 2,15d6+4,91.28,87.94,90.52,2021-08-19 13:38:01
-611ec129df9be13db6ac4839,Mud Archfey,Fey,5,Rank 0,5d2,9.99,10.26,10.39,2021-08-19 13:38:01
-611ec129df9be13db6ac483a,Quasit,Demonic,4,Rank 2,4d6+3,21.76,25.91,25.2,2021-08-19 13:38:01
-611ec129df9be13db6ac483b,Skeletal Villager,Undead,7,Rank 0,7d2+4,13.63,14.57,14.61,2021-08-19 13:38:01
-611ec129df9be13db6ac483c,Steam Elemental,Elemental,5,Rank 3,5d8+1,39.57,41.06,36.24,2021-08-19 13:38:01
-611ec129df9be13db6ac483d,Blue Drake,Dragon,5,Rank 3,5d8,37.49,37.76,43.03,2021-08-19 13:38:01
-611ec129df9be13db6ac483e,Green Faerie,Fey,6,Rank 2,6d6,38.48,36.83,35.6,2021-08-19 13:38:01
-611ec129df9be13db6ac483f,Zombie Villager,Undead,5,Rank 0,5d2,10.85,10.24,9.02,2021-08-19 13:38:01
-611ec129df9be13db6ac4840,Wyvern,Dragon,3,Rank 1,3d4+2,13.83,13.76,11.85,2021-08-19 13:38:01
-611ec129df9be13db6ac4841,Goblin Archer,Devilkin,7,Rank 1,7d4+4,26.93,26.12,27.04,2021-08-19 13:38:01
-611ec129df9be13db6ac4842,Quasit,Demonic,7,Rank 0,7d2,13.5,14.43,13.87,2021-08-19 13:38:01
-611ec129df9be13db6ac4843,Skeletal Guard,Undead,4,Rank 3,4d8+3,32.54,28.26,31.2,2021-08-19 13:38:01
-611ec129df9be13db6ac4844,Djinni,Elemental,4,Rank 0,4d2+3,7.55,8.59,8.12,2021-08-19 13:38:01
-611ec129df9be13db6ac4845,Kobold Guard,Devilkin,8,Rank 0,8d2,15.87,15.36,15.85,2021-08-19 13:38:01
-611ec129df9be13db6ac4846,Green Faerie,Fey,4,Rank 2,4d6+2,24.01,22.05,23.42,2021-08-19 13:38:01
-611ec129df9be13db6ac4847,Skeletal Villager,Undead,6,Rank 1,6d4,24.63,24.3,23.91,2021-08-19 13:38:01
-611ec129df9be13db6ac4848,Smoke Mephit,Elemental,10,Rank 2,10d6,61.48,58.23,61.96,2021-08-19 13:38:01
-611ec129df9be13db6ac4849,Green Wyrmling,Dragon,2,Rank 1,2d4,9.04,8.27,7.28,2021-08-19 13:38:01
-611ec129df9be13db6ac484a,Prince of Fear,Devilkin,6,Rank 1,6d4+4,22.79,24.39,24.21,2021-08-19 13:38:01
-611ec129df9be13db6ac484b,Imp,Demonic,5,Rank 2,5d6+1,27.29,31.77,32.83,2021-08-19 13:38:01
-611ec129df9be13db6ac484c,Smoke Mephit,Elemental,8,Rank 3,8d8,64.41,64.82,61.25,2021-08-19 13:38:01
-611ec129df9be13db6ac484d,Black Drake,Dragon,7,Rank 3,7d8+1,58.57,52.26,58.23,2021-08-19 13:38:01
-611ec129df9be13db6ac484e,Kobold Villager,Devilkin,4,Rank 0,4d2,8.29,8.61,8.81,2021-08-19 13:38:01
-611ec129df9be13db6ac484f,Imp,Demonic,8,Rank 4,8d10+1,78.25,83.95,76.81,2021-08-19 13:38:01
-611ec129df9be13db6ac4850,Banshee,Undead,6,Rank 0,6d2,11.67,12.14,11.09,2021-08-19 13:38:01
-611ec129df9be13db6ac4851,Djinni,Elemental,6,Rank 2,6d6+2,33.28,35.2,33.05,2021-08-19 13:38:01
-611ec129df9be13db6ac4852,Green Drake,Dragon,9,Rank 0,9d2+1,18.93,17.89,18.68,2021-08-19 13:38:01
-611ec129df9be13db6ac4853,Pit Lord,Devilkin,6,Rank 1,6d4+5,23.15,22.66,23.53,2021-08-19 13:38:01
-611ec129df9be13db6ac4854,Red Faerie,Fey,5,Rank 0,5d2+2,9.59,9.33,10.76,2021-08-19 13:38:01
-611ec129df9be13db6ac4855,Vampire,Undead,5,Rank 2,5d6+4,30.86,28.17,31.0,2021-08-19 13:38:01
-611ec129df9be13db6ac4856,Green Wyrmling,Dragon,5,Rank 0,5d2+3,9.13,9.63,9.3,2021-08-19 13:38:01
-611ec129df9be13db6ac4857,Prince of Fear,Devilkin,8,Rank 0,8d2+4,15.66,15.69,16.99,2021-08-19 13:38:01
-611ec129df9be13db6ac4858,Mud Spirit,Fey,7,Rank 5,7d12,80.18,85.5,84.67,2021-08-19 13:38:01
-611ec129df9be13db6ac4859,Quasit,Demonic,4,Rank 0,4d2+1,7.18,7.69,7.63,2021-08-19 13:38:01
-611ec129df9be13db6ac485a,Mud Elemental,Elemental,9,Rank 0,9d2,17.38,17.54,17.24,2021-08-19 13:38:01
-611ec129df9be13db6ac485b,Goblin Archer,Devilkin,4,Rank 0,4d2+3,7.43,8.4,7.41,2021-08-19 13:38:01
-611ec129df9be13db6ac485c,Mud Spirit,Fey,4,Rank 3,4d8+3,31.17,34.57,35.8,2021-08-19 13:38:01
-611ec129df9be13db6ac485d,Red Demon,Demonic,5,Rank 2,5d6+3,29.74,32.96,29.55,2021-08-19 13:38:01
-611ec129df9be13db6ac485e,Ghast,Undead,4,Rank 4,4d10+2,43.16,39.22,41.54,2021-08-19 13:38:01
-611ec129df9be13db6ac485f,Onyx Drake,Dragon,8,Rank 3,8d8+4,62.28,65.61,65.61,2021-08-19 13:38:01
-611ec129df9be13db6ac4860,Black Faerie,Fey,6,Rank 4,6d10+1,61.27,64.79,59.97,2021-08-19 13:38:01
-611ec129df9be13db6ac4861,Wight,Undead,9,Rank 1,9d4+4,35.24,35.29,36.19,2021-08-19 13:38:01
-611ec129df9be13db6ac4862,Black Drake,Dragon,4,Rank 2,4d6,22.08,23.64,22.06,2021-08-19 13:38:01
-611ec129df9be13db6ac4863,Succubus,Devilkin,6,Rank 1,6d4+2,22.63,22.76,22.1,2021-08-19 13:38:01
-611ec129df9be13db6ac4864,Blue Archfey,Fey,8,Rank 3,8d8+2,61.77,64.67,66.23,2021-08-19 13:38:01
-611ec129df9be13db6ac4865,Night Hag,Demonic,5,Rank 4,5d10+1,45.96,45.21,49.63,2021-08-19 13:38:01
-611ec129df9be13db6ac4866,Zombie Villager,Undead,5,Rank 1,5d4+2,20.66,20.48,20.28,2021-08-19 13:38:01
-611ec129df9be13db6ac4867,Steam Elemental,Elemental,9,Rank 0,9d2+2,17.54,18.43,17.08,2021-08-19 13:38:01
-611ec129df9be13db6ac4868,Copper Wyrmling,Dragon,6,Rank 0,6d2+2,12.31,12.97,11.86,2021-08-19 13:38:01
-611ec129df9be13db6ac4869,Kobold Villager,Devilkin,7,Rank 0,7d2,14.7,14.0,14.27,2021-08-19 13:38:01
-611ec129df9be13db6ac486a,Green Demon,Demonic,8,Rank 2,8d6+2,45.11,47.65,46.86,2021-08-19 13:38:01
-611ec129df9be13db6ac486b,Vampire,Undead,5,Rank 1,5d4,19.56,20.57,18.51,2021-08-19 13:38:01
-611ec129df9be13db6ac486c,Steam Mephit,Elemental,3,Rank 1,3d4,12.88,10.75,11.5,2021-08-19 13:38:01
-611ec129df9be13db6ac486d,Green Dragon,Dragon,7,Rank 1,7d4+1,28.0,28.22,29.16,2021-08-19 13:38:01
-611ec129df9be13db6ac486e,Pit Lord,Devilkin,6,Rank 1,6d4+1,23.85,25.41,24.51,2021-08-19 13:38:01
-611ec129df9be13db6ac486f,Green Faerie,Fey,5,Rank 3,5d8+1,38.18,36.35,36.05,2021-08-19 13:38:01
-611ec129df9be13db6ac4870,Pit Fiend,Demonic,8,Rank 0,8d2,16.75,16.24,16.56,2021-08-19 13:38:01
-611ec129df9be13db6ac4871,Vampire,Undead,6,Rank 0,6d2+1,12.4,11.55,11.51,2021-08-19 13:38:01
-611ec129df9be13db6ac4872,Faerie Dragon,Dragon,2,Rank 2,2d6,11.62,10.78,12.68,2021-08-19 13:38:01
-611ec129df9be13db6ac4873,Ice Devil,Devilkin,7,Rank 2,7d6+1,42.22,39.79,43.84,2021-08-19 13:38:01
-611ec129df9be13db6ac4874,Dust Archfey,Fey,4,Rank 0,4d2+2,8.69,8.68,7.44,2021-08-19 13:38:01
-611ec129df9be13db6ac4875,Nightmare,Demonic,7,Rank 1,7d4,28.89,26.64,27.15,2021-08-19 13:38:01
-611ec129df9be13db6ac4876,Ice Mephit,Elemental,7,Rank 4,7d10,67.61,65.0,69.31,2021-08-19 13:38:01
-611ec129df9be13db6ac4877,Blue Wyrmling,Dragon,4,Rank 1,4d4+2,17.42,16.54,17.41,2021-08-19 13:38:01
-611ec129df9be13db6ac4878,Kobold Guard,Devilkin,3,Rank 0,3d2+2,5.02,6.46,5.93,2021-08-19 13:38:01
-611ec129df9be13db6ac4879,Mud Spirit,Fey,4,Rank 1,4d4+4,15.87,16.88,17.01,2021-08-19 13:38:01
-611ec129df9be13db6ac487a,Copper Demon,Demonic,10,Rank 2,10d6+3,58.53,58.33,59.56,2021-08-19 13:38:01
-611ec129df9be13db6ac487b,Steam Mephit,Elemental,3,Rank 3,3d8+1,21.07,24.1,21.96,2021-08-19 13:38:01
-611ec129df9be13db6ac487c,Blue Wyrmling,Dragon,3,Rank 0,3d2+3,6.59,6.04,6.08,2021-08-19 13:38:01
-611ec129df9be13db6ac487d,Ice Devil,Devilkin,4,Rank 1,4d4,16.83,16.97,14.45,2021-08-19 13:38:01
-611ec129df9be13db6ac487e,Blue Faerie,Fey,5,Rank 2,5d6,29.34,30.36,27.61,2021-08-19 13:38:01
-611ec129df9be13db6ac487f,Hell Hound,Demonic,6,Rank 1,6d4,25.04,24.13,23.69,2021-08-19 13:38:01
-611ec129df9be13db6ac4880,Wight,Undead,4,Rank 0,4d2+3,7.87,7.52,7.42,2021-08-19 13:38:01
-611ec129df9be13db6ac4881,Mud Mephit,Elemental,7,Rank 0,7d2+2,14.33,13.98,13.45,2021-08-19 13:38:01
-611ec129df9be13db6ac4882,Green Wyrmling,Dragon,10,Rank 2,10d6+1,62.13,58.02,61.11,2021-08-19 13:38:01
-611ec129df9be13db6ac4883,Kobold Villager,Devilkin,5,Rank 2,5d6+3,27.6,31.54,27.83,2021-08-19 13:38:01
-611ec129df9be13db6ac4884,Onyx Faerie,Fey,5,Rank 0,5d2,10.39,10.88,10.18,2021-08-19 13:38:01
-611ec129df9be13db6ac4885,Black Demon,Demonic,8,Rank 1,8d4,31.98,32.58,30.75,2021-08-19 13:38:01
-611ec129df9be13db6ac4886,Dracolich,Undead,3,Rank 0,3d2+2,5.98,5.2,6.89,2021-08-19 13:38:01
-611ec129df9be13db6ac4887,Steam Elemental,Elemental,7,Rank 1,7d4+2,28.3,27.49,26.35,2021-08-19 13:38:01
-611ec129df9be13db6ac4888,Green Wyrmling,Dragon,7,Rank 4,7d10+1,69.38,68.47,72.06,2021-08-19 13:38:01
-611ec129df9be13db6ac4889,Succubus,Devilkin,6,Rank 3,6d8,51.57,47.24,48.48,2021-08-19 13:38:01
-611ec129df9be13db6ac488a,White Faerie,Fey,6,Rank 1,6d4,25.79,23.03,24.13,2021-08-19 13:38:01
-611ec129df9be13db6ac488b,Ghast,Undead,8,Rank 1,8d4+1,31.31,32.56,31.58,2021-08-19 13:38:01
-611ec129df9be13db6ac488c,Dust Elemental,Elemental,7,Rank 0,7d2+1,14.46,13.66,14.53,2021-08-19 13:38:01
-611ec129df9be13db6ac488d,Copper Dragon,Dragon,4,Rank 1,4d4+2,15.85,16.78,16.21,2021-08-19 13:38:01
-611ec129df9be13db6ac488e,Goblin Villager,Devilkin,6,Rank 4,6d10+4,59.91,63.69,63.21,2021-08-19 13:38:01
-611ec129df9be13db6ac488f,Dust Spirit,Fey,6,Rank 4,6d10+2,63.32,63.76,61.83,2021-08-19 13:38:01
-611ec129df9be13db6ac4890,Ghostly Villager,Undead,5,Rank 2,5d6+2,31.2,30.9,31.07,2021-08-19 13:38:01
-611ec129df9be13db6ac4891,Djinni,Elemental,6,Rank 3,6d8+4,49.27,45.65,51.45,2021-08-19 13:38:01
-611ec129df9be13db6ac4892,Blue Wyrmling,Dragon,6,Rank 2,6d6,35.38,37.87,37.76,2021-08-19 13:38:01
-611ec129df9be13db6ac4893,Pit Lord,Devilkin,9,Rank 3,9d8+4,72.13,70.08,74.65,2021-08-19 13:38:01
-611ec129df9be13db6ac4894,Black Faerie,Fey,5,Rank 0,5d2+3,10.95,10.76,10.93,2021-08-19 13:38:01
-611ec129df9be13db6ac4895,Imp,Demonic,4,Rank 1,4d4+5,17.21,15.16,16.15,2021-08-19 13:38:01
-611ec129df9be13db6ac4896,Lich,Undead,8,Rank 0,8d2,15.16,16.28,16.57,2021-08-19 13:38:01
-611ec129df9be13db6ac4897,Mud Elemental,Elemental,4,Rank 0,4d2+3,7.53,8.09,7.75,2021-08-19 13:38:01
-611ec129df9be13db6ac4898,Green Wyrmling,Dragon,7,Rank 2,7d6+1,40.38,40.4,41.83,2021-08-19 13:38:01
-611ec129df9be13db6ac4899,Kobold Villager,Devilkin,5,Rank 1,5d4+5,19.05,20.24,18.21,2021-08-19 13:38:01
-611ec129df9be13db6ac489a,Onyx Faerie,Fey,3,Rank 1,3d4+4,13.9,12.3,11.58,2021-08-19 13:38:01
-611ec129df9be13db6ac489b,Hook Horror,Demonic,4,Rank 1,4d4+3,15.72,16.45,14.08,2021-08-19 13:38:01
-611ec129df9be13db6ac489c,Ghast,Undead,11,Rank 1,11d4+3,44.3,44.66,43.41,2021-08-19 13:38:01
-611ec129df9be13db6ac489d,Djinni,Elemental,3,Rank 2,3d6+2,16.87,17.47,19.09,2021-08-19 13:38:01
-611ec129df9be13db6ac489e,Pseudodragon,Dragon,7,Rank 3,7d8+2,57.92,59.67,52.65,2021-08-19 13:38:01
-611ec129df9be13db6ac489f,Goblin Villager,Devilkin,10,Rank 0,10d2+1,19.22,20.4,20.71,2021-08-19 13:38:01
-611ec129df9be13db6ac48a0,Green Faerie,Fey,2,Rank 2,2d6,12.12,13.81,13.39,2021-08-19 13:38:01
-611ec129df9be13db6ac48a1,Imp,Demonic,9,Rank 2,9d6,53.19,54.31,51.09,2021-08-19 13:38:01
-611ec129df9be13db6ac48a2,Djinni,Elemental,5,Rank 0,5d2,9.75,10.79,10.76,2021-08-19 13:38:01
-611ec129df9be13db6ac48a3,White Wyrmling,Dragon,6,Rank 0,6d2+3,11.33,12.94,12.32,2021-08-19 13:38:01
-611ec129df9be13db6ac48a4,Goblin Villager,Devilkin,6,Rank 3,6d8,50.34,47.08,46.84,2021-08-19 13:38:01
-611ec129df9be13db6ac48a5,Balor,Demonic,12,Rank 1,12d4+2,49.87,48.2,49.99,2021-08-19 13:38:01
-611ec129df9be13db6ac48a6,Banshee,Undead,5,Rank 1,5d4+3,19.17,18.56,18.84,2021-08-19 13:38:01
-611ec129df9be13db6ac48a7,Pseudodragon,Dragon,9,Rank 0,9d2,17.18,18.42,18.37,2021-08-19 13:38:01
-611ec129df9be13db6ac48a8,Goblin Villager,Devilkin,7,Rank 0,7d2+2,13.82,14.79,13.13,2021-08-19 13:38:01
-611ec129df9be13db6ac48a9,Mud Spirit,Fey,7,Rank 1,7d4+3,27.01,27.99,29.21,2021-08-19 13:38:01
-611ec129df9be13db6ac48aa,Wight,Undead,6,Rank 1,6d4,23.54,23.6,23.04,2021-08-19 13:38:01
-611ec129df9be13db6ac48ab,Pseudodragon,Dragon,4,Rank 3,4d8,35.32,33.4,34.69,2021-08-19 13:38:01
-611ec129df9be13db6ac48ac,Steam Devil,Devilkin,8,Rank 1,8d4+2,33.54,31.38,31.53,2021-08-19 13:38:01
-611ec129df9be13db6ac48ad,Dust Spirit,Fey,7,Rank 0,7d2,13.76,14.98,14.44,2021-08-19 13:38:01
-611ec129df9be13db6ac48ae,Imp,Demonic,4,Rank 1,4d4+5,14.69,17.41,15.58,2021-08-19 13:38:01
-611ec129df9be13db6ac48af,Revenant,Undead,10,Rank 3,10d8+1,82.57,83.58,77.3,2021-08-19 13:38:01
-611ec129df9be13db6ac48b0,Ice Elemental,Elemental,6,Rank 0,6d2,12.73,11.25,12.68,2021-08-19 13:38:01
-611ec129df9be13db6ac48b1,Black Wyrmling,Dragon,10,Rank 0,10d2+4,19.99,20.78,19.59,2021-08-19 13:38:01
-611ec129df9be13db6ac48b2,Goblin Villager,Devilkin,4,Rank 1,4d4+4,15.65,15.41,14.6,2021-08-19 13:38:01
-611ec129df9be13db6ac48b3,Quasit,Demonic,7,Rank 0,7d2,13.38,13.9,13.78,2021-08-19 13:38:01
-611ec129df9be13db6ac48b4,Steam Elemental,Elemental,7,Rank 0,7d2,14.63,13.26,14.99,2021-08-19 13:38:01
-611ec129df9be13db6ac48b5,Blue Drake,Dragon,6,Rank 3,6d8+1,49.85,48.32,44.11,2021-08-19 13:38:01
-611ec129df9be13db6ac48b6,Steam Spirit,Fey,4,Rank 2,4d6+4,23.63,24.3,22.15,2021-08-19 13:38:01
-611ec129df9be13db6ac48b7,Nightmare,Demonic,8,Rank 2,8d6+4,47.33,49.79,49.74,2021-08-19 13:38:01
-611ec129df9be13db6ac48b8,Vampire,Undead,3,Rank 1,3d4+1,12.69,11.84,10.48,2021-08-19 13:38:01
-611ec129df9be13db6ac48b9,Wyvern,Dragon,10,Rank 0,10d2+1,20.37,20.66,19.26,2021-08-19 13:38:01
-611ec129df9be13db6ac48ba,Pit Lord,Devilkin,6,Rank 1,6d4+3,24.49,22.44,22.66,2021-08-19 13:38:01
-611ec129df9be13db6ac48bb,Imp,Demonic,7,Rank 3,7d8+1,56.76,57.9,53.17,2021-08-19 13:38:01
-611ec129df9be13db6ac48bc,Wraith,Undead,3,Rank 0,3d2+3,5.83,5.12,6.54,2021-08-19 13:38:01
-611ec129df9be13db6ac48bd,Efreeti,Elemental,7,Rank 1,7d4+2,27.28,27.66,26.43,2021-08-19 13:38:01
-611ec129df9be13db6ac48be,Faerie Dragon,Dragon,9,Rank 2,9d6+2,53.63,54.96,54.24,2021-08-19 13:38:01
-611ec129df9be13db6ac48bf,Goblin Villager,Devilkin,7,Rank 1,7d4,29.19,28.6,27.09,2021-08-19 13:38:01
-611ec129df9be13db6ac48c0,Imp,Demonic,5,Rank 5,5d12+4,61.76,59.63,60.04,2021-08-19 13:38:01
-611ec129df9be13db6ac48c1,Steam Elemental,Elemental,11,Rank 0,11d2+1,22.22,21.52,21.26,2021-08-19 13:38:01
-611ec129df9be13db6ac48c2,Green Dragon,Dragon,3,Rank 4,3d10,32.18,30.29,32.0,2021-08-19 13:38:01
-611ec129df9be13db6ac48c3,Mud Devil,Devilkin,7,Rank 3,7d8+3,59.75,52.79,56.65,2021-08-19 13:38:01
-611ec129df9be13db6ac48c4,Copper Faerie,Fey,7,Rank 0,7d2+1,13.98,13.28,14.21,2021-08-19 13:38:01
-611ec129df9be13db6ac48c5,Quasit,Demonic,9,Rank 4,9d10+1,89.42,86.29,86.7,2021-08-19 13:38:01
-611ec129df9be13db6ac48c6,Djinni,Elemental,10,Rank 0,10d2+2,19.44,20.76,20.66,2021-08-19 13:38:01
-611ec129df9be13db6ac48c7,Green Dragon,Dragon,6,Rank 1,6d4+2,23.08,22.8,24.75,2021-08-19 13:38:01
-611ec129df9be13db6ac48c8,Mud Spirit,Fey,12,Rank 3,12d8,95.14,95.54,93.64,2021-08-19 13:38:01
-611ec129df9be13db6ac48c9,Zombie Villager,Undead,7,Rank 4,7d10,69.2,69.88,71.84,2021-08-19 13:38:01
-611ec129df9be13db6ac48ca,Djinni,Elemental,3,Rank 3,3d8+1,21.28,20.59,27.4,2021-08-19 13:38:01
-611ec129df9be13db6ac48cb,Blue Wyrmling,Dragon,6,Rank 3,6d8,46.41,50.35,46.51,2021-08-19 13:38:01
-611ec129df9be13db6ac48cc,Succubus,Devilkin,6,Rank 4,6d10+2,60.4,58.55,56.2,2021-08-19 13:38:01
-611ec129df9be13db6ac48cd,Blue Faerie,Fey,5,Rank 0,5d2,10.78,10.56,9.99,2021-08-19 13:38:01
-611ec129df9be13db6ac48ce,Pit Fiend,Demonic,6,Rank 2,6d6+3,35.55,37.28,37.4,2021-08-19 13:38:01
-611ec129df9be13db6ac48cf,Djinni,Elemental,3,Rank 3,3d8+1,20.98,20.12,23.24,2021-08-19 13:38:01
-611ec129df9be13db6ac48d0,Faerie Dragon,Dragon,6,Rank 1,6d4,24.18,23.52,24.93,2021-08-19 13:38:01
-611ec129df9be13db6ac48d1,Goblin Villager,Devilkin,9,Rank 0,9d2+3,18.87,17.21,18.92,2021-08-19 13:38:01
-611ec129df9be13db6ac48d2,Quasit,Demonic,9,Rank 0,9d2+3,17.02,17.32,17.93,2021-08-19 13:38:01
-611ec129df9be13db6ac48d3,Mummy,Undead,6,Rank 0,6d2+4,12.31,11.33,12.17,2021-08-19 13:38:01
-611ec129df9be13db6ac48d4,Mud Elemental,Elemental,3,Rank 2,3d6,20.48,17.31,19.92,2021-08-19 13:38:01
-611ec129df9be13db6ac48d5,Black Wyrmling,Dragon,6,Rank 5,6d12+1,68.29,73.32,70.66,2021-08-19 13:38:01
-611ec129df9be13db6ac48d6,Green Archfey,Fey,7,Rank 0,7d2,13.64,14.22,14.25,2021-08-19 13:38:01
-611ec129df9be13db6ac48d7,Imp,Demonic,5,Rank 0,5d2+1,10.24,9.9,10.5,2021-08-19 13:38:01
-611ec129df9be13db6ac48d8,Mud Mephit,Elemental,5,Rank 2,5d6+4,27.61,31.93,29.75,2021-08-19 13:38:01
-611ec129df9be13db6ac48d9,Blue Wyrmling,Dragon,10,Rank 0,10d2,20.73,20.93,19.96,2021-08-19 13:38:01
-611ec129df9be13db6ac48da,Goblin Guard,Devilkin,5,Rank 0,5d2,10.99,9.19,10.33,2021-08-19 13:38:01
-611ec129df9be13db6ac48db,Ice Spirit,Fey,6,Rank 2,6d6+1,36.11,34.08,37.07,2021-08-19 13:38:01
-611ec129df9be13db6ac48dc,Quasit,Demonic,8,Rank 1,8d4+2,30.79,32.91,31.23,2021-08-19 13:38:01
-611ec129df9be13db6ac48dd,Skeletal Villager,Undead,6,Rank 0,6d2+3,12.67,11.9,11.26,2021-08-19 13:38:01
-611ec129df9be13db6ac48de,Mud Mephit,Elemental,3,Rank 2,3d6+3,17.78,18.47,15.68,2021-08-19 13:38:01
-611ec129df9be13db6ac48df,Onyx Wyrmling,Dragon,5,Rank 1,5d4+1,19.69,20.84,20.84,2021-08-19 13:38:01
-611ec129df9be13db6ac48e0,Mud Devil,Devilkin,7,Rank 2,7d6+5,41.28,44.94,41.5,2021-08-19 13:38:01
-611ec129df9be13db6ac48e1,Nightmare,Demonic,9,Rank 1,9d4,35.23,36.07,35.23,2021-08-19 13:38:01
-611ec129df9be13db6ac48e2,Demilich,Undead,3,Rank 1,3d4+2,11.52,12.67,11.49,2021-08-19 13:38:01
-611ec129df9be13db6ac48e3,Red Dragon,Dragon,7,Rank 1,7d4+5,27.86,27.24,29.64,2021-08-19 13:38:01
-611ec129df9be13db6ac48e4,Kobold Guard,Devilkin,8,Rank 2,8d6,46.17,49.41,49.54,2021-08-19 13:38:01
-611ec129df9be13db6ac48e5,Nightmare,Demonic,11,Rank 0,11d2,21.3,21.44,21.99,2021-08-19 13:38:01
-611ec129df9be13db6ac48e6,Ghostly Villager,Undead,5,Rank 2,5d6,29.35,29.12,28.77,2021-08-19 13:38:01
-611ec129df9be13db6ac48e7,Blue Drake,Dragon,5,Rank 0,5d2+2,9.03,9.12,9.08,2021-08-19 13:38:01
-611ec129df9be13db6ac48e8,Incubus,Devilkin,8,Rank 0,8d2+1,15.53,16.89,15.33,2021-08-19 13:38:01
-611ec129df9be13db6ac48e9,Green Faerie,Fey,5,Rank 1,5d4+3,20.39,19.29,18.36,2021-08-19 13:38:01
-611ec129df9be13db6ac48ea,Quasit,Demonic,5,Rank 0,5d2,9.77,9.77,9.01,2021-08-19 13:38:01
-611ec129df9be13db6ac48eb,Wight,Undead,5,Rank 0,5d2,10.25,9.67,10.11,2021-08-19 13:38:01
-611ec129df9be13db6ac48ec,Mud Elemental,Elemental,10,Rank 2,10d6+2,60.87,58.28,58.79,2021-08-19 13:38:01
-611ec129df9be13db6ac48ed,Red Wyrmling,Dragon,8,Rank 2,8d6+2,48.86,49.43,45.42,2021-08-19 13:38:01
-611ec129df9be13db6ac48ee,Goblin Villager,Devilkin,4,Rank 0,4d2+1,7.69,8.04,8.5,2021-08-19 13:38:01
-611ec129df9be13db6ac48ef,Quasit,Demonic,8,Rank 0,8d2+3,16.44,16.88,15.79,2021-08-19 13:38:01
-611ec129df9be13db6ac48f0,Ghoul,Undead,7,Rank 0,7d2+1,14.6,14.11,14.8,2021-08-19 13:38:01
-611ec129df9be13db6ac48f1,Smoke Mephit,Elemental,4,Rank 1,4d4+1,16.4,15.57,16.0,2021-08-19 13:38:01
-611ec129df9be13db6ac48f2,Red Dragon,Dragon,5,Rank 1,5d4,21.87,20.83,20.4,2021-08-19 13:38:01
-611ec129df9be13db6ac48f3,Pit Lord,Devilkin,5,Rank 0,5d2+2,9.28,9.65,9.97,2021-08-19 13:38:01
-611ec129df9be13db6ac48f4,Hook Horror,Demonic,7,Rank 0,7d2+2,13.38,14.95,14.93,2021-08-19 13:38:01
-611ec129df9be13db6ac48f5,Steam Mephit,Elemental,4,Rank 2,4d6+1,23.78,23.11,23.05,2021-08-19 13:38:01
-611ec129df9be13db6ac48f6,Red Drake,Dragon,8,Rank 0,8d2,16.52,16.14,16.01,2021-08-19 13:38:01
-611ec129df9be13db6ac48f7,Succubus,Devilkin,8,Rank 0,8d2+2,15.01,16.3,15.31,2021-08-19 13:38:01
-611ec129df9be13db6ac48f8,Blue Faerie,Fey,14,Rank 1,14d4+1,56.09,56.09,55.4,2021-08-19 13:38:01
-611ec129df9be13db6ac48f9,Quasit,Demonic,4,Rank 1,4d4+1,15.37,16.66,16.35,2021-08-19 13:38:01
-611ec129df9be13db6ac48fa,Ice Elemental,Elemental,8,Rank 2,8d6+1,46.31,45.15,47.35,2021-08-19 13:38:01
-611ec129df9be13db6ac48fb,White Wyrmling,Dragon,9,Rank 2,9d6,55.55,55.31,53.14,2021-08-19 13:38:01
-611ec129df9be13db6ac48fc,Goblin Villager,Devilkin,7,Rank 0,7d2+2,13.6,13.23,13.64,2021-08-19 13:38:01
-611ec129df9be13db6ac48fd,Mud Archfey,Fey,4,Rank 1,4d4+1,16.23,18.0,17.94,2021-08-19 13:38:01
-611ec129df9be13db6ac48fe,Hell Hound,Demonic,12,Rank 0,12d2,24.25,23.76,23.19,2021-08-19 13:38:01
-611ec129df9be13db6ac48ff,Mummy,Undead,4,Rank 0,4d2,8.99,7.72,8.78,2021-08-19 13:38:01
-611ec129df9be13db6ac4900,Green Dragon,Dragon,7,Rank 0,7d2,13.63,14.0,14.87,2021-08-19 13:38:01
-611ec129df9be13db6ac4901,Steam Devil,Devilkin,6,Rank 3,6d8+1,45.89,50.61,49.92,2021-08-19 13:38:01
-611ec129df9be13db6ac4902,White Archfey,Fey,3,Rank 3,3d8+1,21.84,23.4,26.16,2021-08-19 13:38:01
-611ec129df9be13db6ac4903,Hook Horror,Demonic,6,Rank 0,6d2+2,12.9,11.07,11.49,2021-08-19 13:38:01
-611ec129df9be13db6ac4904,Steam Mephit,Elemental,4,Rank 3,4d8+4,33.3,31.05,34.15,2021-08-19 13:38:01
-611ec129df9be13db6ac4905,Kobold Villager,Devilkin,5,Rank 1,5d4+2,19.89,19.9,19.32,2021-08-19 13:38:01
-611ec129df9be13db6ac4906,Blue Demon,Demonic,7,Rank 4,7d10+1,69.53,70.61,72.55,2021-08-19 13:38:01
-611ec129df9be13db6ac4907,Zombie Villager,Undead,6,Rank 1,6d4+2,25.04,24.44,22.4,2021-08-19 13:38:01
-611ec129df9be13db6ac4908,Faerie Dragon,Dragon,9,Rank 4,9d10+1,94.24,90.33,85.77,2021-08-19 13:38:01
-611ec129df9be13db6ac4909,Goblin Villager,Devilkin,4,Rank 0,4d2,7.23,7.75,7.29,2021-08-19 13:38:01
-611ec129df9be13db6ac490a,Hell Hound,Demonic,4,Rank 0,4d2+3,7.35,8.53,8.04,2021-08-19 13:38:01
-611ec129df9be13db6ac490b,Ice Mephit,Elemental,6,Rank 3,6d8,50.42,47.38,45.53,2021-08-19 13:38:01
-611ec129df9be13db6ac490c,Goblin Villager,Devilkin,5,Rank 3,5d8+3,38.96,40.48,37.0,2021-08-19 13:38:01
-611ec129df9be13db6ac490d,Dust Spirit,Fey,6,Rank 0,6d2+2,12.31,11.31,12.29,2021-08-19 13:38:01
-611ec129df9be13db6ac490e,Zombie Villager,Undead,5,Rank 0,5d2+4,10.86,9.16,9.13,2021-08-19 13:38:01
-611ec129df9be13db6ac490f,Dust Mephit,Elemental,4,Rank 0,4d2+5,8.88,8.16,8.47,2021-08-19 13:38:01
-611ec129df9be13db6ac4910,Faerie Dragon,Dragon,7,Rank 2,7d6+4,44.03,42.77,40.6,2021-08-19 13:38:01
-611ec129df9be13db6ac4911,Succubus,Devilkin,5,Rank 0,5d2+1,9.84,10.05,10.12,2021-08-19 13:38:01
-611ec129df9be13db6ac4912,White Faerie,Fey,8,Rank 0,8d2+2,15.61,16.91,16.53,2021-08-19 13:38:01
-611ec129df9be13db6ac4913,Wight,Undead,7,Rank 0,7d2+1,13.71,14.71,14.86,2021-08-19 13:38:01
-611ec129df9be13db6ac4914,Blue Drake,Dragon,7,Rank 2,7d6,40.86,41.63,42.64,2021-08-19 13:38:01
-611ec129df9be13db6ac4915,Kobold Villager,Devilkin,2,Rank 3,2d8+1,18.59,19.97,19.1,2021-08-19 13:38:01
-611ec129df9be13db6ac4916,Onyx Faerie,Fey,3,Rank 2,3d6+2,18.05,17.04,15.61,2021-08-19 13:38:01
-611ec129df9be13db6ac4917,Pit Fiend,Demonic,14,Rank 3,14d8+3,111.05,115.32,111.4,2021-08-19 13:38:01
-611ec129df9be13db6ac4918,Ghostly Villager,Undead,2,Rank 1,2d4,6.11,7.29,9.78,2021-08-19 13:38:01
-611ec129df9be13db6ac4919,Steam Mephit,Elemental,8,Rank 0,8d2+4,15.18,16.89,16.14,2021-08-19 13:38:01
-611ec129df9be13db6ac491a,White Wyrmling,Dragon,4,Rank 3,4d8,30.88,30.33,30.29,2021-08-19 13:38:01
-611ec129df9be13db6ac491b,Kobold Archer,Devilkin,6,Rank 0,6d2,11.69,12.93,11.11,2021-08-19 13:38:01
-611ec129df9be13db6ac491c,Ice Archfey,Fey,4,Rank 3,4d8,29.88,32.59,32.82,2021-08-19 13:38:01
-611ec129df9be13db6ac491d,Blue Demon,Demonic,6,Rank 1,6d4+2,25.15,24.92,22.91,2021-08-19 13:38:01
-611ec129df9be13db6ac491e,Ice Mephit,Elemental,2,Rank 0,2d2,3.49,4.58,4.99,2021-08-19 13:38:01
-611ec129df9be13db6ac491f,Green Dragon,Dragon,5,Rank 0,5d2+1,9.15,10.6,9.91,2021-08-19 13:38:01
-611ec129df9be13db6ac4920,Pit Lord,Devilkin,5,Rank 3,5d8,38.05,42.23,42.24,2021-08-19 13:38:01
-611ec129df9be13db6ac4921,Green Faerie,Fey,6,Rank 5,6d12+2,68.93,77.98,76.22,2021-08-19 13:38:01
-611ec129df9be13db6ac4922,Night Hag,Demonic,10,Rank 2,10d6,61.05,58.09,57.19,2021-08-19 13:38:01
-611ec129df9be13db6ac4923,Skeletal Villager,Undead,11,Rank 0,11d2+1,22.51,22.33,21.21,2021-08-19 13:38:01
-611ec129df9be13db6ac4924,Green Wyrmling,Dragon,10,Rank 4,10d10,102.95,101.96,101.14,2021-08-19 13:38:01
-611ec129df9be13db6ac4925,Kobold Guard,Devilkin,4,Rank 1,4d4+2,16.22,14.89,15.19,2021-08-19 13:38:01
-611ec129df9be13db6ac4926,Copper Archfey,Fey,7,Rank 0,7d2+2,13.11,13.51,14.49,2021-08-19 13:38:01
-611ec129df9be13db6ac4927,Blue Demon,Demonic,10,Rank 1,10d4,41.08,39.2,39.91,2021-08-19 13:38:01
-611ec129df9be13db6ac4928,Mummy,Undead,8,Rank 2,8d6,50.91,47.87,46.37,2021-08-19 13:38:01
-611ec129df9be13db6ac4929,Mud Mephit,Elemental,9,Rank 4,9d10+3,91.8,86.45,92.56,2021-08-19 13:38:01
-611ec129df9be13db6ac492a,Copper Drake,Dragon,7,Rank 0,7d2+2,14.28,13.35,14.89,2021-08-19 13:38:01
-611ec129df9be13db6ac492b,Black Faerie,Fey,7,Rank 2,7d6+1,43.63,40.53,43.22,2021-08-19 13:38:01
-611ec129df9be13db6ac492c,Ghast,Undead,9,Rank 0,9d2+1,17.79,17.77,18.2,2021-08-19 13:38:01
-611ec129df9be13db6ac492d,Wyvern,Dragon,7,Rank 1,7d4+4,29.92,27.42,27.28,2021-08-19 13:38:01
-611ec129df9be13db6ac492e,Ice Spirit,Fey,5,Rank 2,5d6+1,32.82,31.5,31.97,2021-08-19 13:38:01
-611ec129df9be13db6ac492f,Ghostly Villager,Undead,9,Rank 1,9d4+3,35.54,34.49,37.04,2021-08-19 13:38:01
-611ec129df9be13db6ac4930,Sapphire Dragon,Dragon,5,Rank 2,5d6+1,27.02,30.11,28.03,2021-08-19 13:38:01
-611ec129df9be13db6ac4931,Mud Archfey,Fey,7,Rank 0,7d2,13.24,14.5,14.21,2021-08-19 13:38:01
-611ec129df9be13db6ac4932,Quasit,Demonic,8,Rank 0,8d2+4,15.92,15.54,16.91,2021-08-19 13:38:01
-611ec129df9be13db6ac4933,Wight,Undead,8,Rank 1,8d4+2,30.4,33.75,33.72,2021-08-19 13:38:01
-611ec129df9be13db6ac4934,Steam Mephit,Elemental,7,Rank 0,7d2+3,13.17,14.8,13.1,2021-08-19 13:38:01
-611ec129df9be13db6ac4935,Faerie Dragon,Dragon,3,Rank 0,3d2+2,6.76,5.72,6.7,2021-08-19 13:38:01
-611ec129df9be13db6ac4936,Copper Faerie,Fey,6,Rank 0,6d2+2,11.27,11.4,11.69,2021-08-19 13:38:01
-611ec129df9be13db6ac4937,Hell Hound,Demonic,3,Rank 2,3d6+1,16.94,19.12,20.4,2021-08-19 13:38:01
-611ec129df9be13db6ac4938,Zombie Villager,Undead,8,Rank 0,8d2,15.03,16.59,15.05,2021-08-19 13:38:01
-611ec129df9be13db6ac4939,White Dragon,Dragon,5,Rank 1,5d4+1,19.57,20.26,20.63,2021-08-19 13:38:01
-611ec129df9be13db6ac493a,Succubus,Devilkin,6,Rank 3,6d8,44.33,47.06,46.33,2021-08-19 13:38:01
-611ec129df9be13db6ac493b,Hook Horror,Demonic,5,Rank 0,5d2+1,9.54,9.52,10.07,2021-08-19 13:38:01
-611ec129df9be13db6ac493c,Ghostly Villager,Undead,6,Rank 1,6d4,23.45,24.91,23.22,2021-08-19 13:38:01
-611ec129df9be13db6ac493d,Mud Elemental,Elemental,6,Rank 2,6d6+2,37.2,35.63,36.71,2021-08-19 13:38:01
-611ec129df9be13db6ac493e,Goblin Archer,Devilkin,6,Rank 2,6d6+3,37.7,36.62,33.87,2021-08-19 13:38:01
-611ec129df9be13db6ac493f,Imp,Demonic,7,Rank 0,7d2,13.5,14.58,14.82,2021-08-19 13:38:01
-611ec129df9be13db6ac4940,Wraith,Undead,7,Rank 3,7d8+2,57.68,55.04,57.3,2021-08-19 13:38:01
-611ec129df9be13db6ac4941,Efreeti,Elemental,7,Rank 5,7d12,88.33,85.02,79.78,2021-08-19 13:38:01
-611ec129df9be13db6ac4942,Pseudodragon,Dragon,7,Rank 3,7d8+1,59.57,54.03,59.3,2021-08-19 13:38:01
-611ec129df9be13db6ac4943,Goblin Villager,Devilkin,6,Rank 4,6d10+4,58.24,61.01,58.2,2021-08-19 13:38:01
-611ec129df9be13db6ac4944,Black Faerie,Fey,4,Rank 4,4d10,38.03,37.42,39.31,2021-08-19 13:38:01
-611ec129df9be13db6ac4945,Hell Hound,Demonic,6,Rank 3,6d8,44.99,50.19,48.05,2021-08-19 13:38:01
-611ec129df9be13db6ac4946,Djinni,Elemental,6,Rank 0,6d2+3,11.4,11.54,12.11,2021-08-19 13:38:01
-611ec129df9be13db6ac4947,Goblin Guard,Devilkin,5,Rank 1,5d4,20.35,19.04,19.13,2021-08-19 13:38:01
-611ec129df9be13db6ac4948,Steam Spirit,Fey,10,Rank 0,10d2+2,19.1,20.03,19.85,2021-08-19 13:38:01
-611ec129df9be13db6ac4949,Wraith,Undead,7,Rank 1,7d4,27.56,29.9,27.27,2021-08-19 13:38:01
-611ec129df9be13db6ac494a,Mud Mephit,Elemental,6,Rank 1,6d4+3,24.52,23.72,24.53,2021-08-19 13:38:01
-611ec129df9be13db6ac494b,Ice Devil,Devilkin,9,Rank 1,9d4,34.5,35.77,35.38,2021-08-19 13:38:01
-611ec129df9be13db6ac494c,Blue Faerie,Fey,3,Rank 4,3d10+1,30.73,30.1,26.23,2021-08-19 13:38:01
-611ec129df9be13db6ac494d,Mummy,Undead,10,Rank 0,10d2+4,20.45,20.99,20.56,2021-08-19 13:38:01
-611ec129df9be13db6ac494e,Mud Elemental,Elemental,5,Rank 0,5d2+3,10.14,10.15,9.62,2021-08-19 13:38:01
-611ec129df9be13db6ac494f,Onyx Wyrmling,Dragon,8,Rank 2,8d6+4,45.72,45.02,45.44,2021-08-19 13:38:01
-611ec129df9be13db6ac4950,Black Faerie,Fey,3,Rank 1,3d4+3,13.99,11.51,13.75,2021-08-19 13:38:01
-611ec129df9be13db6ac4951,Mummy,Undead,2,Rank 1,2d4+2,6.56,7.25,9.82,2021-08-19 13:38:01
-611ec129df9be13db6ac4952,Pseudodragon,Dragon,7,Rank 1,7d4+1,27.22,28.38,29.56,2021-08-19 13:38:01
-611ec129df9be13db6ac4953,Kobold Archer,Devilkin,3,Rank 2,3d6,19.01,18.26,15.39,2021-08-19 13:38:01
-611ec129df9be13db6ac4954,Black Faerie,Fey,5,Rank 4,5d10,49.33,46.84,50.87,2021-08-19 13:38:01
-611ec129df9be13db6ac4955,Hook Horror,Demonic,4,Rank 1,4d4+3,15.95,15.71,15.6,2021-08-19 13:38:01
-611ec129df9be13db6ac4956,Steam Mephit,Elemental,13,Rank 0,13d2+4,25.39,26.8,26.69,2021-08-19 13:38:01
-611ec129df9be13db6ac4957,Goblin Archer,Devilkin,10,Rank 1,10d4+2,40.6,40.09,39.4,2021-08-19 13:38:01
-611ec129df9be13db6ac4958,Onyx Faerie,Fey,10,Rank 1,10d4+5,40.48,40.24,39.69,2021-08-19 13:38:01
-611ec129df9be13db6ac4959,Poltergeist,Undead,4,Rank 3,4d8+3,29.79,31.78,31.42,2021-08-19 13:38:01
-611ec129df9be13db6ac495a,Ice Mephit,Elemental,9,Rank 0,9d2+3,18.71,18.58,17.64,2021-08-19 13:38:01
-611ec129df9be13db6ac495b,Blue Dragon,Dragon,6,Rank 3,6d8+2,45.96,50.01,48.7,2021-08-19 13:38:01
-611ec129df9be13db6ac495c,Red Faerie,Fey,6,Rank 2,6d6+1,38.09,34.4,35.14,2021-08-19 13:38:01
-611ec129df9be13db6ac495d,Imp,Demonic,8,Rank 3,8d8,63.15,62.75,62.72,2021-08-19 13:38:01
-611ec129df9be13db6ac495e,Banshee,Undead,2,Rank 2,2d6,11.21,13.57,10.49,2021-08-19 13:38:01
-611ec129df9be13db6ac495f,Mud Mephit,Elemental,6,Rank 1,6d4+3,25.65,24.81,23.45,2021-08-19 13:38:01
-611ec129df9be13db6ac4960,Pseudodragon,Dragon,11,Rank 0,11d2+2,22.44,21.84,21.25,2021-08-19 13:38:01
-611ec129df9be13db6ac4961,Steam Spirit,Fey,7,Rank 0,7d2+3,14.86,14.08,13.79,2021-08-19 13:38:01
-611ec129df9be13db6ac4962,Mummy,Undead,10,Rank 0,10d2,20.55,19.51,20.99,2021-08-19 13:38:01
-611ec129df9be13db6ac4963,Copper Drake,Dragon,4,Rank 2,4d6,23.96,23.1,21.13,2021-08-19 13:38:01
-611ec129df9be13db6ac4964,Prince of Fear,Devilkin,6,Rank 4,6d10+3,58.16,63.6,58.73,2021-08-19 13:38:01
-611ec129df9be13db6ac4965,Emerald Faerie,Fey,3,Rank 1,3d4+2,13.38,12.65,10.67,2021-08-19 13:38:01
-611ec129df9be13db6ac4966,Zombie Villager,Undead,4,Rank 0,4d2,8.01,8.99,8.44,2021-08-19 13:38:01
-611ec129df9be13db6ac4967,Black Wyrmling,Dragon,4,Rank 1,4d4+2,16.86,14.78,14.13,2021-08-19 13:38:01
-611ec129df9be13db6ac4968,Mud Devil,Devilkin,4,Rank 0,4d2,8.26,7.86,8.81,2021-08-19 13:38:01
-611ec129df9be13db6ac4969,Steam Spirit,Fey,5,Rank 3,5d8+3,38.97,39.54,40.31,2021-08-19 13:38:01
-611ec129df9be13db6ac496a,Hell Hound,Demonic,7,Rank 0,7d2+2,13.34,14.99,14.26,2021-08-19 13:38:01
-611ec129df9be13db6ac496b,Lich,Undead,4,Rank 3,4d8+1,34.14,31.84,33.29,2021-08-19 13:38:01
-611ec129df9be13db6ac496c,Mud Mephit,Elemental,5,Rank 0,5d2+3,9.6,10.0,10.45,2021-08-19 13:38:01
-611ec129df9be13db6ac496d,Blue Drake,Dragon,6,Rank 0,6d2,11.06,11.97,12.56,2021-08-19 13:38:01
-611ec129df9be13db6ac496e,Kobold Villager,Devilkin,7,Rank 0,7d2+4,14.96,13.49,14.1,2021-08-19 13:38:01
-611ec129df9be13db6ac496f,Dust Spirit,Fey,4,Rank 3,4d8,34.66,29.69,33.08,2021-08-19 13:38:01
-611ec129df9be13db6ac4970,Red Demon,Demonic,7,Rank 0,7d2+5,13.76,13.6,13.45,2021-08-19 13:38:01
-611ec129df9be13db6ac4971,Skeletal Guard,Undead,9,Rank 0,9d2,18.93,17.03,18.99,2021-08-19 13:38:01
-611ec129df9be13db6ac4972,Steam Mephit,Elemental,7,Rank 3,7d8+2,53.36,53.83,57.46,2021-08-19 13:38:01
-611ec129df9be13db6ac4973,Copper Wyrmling,Dragon,3,Rank 0,3d2+5,6.0,5.55,5.26,2021-08-19 13:38:01
-611ec129df9be13db6ac4974,Ice Spirit,Fey,5,Rank 1,5d4+2,18.52,21.39,20.24,2021-08-19 13:38:01
-611ec129df9be13db6ac4975,Hook Horror,Demonic,5,Rank 3,5d8+1,41.88,38.5,40.58,2021-08-19 13:38:01
-611ec129df9be13db6ac4976,Ghoul,Undead,3,Rank 0,3d2+4,6.7,6.95,6.64,2021-08-19 13:38:01
-611ec129df9be13db6ac4977,Mud Mephit,Elemental,8,Rank 0,8d2,15.49,15.81,16.53,2021-08-19 13:38:01
-611ec129df9be13db6ac4978,Wyvern,Dragon,4,Rank 0,4d2,7.25,8.74,8.71,2021-08-19 13:38:01
-611ec129df9be13db6ac4979,Pit Lord,Devilkin,4,Rank 1,4d4,14.85,16.67,14.98,2021-08-19 13:38:01
-611ec129df9be13db6ac497a,Imp,Demonic,8,Rank 0,8d2+1,16.56,15.53,16.84,2021-08-19 13:38:01
-611ec129df9be13db6ac497b,Steam Elemental,Elemental,6,Rank 0,6d2+3,11.12,11.08,12.82,2021-08-19 13:38:01
-611ec129df9be13db6ac497c,Ruby Drake,Dragon,3,Rank 0,3d2,5.28,6.24,5.91,2021-08-19 13:38:01
-611ec129df9be13db6ac497d,Succubus,Devilkin,10,Rank 4,10d10,103.55,99.72,100.42,2021-08-19 13:38:01
-611ec129df9be13db6ac497e,Imp,Demonic,7,Rank 1,7d4+3,29.6,28.93,28.32,2021-08-19 13:38:01
-611ec129df9be13db6ac497f,Steam Mephit,Elemental,6,Rank 2,6d6,37.99,37.89,38.45,2021-08-19 13:38:01
-611ec129df9be13db6ac4980,Blue Wyrmling,Dragon,4,Rank 0,4d2+5,8.5,7.3,7.37,2021-08-19 13:38:01
-611ec129df9be13db6ac4981,Dust Devil,Devilkin,10,Rank 3,10d8,77.03,82.11,79.52,2021-08-19 13:38:01
-611ec129df9be13db6ac4982,Red Faerie,Fey,3,Rank 3,3d8+1,20.89,25.2,21.55,2021-08-19 13:38:01
-611ec129df9be13db6ac4983,Hell Hound,Demonic,8,Rank 0,8d2,16.14,15.24,16.47,2021-08-19 13:38:01
-611ec129df9be13db6ac4984,Ghostly Archer,Undead,4,Rank 0,4d2,8.33,8.66,8.83,2021-08-19 13:38:01
-611ec129df9be13db6ac4985,White Dragon,Dragon,6,Rank 1,6d4+3,23.75,24.1,22.81,2021-08-19 13:38:01
-611ec129df9be13db6ac4986,Goblin Archer,Devilkin,7,Rank 0,7d2+2,13.26,13.94,14.48,2021-08-19 13:38:01
-611ec129df9be13db6ac4987,Imp,Demonic,6,Rank 0,6d2,12.04,12.57,11.55,2021-08-19 13:38:01
-611ec129df9be13db6ac4988,Revenant,Undead,5,Rank 2,5d6,28.1,31.66,28.7,2021-08-19 13:38:01
-611ec129df9be13db6ac4989,Green Wyrmling,Dragon,5,Rank 4,5d10,51.87,46.36,49.21,2021-08-19 13:38:01
-611ec129df9be13db6ac498a,Succubus,Devilkin,9,Rank 0,9d2+2,18.27,17.79,18.74,2021-08-19 13:38:01
-611ec129df9be13db6ac498b,Ice Spirit,Fey,8,Rank 0,8d2+3,15.44,16.17,16.99,2021-08-19 13:38:01
-611ec129df9be13db6ac498c,Quasit,Demonic,6,Rank 4,6d10+2,61.58,60.16,60.17,2021-08-19 13:38:01
-611ec129df9be13db6ac498d,Zombie Guard,Undead,3,Rank 2,3d6+4,16.23,16.58,16.87,2021-08-19 13:38:01
-611ec129df9be13db6ac498e,Mud Elemental,Elemental,9,Rank 1,9d4,35.19,36.82,35.98,2021-08-19 13:38:01
-611ec129df9be13db6ac498f,Pseudodragon,Dragon,8,Rank 0,8d2+2,16.93,16.09,16.0,2021-08-19 13:38:01
-611ec129df9be13db6ac4990,Green Archfey,Fey,5,Rank 0,5d2,9.15,9.6,10.85,2021-08-19 13:38:01
-611ec129df9be13db6ac4991,Black Demon,Demonic,4,Rank 0,4d2+1,7.92,8.79,7.35,2021-08-19 13:38:01
-611ec129df9be13db6ac4992,Dracolich,Undead,6,Rank 4,6d10,62.79,61.98,56.69,2021-08-19 13:38:01
-611ec129df9be13db6ac4993,Mud Mephit,Elemental,6,Rank 1,6d4+2,24.1,23.09,22.72,2021-08-19 13:38:01
-611ec129df9be13db6ac4994,Pseudodragon,Dragon,6,Rank 1,6d4,22.93,22.52,23.15,2021-08-19 13:38:01
-611ec129df9be13db6ac4995,Mud Devil,Devilkin,6,Rank 2,6d6,34.91,33.61,34.59,2021-08-19 13:38:01
-611ec129df9be13db6ac4996,Steam Spirit,Fey,9,Rank 2,9d6,56.27,54.27,53.42,2021-08-19 13:38:01
-611ec129df9be13db6ac4997,Lich,Undead,5,Rank 0,5d2,10.98,9.23,9.42,2021-08-19 13:38:01
-611ec129df9be13db6ac4998,Djinni,Elemental,3,Rank 2,3d6+2,17.42,19.84,18.41,2021-08-19 13:38:01
-611ec129df9be13db6ac4999,Blue Drake,Dragon,9,Rank 0,9d2,17.54,18.96,18.49,2021-08-19 13:38:01
-611ec129df9be13db6ac499a,Succubus,Devilkin,11,Rank 0,11d2+2,22.53,21.94,21.33,2021-08-19 13:38:01
-611ec129df9be13db6ac499b,White Faerie,Fey,6,Rank 3,6d8+2,50.97,48.06,45.05,2021-08-19 13:38:01
-611ec129df9be13db6ac499c,Hell Hound,Demonic,3,Rank 2,3d6+3,18.91,20.04,17.43,2021-08-19 13:38:01
-611ec129df9be13db6ac499d,Ghoul,Undead,8,Rank 5,8d12+2,93.17,94.88,91.27,2021-08-19 13:38:01
-611ec129df9be13db6ac499e,Green Dragon,Dragon,3,Rank 0,3d2+1,5.6,5.71,6.0,2021-08-19 13:38:01
-611ec129df9be13db6ac499f,Smoke Spirit,Fey,7,Rank 3,7d8+3,58.0,53.87,55.51,2021-08-19 13:38:01
-611ec129df9be13db6ac49a0,Balor,Demonic,7,Rank 5,7d12+2,88.9,88.27,83.46,2021-08-19 13:38:01
-611ec129df9be13db6ac49a1,Ghast,Undead,10,Rank 4,10d10+2,99.67,100.58,98.21,2021-08-19 13:38:01
-611ec129df9be13db6ac49a2,Ice Mephit,Elemental,4,Rank 0,4d2+3,8.25,7.16,7.6,2021-08-19 13:38:01
-611ec129df9be13db6ac49a3,Pit Lord,Devilkin,10,Rank 0,10d2,20.61,20.12,19.38,2021-08-19 13:38:01
-611ec129df9be13db6ac49a4,Red Faerie,Fey,5,Rank 0,5d2+4,10.9,10.91,10.82,2021-08-19 13:38:01
-611ec129df9be13db6ac49a5,Quasit,Demonic,4,Rank 2,4d6+4,25.95,26.43,24.36,2021-08-19 13:38:01
-611ec129df9be13db6ac49a6,Mud Mephit,Elemental,5,Rank 0,5d2+1,9.18,10.57,9.82,2021-08-19 13:38:01
-611ec129df9be13db6ac49a7,Succubus,Devilkin,5,Rank 3,5d8+1,39.4,39.02,42.28,2021-08-19 13:38:01
-611ec129df9be13db6ac49a8,Quasit,Demonic,8,Rank 1,8d4+1,31.55,32.14,33.4,2021-08-19 13:38:01
-611ec129df9be13db6ac49a9,Vampire,Undead,9,Rank 1,9d4,36.2,35.73,36.39,2021-08-19 13:38:01
-611ec129df9be13db6ac49aa,Steam Mephit,Elemental,8,Rank 1,8d4+5,31.81,32.71,31.97,2021-08-19 13:38:01
-611ec129df9be13db6ac49ab,Kobold Villager,Devilkin,7,Rank 0,7d2,14.57,14.55,13.84,2021-08-19 13:38:01
-611ec129df9be13db6ac49ac,Quasit,Demonic,6,Rank 0,6d2+3,12.89,11.62,12.23,2021-08-19 13:38:01
-611ec129df9be13db6ac49ad,Zombie Villager,Undead,7,Rank 0,7d2+2,13.62,14.73,13.3,2021-08-19 13:38:01
-611ec129df9be13db6ac49ae,Ice Elemental,Elemental,8,Rank 0,8d2+2,15.57,15.03,15.49,2021-08-19 13:38:01
-611ec129df9be13db6ac49af,Blue Drake,Dragon,5,Rank 1,5d4+5,20.03,20.93,20.03,2021-08-19 13:38:01
-611ec129df9be13db6ac49b0,Dust Spirit,Fey,7,Rank 4,7d10+2,68.57,72.99,72.51,2021-08-19 13:38:01
-611ec129df9be13db6ac49b1,Imp,Demonic,2,Rank 0,2d2+1,3.91,4.34,3.57,2021-08-19 13:38:01
-611ec129df9be13db6ac49b2,Mud Mephit,Elemental,7,Rank 4,7d10+1,68.84,73.3,67.05,2021-08-19 13:38:01
-611ec129df9be13db6ac49b3,Onyx Drake,Dragon,5,Rank 4,5d10+1,53.62,45.64,52.77,2021-08-19 13:38:01
-611ec129df9be13db6ac49b4,Incubus,Devilkin,7,Rank 2,7d6,42.13,43.4,41.76,2021-08-19 13:38:01
-611ec129df9be13db6ac49b5,Hell Hound,Demonic,5,Rank 2,5d6,32.73,31.09,32.67,2021-08-19 13:38:01
-611ec129df9be13db6ac49b6,Mud Mephit,Elemental,10,Rank 4,10d10+2,103.17,98.89,98.21,2021-08-19 13:38:01
-611ec129df9be13db6ac49b7,Green Drake,Dragon,3,Rank 1,3d4,12.07,11.5,10.41,2021-08-19 13:38:01
-611ec129df9be13db6ac49b8,Goblin Villager,Devilkin,4,Rank 3,4d8,29.76,31.39,31.19,2021-08-19 13:38:01
-611ec129df9be13db6ac49b9,White Faerie,Fey,5,Rank 4,5d10+1,52.15,50.98,48.32,2021-08-19 13:38:01
-611ec129df9be13db6ac49ba,Wight,Undead,5,Rank 0,5d2,10.53,9.43,10.32,2021-08-19 13:38:01
-611ec129df9be13db6ac49bb,Dust Mephit,Elemental,10,Rank 1,10d4+2,39.27,39.6,41.99,2021-08-19 13:38:01
-611ec129df9be13db6ac49bc,Steam Devil,Devilkin,5,Rank 2,5d6,28.48,28.63,30.42,2021-08-19 13:38:01
-611ec129df9be13db6ac49bd,Blue Faerie,Fey,5,Rank 2,5d6,28.61,30.26,29.22,2021-08-19 13:38:01
-611ec129df9be13db6ac49be,Zombie Villager,Undead,8,Rank 2,8d6+5,48.25,47.68,48.74,2021-08-19 13:38:01
-611ec129df9be13db6ac49bf,Djinni,Elemental,7,Rank 1,7d4+1,26.82,27.77,27.74,2021-08-19 13:38:01
-611ec129df9be13db6ac49c0,Black Drake,Dragon,6,Rank 1,6d4+2,23.67,24.83,25.87,2021-08-19 13:38:01
-611ec129df9be13db6ac49c1,Mud Devil,Devilkin,6,Rank 2,6d6+1,36.16,36.47,36.61,2021-08-19 13:38:01
-611ec129df9be13db6ac49c2,Red Demon,Demonic,5,Rank 0,5d2+2,9.61,9.31,9.55,2021-08-19 13:38:01
-611ec129df9be13db6ac49c3,Lich,Undead,8,Rank 2,8d6,46.23,49.23,46.62,2021-08-19 13:38:01
-611ec129df9be13db6ac49c4,Steam Elemental,Elemental,6,Rank 0,6d2+1,11.89,11.6,12.61,2021-08-19 13:38:01
-611ec129df9be13db6ac49c5,Black Wyrmling,Dragon,6,Rank 3,6d8,49.15,45.47,49.88,2021-08-19 13:38:01
-611ec129df9be13db6ac49c6,Steam Archfey,Fey,6,Rank 3,6d8+1,44.03,50.12,46.16,2021-08-19 13:38:01
-611ec129df9be13db6ac49c7,Night Hag,Demonic,8,Rank 2,8d6,46.87,45.98,50.89,2021-08-19 13:38:01
-611ec129df9be13db6ac49c8,Djinni,Elemental,9,Rank 2,9d6,51.0,52.23,56.43,2021-08-19 13:38:01
-611ec129df9be13db6ac49c9,Blue Wyrmling,Dragon,4,Rank 1,4d4+3,16.45,15.77,16.47,2021-08-19 13:38:01
-611ec129df9be13db6ac49ca,Goblin Villager,Devilkin,4,Rank 2,4d6+1,25.39,23.99,24.03,2021-08-19 13:38:01
-611ec129df9be13db6ac49cb,Hell Hound,Demonic,7,Rank 0,7d2,14.68,14.82,13.31,2021-08-19 13:38:01
-611ec129df9be13db6ac49cc,Steam Mephit,Elemental,6,Rank 3,6d8+1,49.05,49.11,47.36,2021-08-19 13:38:01
-611ec129df9be13db6ac49cd,Goblin Archer,Devilkin,8,Rank 0,8d2+5,15.22,15.36,15.89,2021-08-19 13:38:01
-611ec129df9be13db6ac49ce,Night Hag,Demonic,8,Rank 1,8d4+1,32.61,30.05,31.2,2021-08-19 13:38:01
-611ec129df9be13db6ac49cf,Mummy,Undead,8,Rank 3,8d8+3,60.99,64.58,61.31,2021-08-19 13:38:01
-611ec129df9be13db6ac49d0,Faerie Dragon,Dragon,6,Rank 0,6d2+3,12.85,11.93,11.43,2021-08-19 13:38:01
-611ec129df9be13db6ac49d1,Kobold Villager,Devilkin,6,Rank 4,6d10+4,60.6,58.81,57.37,2021-08-19 13:38:01
-611ec129df9be13db6ac49d2,Mud Spirit,Fey,2,Rank 1,2d4+2,8.5,6.9,6.04,2021-08-19 13:38:01
-611ec129df9be13db6ac49d3,Lich,Undead,4,Rank 0,4d2+2,8.31,7.92,7.47,2021-08-19 13:38:01
-611ec129df9be13db6ac49d4,White Drake,Dragon,5,Rank 3,5d8+4,38.02,37.88,42.19,2021-08-19 13:38:01
-611ec129df9be13db6ac49d5,Red Faerie,Fey,3,Rank 4,3d10+3,25.62,28.17,31.07,2021-08-19 13:38:01
-611ec129df9be13db6ac49d6,Hell Hound,Demonic,8,Rank 3,8d8+1,61.61,62.25,63.01,2021-08-19 13:38:01
-611ec129df9be13db6ac49d7,Steam Elemental,Elemental,9,Rank 4,9d10+2,90.27,85.21,88.73,2021-08-19 13:38:01
-611ec129df9be13db6ac49d8,Kobold Archer,Devilkin,6,Rank 2,6d6+2,35.25,35.29,36.01,2021-08-19 13:38:01
-611ec129df9be13db6ac49d9,Green Faerie,Fey,2,Rank 0,2d2+1,4.52,3.92,4.26,2021-08-19 13:38:01
-611ec129df9be13db6ac49da,Quasit,Demonic,6,Rank 2,6d6+3,35.38,38.4,36.9,2021-08-19 13:38:01
-611ec129df9be13db6ac49db,Zombie Villager,Undead,4,Rank 3,4d8+3,30.77,34.15,31.06,2021-08-19 13:38:01
-611ec129df9be13db6ac49dc,Ice Elemental,Elemental,3,Rank 0,3d2+2,6.76,5.69,5.72,2021-08-19 13:38:01
-611ec129df9be13db6ac49dd,Kobold Guard,Devilkin,5,Rank 0,5d2+1,10.4,9.44,10.03,2021-08-19 13:38:01
-611ec129df9be13db6ac49de,Copper Faerie,Fey,4,Rank 2,4d6+3,22.91,26.51,26.37,2021-08-19 13:38:01
-611ec129df9be13db6ac49df,Quasit,Demonic,7,Rank 4,7d10+5,68.72,70.24,65.01,2021-08-19 13:38:01
-611ec129df9be13db6ac49e0,Dracolich,Undead,6,Rank 2,6d6+1,34.97,37.4,33.38,2021-08-19 13:38:01
-611ec129df9be13db6ac49e1,Copper Dragon,Dragon,10,Rank 0,10d2+1,20.64,20.59,19.9,2021-08-19 13:38:01
-611ec129df9be13db6ac49e2,Succubus,Devilkin,3,Rank 3,3d8,23.59,21.26,24.24,2021-08-19 13:38:01
-611ec129df9be13db6ac49e3,Pit Fiend,Demonic,6,Rank 3,6d8,46.14,45.65,48.64,2021-08-19 13:38:01
-611ec129df9be13db6ac49e4,Wight,Undead,6,Rank 0,6d2+1,11.45,12.15,11.06,2021-08-19 13:38:01
-611ec129df9be13db6ac49e5,Djinni,Elemental,5,Rank 5,5d12+1,60.03,56.57,61.6,2021-08-19 13:38:01
-611ec129df9be13db6ac49e6,Green Drake,Dragon,4,Rank 3,4d8+3,32.79,33.16,30.96,2021-08-19 13:38:01
-611ec129df9be13db6ac49e7,Succubus,Devilkin,3,Rank 2,3d6,18.46,19.01,19.66,2021-08-19 13:38:01
-611ec129df9be13db6ac49e8,Blue Faerie,Fey,7,Rank 4,7d10,68.43,69.07,67.93,2021-08-19 13:38:01
-611ec129df9be13db6ac49e9,Dracolich,Undead,8,Rank 1,8d4+2,30.72,32.5,32.41,2021-08-19 13:38:01
-611ec129df9be13db6ac49ea,Djinni,Elemental,6,Rank 1,6d4+1,24.55,22.74,23.38,2021-08-19 13:38:01
-611ec129df9be13db6ac49eb,Green Wyrmling,Dragon,8,Rank 1,8d4,33.49,31.6,32.22,2021-08-19 13:38:01
-611ec129df9be13db6ac49ec,Incubus,Devilkin,6,Rank 4,6d10+4,61.41,57.8,57.51,2021-08-19 13:38:01
-611ec129df9be13db6ac49ed,Night Hag,Demonic,8,Rank 0,8d2+2,16.45,15.06,15.46,2021-08-19 13:38:01
-611ec129df9be13db6ac49ee,Ghostly Villager,Undead,4,Rank 3,4d8,29.52,35.95,35.25,2021-08-19 13:38:01
-611ec129df9be13db6ac49ef,Steam Elemental,Elemental,5,Rank 2,5d6,31.25,29.0,31.7,2021-08-19 13:38:01
-611ec129df9be13db6ac49f0,Green Wyrmling,Dragon,3,Rank 3,3d8,21.43,20.14,22.31,2021-08-19 13:38:01
-611ec129df9be13db6ac49f1,Blue Faerie,Fey,10,Rank 0,10d2,20.92,20.68,20.89,2021-08-19 13:38:01
-611ec129df9be13db6ac49f2,Skeletal Villager,Undead,7,Rank 1,7d4+1,28.25,28.31,28.42,2021-08-19 13:38:01
-611ec129df9be13db6ac49f3,Mud Mephit,Elemental,4,Rank 1,4d4+2,16.71,14.84,15.3,2021-08-19 13:38:01
-611ec129df9be13db6ac49f4,Sapphire Wyrmling,Dragon,9,Rank 1,9d4,34.9,35.92,35.8,2021-08-19 13:38:01
-611ec129df9be13db6ac49f5,Dust Spirit,Fey,4,Rank 1,4d4,14.95,15.03,15.65,2021-08-19 13:38:01
-611ec129df9be13db6ac49f6,Revenant,Undead,7,Rank 0,7d2+1,14.88,14.38,14.93,2021-08-19 13:38:01
-611ec129df9be13db6ac49f7,Efreeti,Elemental,8,Rank 0,8d2+2,16.58,15.55,16.39,2021-08-19 13:38:01
-611ec129df9be13db6ac49f8,Goblin Villager,Devilkin,5,Rank 5,5d12+1,64.65,57.32,55.17,2021-08-19 13:38:01
-611ec129df9be13db6ac49f9,Blue Archfey,Fey,8,Rank 0,8d2,15.36,15.84,15.31,2021-08-19 13:38:01
-611ec129df9be13db6ac49fa,Zombie Villager,Undead,7,Rank 2,7d6,39.46,39.77,43.29,2021-08-19 13:38:01
-611ec129df9be13db6ac49fb,Steam Mephit,Elemental,9,Rank 1,9d4+3,37.35,36.09,36.46,2021-08-19 13:38:01
-611ec129df9be13db6ac49fc,Blue Wyrmling,Dragon,4,Rank 1,4d4+1,16.15,15.55,14.14,2021-08-19 13:38:01
-611ec129df9be13db6ac49fd,Prince of Fear,Devilkin,6,Rank 2,6d6+2,34.3,34.11,34.28,2021-08-19 13:38:01
-611ec129df9be13db6ac49fe,Blue Faerie,Fey,10,Rank 2,10d6,58.9,60.11,59.52,2021-08-19 13:38:01
-611ec129df9be13db6ac49ff,Green Demon,Demonic,7,Rank 1,7d4+1,28.27,28.28,29.24,2021-08-19 13:38:01
-611ec129df9be13db6ac4a00,Mummy,Undead,3,Rank 2,3d6+1,20.72,15.55,18.6,2021-08-19 13:38:01
-611ec129df9be13db6ac4a01,Mud Elemental,Elemental,4,Rank 1,4d4,15.97,16.21,15.37,2021-08-19 13:38:01
-611ec129df9be13db6ac4a02,Red Dragon,Dragon,7,Rank 2,7d6,41.86,40.75,42.01,2021-08-19 13:38:01
-611ec129df9be13db6ac4a03,Succubus,Devilkin,7,Rank 1,7d4+1,28.61,27.58,28.52,2021-08-19 13:38:01
-611ec129df9be13db6ac4a04,Black Faerie,Fey,6,Rank 4,6d10,55.45,57.08,58.83,2021-08-19 13:38:01
-611ec129df9be13db6ac4a05,Ghoul,Undead,5,Rank 1,5d4+2,20.98,19.19,19.98,2021-08-19 13:38:01
-611ec129df9be13db6ac4a06,Djinni,Elemental,4,Rank 2,4d6+5,24.56,21.32,21.33,2021-08-19 13:38:01
-611ec129df9be13db6ac4a07,Goblin Guard,Devilkin,5,Rank 0,5d2,9.25,9.67,10.35,2021-08-19 13:38:01
-611ec129df9be13db6ac4a08,Blue Faerie,Fey,8,Rank 0,8d2,16.39,15.89,15.46,2021-08-19 13:38:01
-611ec129df9be13db6ac4a09,Quasit,Demonic,7,Rank 1,7d4+1,27.82,29.29,29.12,2021-08-19 13:38:01
-611ec129df9be13db6ac4a0a,Ghast,Undead,12,Rank 3,12d8+1,94.89,98.83,94.02,2021-08-19 13:38:01
-611ec129df9be13db6ac4a0b,Smoke Mephit,Elemental,6,Rank 0,6d2,11.5,12.78,11.25,2021-08-19 13:38:01
-611ec129df9be13db6ac4a0c,White Drake,Dragon,10,Rank 1,10d4+1,39.73,39.81,40.57,2021-08-19 13:38:01
-611ec129df9be13db6ac4a0d,Succubus,Devilkin,6,Rank 1,6d4+1,23.7,25.35,24.51,2021-08-19 13:38:01
-611ec129df9be13db6ac4a0e,Quasit,Demonic,4,Rank 1,4d4+3,14.02,15.77,17.28,2021-08-19 13:38:01
-611ec129df9be13db6ac4a0f,Lich,Undead,5,Rank 1,5d4+2,18.0,20.31,20.77,2021-08-19 13:38:01
-611ec129df9be13db6ac4a10,Mud Mephit,Elemental,10,Rank 2,10d6+2,57.84,59.58,62.51,2021-08-19 13:38:01
-611ec129df9be13db6ac4a11,Goblin Archer,Devilkin,6,Rank 3,6d8+3,49.75,44.45,45.36,2021-08-19 13:38:01
-611ec129df9be13db6ac4a12,Black Faerie,Fey,3,Rank 0,3d2,6.68,6.95,5.89,2021-08-19 13:38:01
-611ec129df9be13db6ac4a13,Quasit,Demonic,6,Rank 4,6d10+1,58.08,62.37,59.08,2021-08-19 13:38:01
-611ec129df9be13db6ac4a14,Steam Elemental,Elemental,7,Rank 0,7d2+1,13.54,14.28,13.36,2021-08-19 13:38:01
-611ec129df9be13db6ac4a15,Green Wyrmling,Dragon,5,Rank 1,5d4+3,21.21,20.83,21.62,2021-08-19 13:38:01
-611ec129df9be13db6ac4a16,Ice Devil,Devilkin,3,Rank 5,3d12+3,40.04,41.61,38.12,2021-08-19 13:38:01
-611ec129df9be13db6ac4a17,Red Demon,Demonic,7,Rank 1,7d4,28.55,28.37,27.82,2021-08-19 13:38:01
-611ec129df9be13db6ac4a18,Revenant,Undead,3,Rank 2,3d6,16.08,19.05,17.89,2021-08-19 13:38:01
-611ec129df9be13db6ac4a19,Green Wyrmling,Dragon,8,Rank 2,8d6+1,47.57,49.89,50.41,2021-08-19 13:38:01
-611ec129df9be13db6ac4a1a,Goblin Villager,Devilkin,5,Rank 0,5d2+1,10.3,9.09,9.03,2021-08-19 13:38:01
-611ec129df9be13db6ac4a1b,Hell Hound,Demonic,6,Rank 4,6d10,58.42,61.73,58.97,2021-08-19 13:38:01
-611ec129df9be13db6ac4a1c,Vampire,Undead,5,Rank 2,5d6,32.4,29.36,31.22,2021-08-19 13:38:01
-611ec129df9be13db6ac4a1d,Red Drake,Dragon,8,Rank 1,8d4+1,31.88,32.66,31.85,2021-08-19 13:38:01
-611ec129df9be13db6ac4a1e,Pit Lord,Devilkin,7,Rank 1,7d4+2,28.51,28.57,28.73,2021-08-19 13:38:01
-611ec129df9be13db6ac4a1f,Steam Archfey,Fey,4,Rank 0,4d2,8.77,7.19,8.52,2021-08-19 13:38:01
-611ec129df9be13db6ac4a20,Quasit,Demonic,7,Rank 0,7d2+2,14.21,14.8,13.99,2021-08-19 13:38:01
-611ec129df9be13db6ac4a21,Steam Elemental,Elemental,7,Rank 2,7d6+2,41.61,39.38,42.37,2021-08-19 13:38:01
-611ec129df9be13db6ac4a22,Faerie Dragon,Dragon,7,Rank 1,7d4+1,27.92,27.47,29.31,2021-08-19 13:38:01
-611ec129df9be13db6ac4a23,Succubus,Devilkin,11,Rank 5,11d12+1,135.58,132.98,128.64,2021-08-19 13:38:01
-611ec129df9be13db6ac4a24,Green Faerie,Fey,5,Rank 3,5d8+1,42.5,43.29,40.46,2021-08-19 13:38:01
-611ec129df9be13db6ac4a25,Nightmare,Demonic,6,Rank 3,6d8+2,47.26,44.27,47.8,2021-08-19 13:38:01
-611ec129df9be13db6ac4a26,Skeletal Villager,Undead,7,Rank 2,7d6,40.97,43.63,41.07,2021-08-19 13:38:01
-611ec129df9be13db6ac4a27,Steam Elemental,Elemental,8,Rank 0,8d2+2,16.25,15.87,16.64,2021-08-19 13:38:01
-611ec129df9be13db6ac4a28,Black Wyrmling,Dragon,8,Rank 0,8d2,15.2,16.71,15.09,2021-08-19 13:38:01
-611ec129df9be13db6ac4a29,Goblin Villager,Devilkin,5,Rank 3,5d8+4,38.48,40.85,36.01,2021-08-19 13:38:01
-611ec129df9be13db6ac4a2a,Blue Faerie,Fey,6,Rank 2,6d6+2,33.9,36.93,38.09,2021-08-19 13:38:01
-611ec129df9be13db6ac4a2b,Wight,Undead,5,Rank 0,5d2+4,9.25,9.35,10.86,2021-08-19 13:38:01
-611ec129df9be13db6ac4a2c,Ice Mephit,Elemental,5,Rank 2,5d6,27.06,28.89,32.93,2021-08-19 13:38:01
-611ec129df9be13db6ac4a2d,Pseudodragon,Dragon,2,Rank 2,2d6+1,14.94,11.93,11.55,2021-08-19 13:38:01
-611ec129df9be13db6ac4a2e,Mud Devil,Devilkin,7,Rank 3,7d8+3,56.52,59.79,59.99,2021-08-19 13:38:01
-611ec129df9be13db6ac4a2f,Quasit,Demonic,6,Rank 0,6d2+4,12.95,12.59,12.29,2021-08-19 13:38:01
-611ec129df9be13db6ac4a30,Steam Mephit,Elemental,5,Rank 1,5d4+1,18.61,18.07,20.33,2021-08-19 13:38:01
-611ec129df9be13db6ac4a31,Copper Drake,Dragon,7,Rank 0,7d2,14.56,13.7,13.2,2021-08-19 13:38:01
-611ec129df9be13db6ac4a32,White Faerie,Fey,7,Rank 3,7d8,55.61,57.12,54.96,2021-08-19 13:38:01
-611ec129df9be13db6ac4a33,Imp,Demonic,4,Rank 1,4d4,15.07,16.51,16.46,2021-08-19 13:38:01
+612308697b77daa59d3f8295,Wyvern,Dragon,5,Rank 1,5d4+3,22.0,20.02,19.87,2021-08-22 19:31:05
+612308697b77daa59d3f8296,Succubus,Devilkin,5,Rank 4,5d10+1,53.13,49.64,48.74,2021-08-22 19:31:05
+612308697b77daa59d3f8297,Mud Spirit,Fey,5,Rank 2,5d6+2,29.26,29.2,31.01,2021-08-22 19:31:05
+612308697b77daa59d3f8298,Dust Mephit,Elemental,5,Rank 2,5d6+1,30.82,28.97,27.47,2021-08-22 19:31:05
+612308697b77daa59d3f8299,White Wyrmling,Dragon,6,Rank 3,6d8+4,51.95,44.6,48.8,2021-08-22 19:31:05
+612308697b77daa59d3f829a,Zombie Archer,Undead,7,Rank 0,7d2,14.6,14.72,14.5,2021-08-22 19:31:05
+612308697b77daa59d3f829b,Dust Spirit,Fey,6,Rank 3,6d8+3,50.34,50.19,50.2,2021-08-22 19:31:05
+612308697b77daa59d3f829c,Ice Mephit,Elemental,6,Rank 1,6d4,25.33,24.17,22.75,2021-08-22 19:31:05
+612308697b77daa59d3f829d,Faerie Dragon,Dragon,5,Rank 0,5d2+1,10.74,10.42,10.99,2021-08-22 19:31:05
+612308697b77daa59d3f829e,Pit Lord,Devilkin,7,Rank 0,7d2,14.82,13.75,14.54,2021-08-22 19:31:05
+612308697b77daa59d3f829f,Steam Spirit,Fey,6,Rank 3,6d8,45.85,48.59,48.75,2021-08-22 19:31:05
+612308697b77daa59d3f82a0,Mud Mephit,Elemental,12,Rank 0,12d2+1,24.39,23.09,23.78,2021-08-22 19:31:05
+612308697b77daa59d3f82a1,Succubus,Devilkin,8,Rank 0,8d2,15.49,16.87,16.35,2021-08-22 19:31:05
+612308697b77daa59d3f82a2,Ghast,Undead,8,Rank 2,8d6+4,48.53,49.54,48.34,2021-08-22 19:31:05
+612308697b77daa59d3f82a3,Hell Hound,Demonic,7,Rank 3,7d8+2,56.85,55.36,53.47,2021-08-22 19:31:05
+612308697b77daa59d3f82a4,Steam Mephit,Elemental,7,Rank 1,7d4+4,28.66,26.74,27.54,2021-08-22 19:31:05
+612308697b77daa59d3f82a5,Black Drake,Dragon,2,Rank 0,2d2+1,4.21,3.65,4.22,2021-08-22 19:31:05
+612308697b77daa59d3f82a6,Skeletal Archer,Undead,11,Rank 1,11d4,45.25,43.27,43.31,2021-08-22 19:31:05
+612308697b77daa59d3f82a7,Red Faerie,Fey,10,Rank 3,10d8,79.32,76.77,78.68,2021-08-22 19:31:05
+612308697b77daa59d3f82a8,Quasit,Demonic,6,Rank 0,6d2,12.91,12.97,11.19,2021-08-22 19:31:05
+612308697b77daa59d3f82a9,Steam Mephit,Elemental,6,Rank 0,6d2+1,11.64,12.24,12.72,2021-08-22 19:31:05
+612308697b77daa59d3f82aa,Onyx Drake,Dragon,10,Rank 1,10d4+3,40.21,41.03,41.46,2021-08-22 19:31:05
+612308697b77daa59d3f82ab,Goblin Villager,Devilkin,6,Rank 1,6d4,24.31,23.53,25.08,2021-08-22 19:31:05
+612308697b77daa59d3f82ac,Ghast,Undead,2,Rank 2,2d6+2,9.97,11.32,9.3,2021-08-22 19:31:05
+612308697b77daa59d3f82ad,Blue Faerie,Fey,4,Rank 2,4d6+5,25.92,22.5,22.05,2021-08-22 19:31:05
+612308697b77daa59d3f82ae,Mud Mephit,Elemental,6,Rank 4,6d10,61.39,62.13,62.83,2021-08-22 19:31:05
+612308697b77daa59d3f82af,Smoke Devil,Devilkin,2,Rank 1,2d4+1,7.07,6.69,8.18,2021-08-22 19:31:05
+612308697b77daa59d3f82b0,Mud Spirit,Fey,10,Rank 0,10d2,19.78,19.26,20.91,2021-08-22 19:31:05
+612308697b77daa59d3f82b1,White Demon,Demonic,6,Rank 3,6d8+2,48.53,48.94,49.92,2021-08-22 19:31:05
+612308697b77daa59d3f82b2,Steam Mephit,Elemental,4,Rank 0,4d2,8.86,8.5,8.89,2021-08-22 19:31:05
+612308697b77daa59d3f82b3,Pseudodragon,Dragon,5,Rank 2,5d6+4,32.43,31.03,30.43,2021-08-22 19:31:05
+612308697b77daa59d3f82b4,Pit Lord,Devilkin,7,Rank 0,7d2+1,14.51,14.32,14.65,2021-08-22 19:31:05
+612308697b77daa59d3f82b5,Dust Spirit,Fey,6,Rank 1,6d4+4,24.45,23.74,25.47,2021-08-22 19:31:05
+612308697b77daa59d3f82b6,Imp,Demonic,4,Rank 0,4d2+3,7.4,8.52,7.3,2021-08-22 19:31:05
+612308697b77daa59d3f82b7,Djinni,Elemental,3,Rank 1,3d4,10.31,12.28,12.07,2021-08-22 19:31:05
+612308697b77daa59d3f82b8,White Wyrmling,Dragon,2,Rank 2,2d6+3,11.38,9.13,9.85,2021-08-22 19:31:05
+612308697b77daa59d3f82b9,Succubus,Devilkin,4,Rank 3,4d8+1,29.03,30.4,29.28,2021-08-22 19:31:05
+612308697b77daa59d3f82ba,Skeletal Archer,Undead,9,Rank 0,9d2,17.53,18.44,18.54,2021-08-22 19:31:05
+612308697b77daa59d3f82bb,Nightmare,Demonic,5,Rank 0,5d2,10.43,10.21,9.14,2021-08-22 19:31:05
+612308697b77daa59d3f82bc,Ice Mephit,Elemental,7,Rank 1,7d4,28.32,26.33,29.0,2021-08-22 19:31:05
+612308697b77daa59d3f82bd,Green Drake,Dragon,5,Rank 1,5d4,19.91,19.93,19.38,2021-08-22 19:31:05
+612308697b77daa59d3f82be,Succubus,Devilkin,9,Rank 1,9d4+3,34.83,37.42,35.92,2021-08-22 19:31:05
+612308697b77daa59d3f82bf,Vampire,Undead,7,Rank 3,7d8+1,57.14,56.63,57.11,2021-08-22 19:31:05
+612308697b77daa59d3f82c0,Black Faerie,Fey,3,Rank 1,3d4,12.35,12.62,12.69,2021-08-22 19:31:05
+612308697b77daa59d3f82c1,Nightmare,Demonic,9,Rank 0,9d2+2,17.53,17.49,17.04,2021-08-22 19:31:05
+612308697b77daa59d3f82c2,Ice Mephit,Elemental,4,Rank 4,4d10+1,41.7,36.51,36.69,2021-08-22 19:31:05
+612308697b77daa59d3f82c3,Black Wyrmling,Dragon,6,Rank 2,6d6+1,35.14,34.62,37.7,2021-08-22 19:31:05
+612308697b77daa59d3f82c4,Mud Devil,Devilkin,8,Rank 2,8d6+2,47.81,46.98,49.84,2021-08-22 19:31:05
+612308697b77daa59d3f82c5,Vampire,Undead,6,Rank 3,6d8+4,48.03,47.65,46.28,2021-08-22 19:31:05
+612308697b77daa59d3f82c6,Night Hag,Demonic,8,Rank 2,8d6,45.7,49.39,47.92,2021-08-22 19:31:05
+612308697b77daa59d3f82c7,Mud Mephit,Elemental,7,Rank 1,7d4+2,28.46,27.91,27.62,2021-08-22 19:31:05
+612308697b77daa59d3f82c8,Mud Devil,Devilkin,5,Rank 0,5d2+1,10.34,9.59,10.21,2021-08-22 19:31:05
+612308697b77daa59d3f82c9,White Faerie,Fey,4,Rank 2,4d6+2,24.05,22.91,22.48,2021-08-22 19:31:05
+612308697b77daa59d3f82ca,Ice Elemental,Elemental,4,Rank 5,4d12+1,48.96,47.33,44.36,2021-08-22 19:31:05
+612308697b77daa59d3f82cb,Green Dragon,Dragon,8,Rank 0,8d2,16.35,15.75,15.14,2021-08-22 19:31:05
+612308697b77daa59d3f82cc,Banshee,Undead,4,Rank 0,4d2+2,8.52,8.47,8.0,2021-08-22 19:31:05
+612308697b77daa59d3f82cd,Ice Spirit,Fey,5,Rank 0,5d2+2,9.67,9.3,10.78,2021-08-22 19:31:05
+612308697b77daa59d3f82ce,Ice Elemental,Elemental,3,Rank 0,3d2+1,5.75,5.5,6.16,2021-08-22 19:31:05
+612308697b77daa59d3f82cf,Black Drake,Dragon,3,Rank 0,3d2+1,6.27,5.32,5.03,2021-08-22 19:31:05
+612308697b77daa59d3f82d0,Mud Devil,Devilkin,4,Rank 0,4d2,7.37,8.14,8.31,2021-08-22 19:31:05
+612308697b77daa59d3f82d1,Ghast,Undead,3,Rank 1,3d4+1,12.86,13.18,12.39,2021-08-22 19:31:05
+612308697b77daa59d3f82d2,Mud Spirit,Fey,3,Rank 0,3d2+3,5.83,6.01,5.57,2021-08-22 19:31:05
+612308697b77daa59d3f82d3,Hook Horror,Demonic,5,Rank 1,5d4,20.71,20.4,19.74,2021-08-22 19:31:05
+612308697b77daa59d3f82d4,Green Wyrmling,Dragon,4,Rank 1,4d4+2,16.96,14.38,16.28,2021-08-22 19:31:05
+612308697b77daa59d3f82d5,Goblin Guard,Devilkin,9,Rank 2,9d6,52.01,54.6,54.12,2021-08-22 19:31:05
+612308697b77daa59d3f82d6,Skeletal Villager,Undead,7,Rank 3,7d8,54.23,55.83,55.16,2021-08-22 19:31:05
+612308697b77daa59d3f82d7,Green Faerie,Fey,8,Rank 2,8d6+1,46.76,48.89,48.94,2021-08-22 19:31:05
+612308697b77daa59d3f82d8,Ice Mephit,Elemental,3,Rank 1,3d4+1,11.61,10.33,11.54,2021-08-22 19:31:05
+612308697b77daa59d3f82d9,Green Drake,Dragon,6,Rank 2,6d6+3,35.97,36.89,35.38,2021-08-22 19:31:05
+612308697b77daa59d3f82da,Dracolich,Undead,5,Rank 1,5d4+2,21.77,19.47,18.69,2021-08-22 19:31:05
+612308697b77daa59d3f82db,Blue Faerie,Fey,3,Rank 3,3d8,23.52,27.38,23.55,2021-08-22 19:31:05
+612308697b77daa59d3f82dc,Steam Elemental,Elemental,3,Rank 0,3d2+1,6.98,6.67,5.63,2021-08-22 19:31:05
+612308697b77daa59d3f82dd,Onyx Wyrmling,Dragon,6,Rank 0,6d2+2,12.62,12.03,12.87,2021-08-22 19:31:05
+612308697b77daa59d3f82de,Kobold Villager,Devilkin,5,Rank 0,5d2+2,10.73,10.89,10.21,2021-08-22 19:31:05
+612308697b77daa59d3f82df,Green Faerie,Fey,7,Rank 3,7d8+5,55.74,59.4,52.09,2021-08-22 19:31:05
+612308697b77daa59d3f82e0,Hook Horror,Demonic,8,Rank 0,8d2+1,15.69,16.41,16.64,2021-08-22 19:31:05
+612308697b77daa59d3f82e1,Green Wyrmling,Dragon,4,Rank 3,4d8+3,29.83,33.17,30.19,2021-08-22 19:31:05
+612308697b77daa59d3f82e2,Steam Devil,Devilkin,7,Rank 1,7d4+1,28.96,28.99,26.65,2021-08-22 19:31:05
+612308697b77daa59d3f82e3,Zombie Villager,Undead,8,Rank 1,8d4+4,31.96,33.77,30.51,2021-08-22 19:31:05
+612308697b77daa59d3f82e4,Green Faerie,Fey,3,Rank 1,3d4+3,12.82,12.47,11.88,2021-08-22 19:31:05
+612308697b77daa59d3f82e5,Mud Elemental,Elemental,6,Rank 4,6d10,62.55,63.14,64.09,2021-08-22 19:31:05
+612308697b77daa59d3f82e6,Pseudodragon,Dragon,7,Rank 2,7d6+1,40.22,39.24,43.2,2021-08-22 19:31:05
+612308697b77daa59d3f82e7,Succubus,Devilkin,7,Rank 4,7d10+3,68.0,67.87,71.84,2021-08-22 19:31:05
+612308697b77daa59d3f82e8,Banshee,Undead,10,Rank 0,10d2+2,20.65,19.3,19.77,2021-08-22 19:31:05
+612308697b77daa59d3f82e9,Green Faerie,Fey,7,Rank 2,7d6+4,43.86,41.66,43.27,2021-08-22 19:31:05
+612308697b77daa59d3f82ea,Mud Elemental,Elemental,9,Rank 0,9d2+3,18.71,18.61,17.3,2021-08-22 19:31:05
+612308697b77daa59d3f82eb,Green Wyrmling,Dragon,5,Rank 4,5d10+1,48.02,53.59,47.18,2021-08-22 19:31:05
+612308697b77daa59d3f82ec,Goblin Guard,Devilkin,5,Rank 3,5d8+2,41.91,40.98,40.99,2021-08-22 19:31:05
+612308697b77daa59d3f82ed,Dracolich,Undead,4,Rank 2,4d6+2,24.52,21.09,23.09,2021-08-22 19:31:05
+612308697b77daa59d3f82ee,Mud Spirit,Fey,11,Rank 0,11d2+1,21.3,22.51,21.67,2021-08-22 19:31:05
+612308697b77daa59d3f82ef,Black Demon,Demonic,8,Rank 2,8d6+1,48.43,47.21,49.61,2021-08-22 19:31:05
+612308697b77daa59d3f82f0,Copper Dragon,Dragon,6,Rank 1,6d4+5,25.51,25.04,24.07,2021-08-22 19:31:05
+612308697b77daa59d3f82f1,Ghostly Villager,Undead,7,Rank 2,7d6,41.39,40.87,44.56,2021-08-22 19:31:05
+612308697b77daa59d3f82f2,Green Faerie,Fey,8,Rank 3,8d8+1,60.24,63.71,66.7,2021-08-22 19:31:05
+612308697b77daa59d3f82f3,Nightmare,Demonic,4,Rank 2,4d6+4,22.93,26.01,24.37,2021-08-22 19:31:05
+612308697b77daa59d3f82f4,Mud Mephit,Elemental,8,Rank 0,8d2+4,16.39,15.49,16.3,2021-08-22 19:31:05
+612308697b77daa59d3f82f5,Red Drake,Dragon,12,Rank 1,12d4+4,48.23,46.65,46.48,2021-08-22 19:31:05
+612308697b77daa59d3f82f6,Pit Lord,Devilkin,10,Rank 0,10d2+1,19.8,19.18,20.21,2021-08-22 19:31:05
+612308697b77daa59d3f82f7,Revenant,Undead,5,Rank 1,5d4+2,19.1,20.89,20.93,2021-08-22 19:31:05
+612308697b77daa59d3f82f8,Imp,Demonic,4,Rank 2,4d6+2,23.57,24.93,26.59,2021-08-22 19:31:05
+612308697b77daa59d3f82f9,Mud Elemental,Elemental,4,Rank 3,4d8+5,31.41,30.35,32.12,2021-08-22 19:31:05
+612308697b77daa59d3f82fa,Faerie Dragon,Dragon,8,Rank 0,8d2+3,15.72,15.45,16.68,2021-08-22 19:31:05
+612308697b77daa59d3f82fb,Spore Devil,Devilkin,4,Rank 2,4d6+3,23.74,22.72,21.11,2021-08-22 19:31:05
+612308697b77daa59d3f82fc,Skeletal Villager,Undead,5,Rank 2,5d6+4,31.08,29.88,30.82,2021-08-22 19:31:05
+612308697b77daa59d3f82fd,Night Hag,Demonic,6,Rank 3,6d8+2,45.33,47.13,48.43,2021-08-22 19:31:05
+612308697b77daa59d3f82fe,Steam Elemental,Elemental,5,Rank 1,5d4+3,21.05,19.71,18.38,2021-08-22 19:31:05
+612308697b77daa59d3f82ff,Copper Wyrmling,Dragon,4,Rank 0,4d2+3,7.51,7.57,7.46,2021-08-22 19:31:05
+612308697b77daa59d3f8300,Goblin Villager,Devilkin,6,Rank 0,6d2+4,11.37,11.27,12.14,2021-08-22 19:31:05
+612308697b77daa59d3f8301,Wight,Undead,2,Rank 0,2d2+2,3.27,4.23,4.6,2021-08-22 19:31:05
+612308697b77daa59d3f8302,Blue Faerie,Fey,9,Rank 1,9d4+2,35.57,37.81,34.87,2021-08-22 19:31:05
+612308697b77daa59d3f8303,Ice Mephit,Elemental,9,Rank 5,9d12+1,103.2,110.05,103.63,2021-08-22 19:31:05
+612308697b77daa59d3f8304,Black Drake,Dragon,6,Rank 3,6d8,45.02,51.71,47.48,2021-08-22 19:31:05
+612308697b77daa59d3f8305,Pit Lord,Devilkin,3,Rank 2,3d6,15.1,17.9,16.78,2021-08-22 19:31:05
+612308697b77daa59d3f8306,Steam Spirit,Fey,11,Rank 0,11d2+1,22.85,21.11,22.27,2021-08-22 19:31:05
+612308697b77daa59d3f8307,Night Hag,Demonic,9,Rank 3,9d8,74.25,68.55,73.57,2021-08-22 19:31:05
+612308697b77daa59d3f8308,Red Wyrmling,Dragon,7,Rank 3,7d8,58.95,52.64,52.84,2021-08-22 19:31:05
+612308697b77daa59d3f8309,Pit Lord,Devilkin,6,Rank 2,6d6+1,34.92,36.8,34.25,2021-08-22 19:31:05
+612308697b77daa59d3f830a,Mummy,Undead,7,Rank 1,7d4+2,26.95,27.36,28.92,2021-08-22 19:31:05
+612308697b77daa59d3f830b,Hell Hound,Demonic,3,Rank 1,3d4+1,10.51,10.47,12.1,2021-08-22 19:31:05
+612308697b77daa59d3f830c,Steam Mephit,Elemental,8,Rank 3,8d8+3,62.26,60.98,62.15,2021-08-22 19:31:05
+612308697b77daa59d3f830d,Goblin Villager,Devilkin,5,Rank 0,5d2,9.64,9.22,10.19,2021-08-22 19:31:05
+612308697b77daa59d3f830e,Wight,Undead,6,Rank 0,6d2+3,11.08,11.43,12.64,2021-08-22 19:31:05
+612308697b77daa59d3f830f,Imp,Demonic,7,Rank 0,7d2+3,13.29,14.9,14.05,2021-08-22 19:31:05
+612308697b77daa59d3f8310,Djinni,Elemental,4,Rank 1,4d4+3,16.25,17.31,17.81,2021-08-22 19:31:05
+612308697b77daa59d3f8311,Kobold Villager,Devilkin,10,Rank 2,10d6,59.72,60.97,61.54,2021-08-22 19:31:05
+612308697b77daa59d3f8312,Steam Spirit,Fey,5,Rank 4,5d10+3,50.93,53.06,50.47,2021-08-22 19:31:05
+612308697b77daa59d3f8313,Steam Mephit,Elemental,5,Rank 2,5d6+3,29.56,32.23,30.86,2021-08-22 19:31:05
+612308697b77daa59d3f8314,Kobold Guard,Devilkin,7,Rank 0,7d2,13.81,14.53,13.67,2021-08-22 19:31:05
+612308697b77daa59d3f8315,Ghostly Archer,Undead,2,Rank 3,2d8+2,12.49,13.79,13.12,2021-08-22 19:31:05
+612308697b77daa59d3f8316,Nightmare,Demonic,7,Rank 0,7d2+2,13.98,14.8,13.36,2021-08-22 19:31:05
+612308697b77daa59d3f8317,Spore Mephit,Elemental,4,Rank 2,4d6+3,24.82,22.77,22.77,2021-08-22 19:31:05
+612308697b77daa59d3f8318,Green Drake,Dragon,5,Rank 4,5d10,53.84,52.16,50.97,2021-08-22 19:31:05
+612308697b77daa59d3f8319,Wight,Undead,9,Rank 1,9d4,36.65,36.91,37.17,2021-08-22 19:31:05
+612308697b77daa59d3f831a,Steam Spirit,Fey,5,Rank 0,5d2,9.3,10.02,9.32,2021-08-22 19:31:05
+612308697b77daa59d3f831b,Imp,Demonic,13,Rank 0,13d2,26.18,25.29,25.14,2021-08-22 19:31:05
+612308697b77daa59d3f831c,Pseudodragon,Dragon,6,Rank 2,6d6+1,35.57,37.0,33.23,2021-08-22 19:31:05
+612308697b77daa59d3f831d,Goblin Villager,Devilkin,9,Rank 0,9d2+2,18.22,18.49,18.15,2021-08-22 19:31:05
+612308697b77daa59d3f831e,Blue Faerie,Fey,9,Rank 0,9d2+1,17.32,18.77,18.02,2021-08-22 19:31:05
+612308697b77daa59d3f831f,Steam Elemental,Elemental,10,Rank 1,10d4+4,38.21,40.72,40.01,2021-08-22 19:31:05
+612308697b77daa59d3f8320,Kobold Villager,Devilkin,13,Rank 4,13d10+1,130.42,129.42,125.19,2021-08-22 19:31:05
+612308697b77daa59d3f8321,Steam Spirit,Fey,5,Rank 3,5d8,40.62,39.08,40.17,2021-08-22 19:31:05
+612308697b77daa59d3f8322,White Demon,Demonic,6,Rank 0,6d2+1,11.86,12.36,11.6,2021-08-22 19:31:05
+612308697b77daa59d3f8323,Djinni,Elemental,6,Rank 2,6d6+1,37.03,34.69,35.9,2021-08-22 19:31:05
+612308697b77daa59d3f8324,Pseudodragon,Dragon,7,Rank 2,7d6,43.27,43.17,43.56,2021-08-22 19:31:05
+612308697b77daa59d3f8325,Goblin Guard,Devilkin,5,Rank 0,5d2+3,9.84,9.67,9.71,2021-08-22 19:31:05
+612308697b77daa59d3f8326,Revenant,Undead,8,Rank 2,8d6,49.48,48.18,47.88,2021-08-22 19:31:05
+612308697b77daa59d3f8327,Quasit,Demonic,8,Rank 1,8d4+2,32.11,33.32,33.01,2021-08-22 19:31:05
+612308697b77daa59d3f8328,Djinni,Elemental,9,Rank 1,9d4+1,37.53,37.91,36.96,2021-08-22 19:31:05
+612308697b77daa59d3f8329,Kobold Villager,Devilkin,4,Rank 3,4d8+4,29.93,33.25,32.07,2021-08-22 19:31:05
+612308697b77daa59d3f832a,Vampire,Undead,4,Rank 4,4d10+1,42.8,38.06,41.13,2021-08-22 19:31:05
+612308697b77daa59d3f832b,Blue Faerie,Fey,7,Rank 0,7d2,13.77,13.0,13.16,2021-08-22 19:31:05
+612308697b77daa59d3f832c,Hell Hound,Demonic,7,Rank 4,7d10+3,73.29,66.71,66.28,2021-08-22 19:31:05
+612308697b77daa59d3f832d,Mud Mephit,Elemental,3,Rank 4,3d10,30.48,25.47,29.42,2021-08-22 19:31:05
+612308697b77daa59d3f832e,Goblin Villager,Devilkin,8,Rank 5,8d12+1,94.43,91.27,100.99,2021-08-22 19:31:05
+612308697b77daa59d3f832f,Death Knight,Undead,6,Rank 0,6d2+1,11.05,11.58,11.3,2021-08-22 19:31:05
+612308697b77daa59d3f8330,Hell Hound,Demonic,7,Rank 2,7d6+2,43.49,41.34,42.66,2021-08-22 19:31:05
+612308697b77daa59d3f8331,Blue Drake,Dragon,3,Rank 2,3d6,17.53,20.74,15.56,2021-08-22 19:31:05
+612308697b77daa59d3f8332,Succubus,Devilkin,5,Rank 0,5d2,9.72,10.78,10.31,2021-08-22 19:31:05
+612308697b77daa59d3f8333,Wight,Undead,5,Rank 0,5d2+1,9.93,10.64,9.34,2021-08-22 19:31:05
+612308697b77daa59d3f8334,Green Faerie,Fey,5,Rank 3,5d8,37.54,39.56,39.49,2021-08-22 19:31:05
+612308697b77daa59d3f8335,Quasit,Demonic,4,Rank 1,4d4+3,17.63,15.63,16.03,2021-08-22 19:31:05
+612308697b77daa59d3f8336,Mud Elemental,Elemental,5,Rank 0,5d2+1,10.99,9.41,9.2,2021-08-22 19:31:05
+612308697b77daa59d3f8337,Green Dragon,Dragon,2,Rank 0,2d2,4.12,3.26,4.91,2021-08-22 19:31:05
+612308697b77daa59d3f8338,Goblin Villager,Devilkin,7,Rank 3,7d8,56.17,57.57,57.53,2021-08-22 19:31:05
+612308697b77daa59d3f8339,Green Faerie,Fey,8,Rank 3,8d8+2,62.46,66.55,67.26,2021-08-22 19:31:05
+612308697b77daa59d3f833a,Night Hag,Demonic,4,Rank 2,4d6+1,25.43,23.31,22.18,2021-08-22 19:31:05
+612308697b77daa59d3f833b,Ice Mephit,Elemental,7,Rank 0,7d2,13.49,14.01,14.68,2021-08-22 19:31:05
+612308697b77daa59d3f833c,Kobold Villager,Devilkin,10,Rank 3,10d8+1,82.13,79.13,78.03,2021-08-22 19:31:05
+612308697b77daa59d3f833d,Mummy,Undead,5,Rank 2,5d6,32.36,30.53,28.64,2021-08-22 19:31:05
+612308697b77daa59d3f833e,Quasit,Demonic,6,Rank 3,6d8,46.71,44.98,45.09,2021-08-22 19:31:05
+612308697b77daa59d3f833f,Djinni,Elemental,12,Rank 0,12d2+1,23.36,23.08,23.0,2021-08-22 19:31:05
+612308697b77daa59d3f8340,Pit Lord,Devilkin,10,Rank 3,10d8+1,78.29,81.79,81.38,2021-08-22 19:31:05
+612308697b77daa59d3f8341,Revenant,Undead,6,Rank 0,6d2,12.54,11.6,11.31,2021-08-22 19:31:05
+612308697b77daa59d3f8342,Hook Horror,Demonic,7,Rank 3,7d8+5,57.08,54.16,56.68,2021-08-22 19:31:05
+612308697b77daa59d3f8343,Copper Drake,Dragon,3,Rank 0,3d2+1,6.41,5.42,6.8,2021-08-22 19:31:05
+612308697b77daa59d3f8344,Wraith,Undead,6,Rank 4,6d10+2,58.64,61.88,59.14,2021-08-22 19:31:05
+612308697b77daa59d3f8345,Green Faerie,Fey,8,Rank 0,8d2,16.3,16.44,15.45,2021-08-22 19:31:05
+612308697b77daa59d3f8346,Imp,Demonic,5,Rank 2,5d6+2,27.96,30.6,28.71,2021-08-22 19:31:05
+612308697b77daa59d3f8347,Dust Elemental,Elemental,5,Rank 2,5d6+1,31.31,27.36,32.51,2021-08-22 19:31:05
+612308697b77daa59d3f8348,Goblin Villager,Devilkin,2,Rank 3,2d8+2,16.64,14.74,13.48,2021-08-22 19:31:05
+612308697b77daa59d3f8349,Ghostly Archer,Undead,7,Rank 2,7d6+4,39.95,40.93,44.36,2021-08-22 19:31:05
+612308697b77daa59d3f834a,Quasit,Demonic,4,Rank 0,4d2+3,7.94,7.06,7.61,2021-08-22 19:31:05
+612308697b77daa59d3f834b,Green Dragon,Dragon,2,Rank 1,2d4+3,7.52,9.26,6.6,2021-08-22 19:31:05
+612308697b77daa59d3f834c,Goblin Villager,Devilkin,4,Rank 2,4d6,25.18,25.55,23.21,2021-08-22 19:31:05
+612308697b77daa59d3f834d,Black Faerie,Fey,3,Rank 1,3d4+2,12.01,13.58,11.25,2021-08-22 19:31:05
+612308697b77daa59d3f834e,Quasit,Demonic,7,Rank 1,7d4+2,28.43,29.64,29.66,2021-08-22 19:31:05
+612308697b77daa59d3f834f,Mud Elemental,Elemental,7,Rank 3,7d8,53.36,53.58,57.69,2021-08-22 19:31:05
+612308697b77daa59d3f8350,Red Wyrmling,Dragon,2,Rank 3,2d8+1,16.98,14.77,19.36,2021-08-22 19:31:05
+612308697b77daa59d3f8351,Mummy,Undead,5,Rank 0,5d2+3,9.61,10.83,9.99,2021-08-22 19:31:05
+612308697b77daa59d3f8352,Ice Spirit,Fey,9,Rank 2,9d6,52.32,56.3,56.92,2021-08-22 19:31:05
+612308697b77daa59d3f8353,Hell Hound,Demonic,4,Rank 1,4d4+4,16.61,15.32,15.27,2021-08-22 19:31:05
+612308697b77daa59d3f8354,Djinni,Elemental,11,Rank 1,11d4+2,43.5,42.77,45.35,2021-08-22 19:31:05
+612308697b77daa59d3f8355,Pseudodragon,Dragon,6,Rank 3,6d8,46.06,46.85,44.89,2021-08-22 19:31:05
+612308697b77daa59d3f8356,Kobold Villager,Devilkin,7,Rank 2,7d6+1,41.43,43.24,44.02,2021-08-22 19:31:05
+612308697b77daa59d3f8357,Ghoul,Undead,5,Rank 4,5d10,54.58,50.08,46.09,2021-08-22 19:31:05
+612308697b77daa59d3f8358,Imp,Demonic,9,Rank 1,9d4+1,36.63,36.24,35.31,2021-08-22 19:31:05
+612308697b77daa59d3f8359,Djinni,Elemental,6,Rank 2,6d6,35.28,35.0,33.3,2021-08-22 19:31:05
+612308697b77daa59d3f835a,Mud Devil,Devilkin,3,Rank 1,3d4+1,13.88,10.94,11.91,2021-08-22 19:31:05
+612308697b77daa59d3f835b,Ghast,Undead,6,Rank 0,6d2+1,12.48,11.68,12.63,2021-08-22 19:31:05
+612308697b77daa59d3f835c,Green Faerie,Fey,6,Rank 2,6d6,38.95,33.06,35.46,2021-08-22 19:31:05
+612308697b77daa59d3f835d,Steam Elemental,Elemental,4,Rank 2,4d6,26.94,23.56,21.56,2021-08-22 19:31:05
+612308697b77daa59d3f835e,Faerie Dragon,Dragon,3,Rank 3,3d8+3,26.67,24.16,22.04,2021-08-22 19:31:05
+612308697b77daa59d3f835f,Goblin Villager,Devilkin,6,Rank 3,6d8+1,49.64,49.01,47.55,2021-08-22 19:31:05
+612308697b77daa59d3f8360,Red Faerie,Fey,5,Rank 0,5d2+3,9.01,9.97,10.95,2021-08-22 19:31:05
+612308697b77daa59d3f8361,Quasit,Demonic,5,Rank 1,5d4+4,19.9,19.2,19.16,2021-08-22 19:31:05
+612308697b77daa59d3f8362,Blue Drake,Dragon,10,Rank 2,10d6+1,57.64,62.75,59.87,2021-08-22 19:31:05
+612308697b77daa59d3f8363,Dust Devil,Devilkin,7,Rank 1,7d4+2,27.84,29.61,28.55,2021-08-22 19:31:05
+612308697b77daa59d3f8364,Wight,Undead,10,Rank 2,10d6+2,59.91,58.83,60.45,2021-08-22 19:31:05
+612308697b77daa59d3f8365,Quasit,Demonic,4,Rank 1,4d4+3,15.89,15.4,16.7,2021-08-22 19:31:05
+612308697b77daa59d3f8366,Blue Wyrmling,Dragon,9,Rank 1,9d4,35.34,36.72,34.58,2021-08-22 19:31:05
+612308697b77daa59d3f8367,Zombie Villager,Undead,7,Rank 0,7d2+1,13.85,14.22,14.91,2021-08-22 19:31:05
+612308697b77daa59d3f8368,Balor,Demonic,7,Rank 4,7d10+2,70.64,72.22,70.35,2021-08-22 19:31:05
+612308697b77daa59d3f8369,Dust Elemental,Elemental,4,Rank 0,4d2+2,8.86,7.41,7.42,2021-08-22 19:31:05
+612308697b77daa59d3f836a,Red Wyrmling,Dragon,6,Rank 2,6d6,35.65,35.85,36.88,2021-08-22 19:31:05
+612308697b77daa59d3f836b,Wight,Undead,2,Rank 0,2d2+2,4.66,3.51,3.66,2021-08-22 19:31:05
+612308697b77daa59d3f836c,Green Faerie,Fey,5,Rank 2,5d6+3,29.84,28.88,31.47,2021-08-22 19:31:05
+612308697b77daa59d3f836d,Djinni,Elemental,4,Rank 2,4d6,23.8,23.13,24.62,2021-08-22 19:31:05
+612308697b77daa59d3f836e,Green Dragon,Dragon,10,Rank 2,10d6+1,58.47,58.8,61.82,2021-08-22 19:31:05
+612308697b77daa59d3f836f,Skeletal Villager,Undead,6,Rank 3,6d8+2,49.13,46.2,48.58,2021-08-22 19:31:05
+612308697b77daa59d3f8370,Imp,Demonic,9,Rank 3,9d8+4,72.25,71.62,73.3,2021-08-22 19:31:05
+612308697b77daa59d3f8371,Pseudodragon,Dragon,3,Rank 0,3d2,6.87,5.83,5.87,2021-08-22 19:31:05
+612308697b77daa59d3f8372,Pit Lord,Devilkin,6,Rank 0,6d2+1,12.59,12.59,12.03,2021-08-22 19:31:05
+612308697b77daa59d3f8373,Wight,Undead,3,Rank 4,3d10+2,26.71,33.7,30.79,2021-08-22 19:31:05
+612308697b77daa59d3f8374,Green Faerie,Fey,6,Rank 2,6d6+1,37.05,33.82,37.39,2021-08-22 19:31:05
+612308697b77daa59d3f8375,Steam Mephit,Elemental,6,Rank 1,6d4+4,23.39,24.5,24.68,2021-08-22 19:31:05
+612308697b77daa59d3f8376,Onyx Wyrmling,Dragon,4,Rank 1,4d4,16.34,16.35,14.2,2021-08-22 19:31:05
+612308697b77daa59d3f8377,Succubus,Devilkin,6,Rank 0,6d2,12.86,11.14,11.85,2021-08-22 19:31:05
+612308697b77daa59d3f8378,Mud Spirit,Fey,8,Rank 3,8d8+2,61.23,62.07,61.07,2021-08-22 19:31:05
+612308697b77daa59d3f8379,Steam Elemental,Elemental,3,Rank 4,3d10+3,27.25,27.71,31.6,2021-08-22 19:31:05
+612308697b77daa59d3f837a,Red Wyrmling,Dragon,7,Rank 1,7d4,28.35,26.25,29.33,2021-08-22 19:31:05
+612308697b77daa59d3f837b,Kobold Guard,Devilkin,5,Rank 2,5d6+4,29.32,29.93,28.21,2021-08-22 19:31:05
+612308697b77daa59d3f837c,Steam Spirit,Fey,5,Rank 0,5d2,9.71,9.52,9.22,2021-08-22 19:31:05
+612308697b77daa59d3f837d,Quasit,Demonic,7,Rank 0,7d2+3,14.64,13.27,14.24,2021-08-22 19:31:05
+612308697b77daa59d3f837e,Wyvern,Dragon,9,Rank 1,9d4+5,36.76,35.87,35.38,2021-08-22 19:31:05
+612308697b77daa59d3f837f,Zombie Villager,Undead,4,Rank 4,4d10+2,36.55,42.32,41.68,2021-08-22 19:31:05
+612308697b77daa59d3f8380,Red Faerie,Fey,3,Rank 4,3d10+3,31.4,28.98,30.58,2021-08-22 19:31:05
+612308697b77daa59d3f8381,Night Hag,Demonic,5,Rank 0,5d2,10.88,10.5,10.68,2021-08-22 19:31:05
+612308697b77daa59d3f8382,Faerie Dragon,Dragon,4,Rank 1,4d4+2,15.63,16.85,16.83,2021-08-22 19:31:05
+612308697b77daa59d3f8383,Steam Devil,Devilkin,8,Rank 1,8d4,33.91,32.04,30.88,2021-08-22 19:31:05
+612308697b77daa59d3f8384,Skeletal Villager,Undead,5,Rank 1,5d4+1,20.03,20.47,21.66,2021-08-22 19:31:05
+612308697b77daa59d3f8385,Quasit,Demonic,11,Rank 3,11d8+1,85.78,86.93,90.82,2021-08-22 19:31:05
+612308697b77daa59d3f8386,Mud Mephit,Elemental,3,Rank 0,3d2+2,6.2,6.47,5.16,2021-08-22 19:31:05
+612308697b77daa59d3f8387,Blue Drake,Dragon,7,Rank 2,7d6+2,40.21,43.05,40.5,2021-08-22 19:31:05
+612308697b77daa59d3f8388,Goblin Guard,Devilkin,5,Rank 2,5d6+4,31.84,30.61,31.81,2021-08-22 19:31:05
+612308697b77daa59d3f8389,White Faerie,Fey,6,Rank 3,6d8+4,45.79,50.95,49.07,2021-08-22 19:31:05
+612308697b77daa59d3f838a,Night Hag,Demonic,6,Rank 1,6d4+2,25.92,22.62,23.7,2021-08-22 19:31:05
+612308697b77daa59d3f838b,Steam Mephit,Elemental,6,Rank 3,6d8+2,45.87,44.49,48.24,2021-08-22 19:31:05
+612308697b77daa59d3f838c,Black Wyrmling,Dragon,7,Rank 4,7d10,70.37,69.64,71.41,2021-08-22 19:31:05
+612308697b77daa59d3f838d,Kobold Villager,Devilkin,7,Rank 1,7d4,27.63,28.18,28.14,2021-08-22 19:31:05
+612308697b77daa59d3f838e,Mud Spirit,Fey,7,Rank 2,7d6+1,40.56,42.08,44.4,2021-08-22 19:31:05
+612308697b77daa59d3f838f,Steam Elemental,Elemental,2,Rank 0,2d2+2,3.66,4.19,3.33,2021-08-22 19:31:05
+612308697b77daa59d3f8390,Faerie Dragon,Dragon,4,Rank 2,4d6+4,24.37,25.13,25.73,2021-08-22 19:31:05
+612308697b77daa59d3f8391,Goblin Guard,Devilkin,10,Rank 1,10d4+3,39.73,39.47,40.29,2021-08-22 19:31:05
+612308697b77daa59d3f8392,Skeletal Villager,Undead,8,Rank 1,8d4+2,32.02,33.78,33.3,2021-08-22 19:31:05
+612308697b77daa59d3f8393,Black Faerie,Fey,1,Rank 3,1d8+1,7.53,4.37,8.81,2021-08-22 19:31:05
+612308697b77daa59d3f8394,Black Demon,Demonic,7,Rank 0,7d2,14.27,14.85,13.29,2021-08-22 19:31:05
