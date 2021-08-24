@@ -249,15 +249,6 @@ def download():
     return send_file("saved_model/saved_model.zip", as_attachment=True)
 
 
-@API.route("/toggle")
-def toggle_theme():
-    if API.theme == "Dark":
-        API.theme = "Light"
-    elif API.theme == "Light":
-        API.theme = "Dark"
-    return home()
-
-
 if __name__ == "__main__":
     """ To run locally use the following command in the terminal:
     $ python -m app.main
