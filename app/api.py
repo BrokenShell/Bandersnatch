@@ -243,7 +243,7 @@ def retrain():
 @API.route("/download", methods=["GET"])
 def download():
     with ZipFile("app/saved_model/saved_model.zip", "w") as archive:
-        archive.write("app/saved_model/model_notes.txt", "saved_model/notes.txt")
+        archive.write("app/saved_model/notes.txt", "saved_model/notes.txt")
         archive.write("app/saved_model/data.csv", "saved_model/data.csv")
         archive.write("app/saved_model/model.job", "saved_model/model.job")
     return send_file("saved_model/saved_model.zip", as_attachment=True)

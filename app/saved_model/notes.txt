@@ -2,9 +2,9 @@ Model: RandomForestClassifier(class_weight={'Rank 0': 0.306059, 'Rank 1': 0.2493
                                      'Rank 2': 0.194335, 'Rank 3': 0.138978,
                                      'Rank 4': 0.083304, 'Rank 5': 0.027983},
                        n_jobs=-1, random_state=42)
-Time Stamp: 2021-08-22 19:31:11
-Testing Score: 94.231%
-Total Row Count: 256
-Training Row Count: 204
-Testing Row Count: 52
-Time to Train: 0:00:00.146258
+Time Stamp: 2021-08-24 12:29:01
+Testing Score: 97.561%
+Total Row Count: 1025
+Training Row Count: 820
+Testing Row Count: 205
+Time to Train: 0:00:00.339486

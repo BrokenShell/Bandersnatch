@@ -76,6 +76,6 @@ def init_model(db: Data, force=False):
         model = Model(db)
         dump(model, "app/saved_model/model.job")
         db.get_df().to_csv("app/saved_model/data.csv", index=False)
-        with open("app/saved_model/model_notes.txt", "w") as file:
+        with open("app/saved_model/notes.txt", "w") as file:
             file.write(model.info)
     return model
