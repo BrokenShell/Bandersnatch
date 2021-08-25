@@ -56,7 +56,6 @@ def view():
     graph = alt.Chart(
         monsters,
         title=f"{filter_by} Monsters",
-
     ).mark_circle(size=100).encode(
         x=alt.X(
             f"{x_axis}{get_type(monsters, x_axis)}",
@@ -117,6 +116,7 @@ def view():
         target=target,
         spec=graph.to_json(),
         total=total,
+        df_table=monsters.sort_index(ascending=False).to_html(),
     )
 
 
@@ -166,25 +166,6 @@ def create():
         rarity=rarity,
         monster=monster.to_dict(),
     )
-
-
-@API.route("/data", methods=["GET"])
-def data():
-    total = API.db.get_count()
-    if total > 0:
-        df_table = API.db.get_df().sort_values("Time Stamp", ascending=False)
-        df_table = df_table.drop(columns=["_id"])
-        df_html = df_table.to_html(index=False)
-        return render_template(
-            "data.html",
-            total=total,
-            df_table=df_html,
-        )
-    else:
-        return render_template(
-            "data.html",
-            total=total,
-        )
 
 
 @API.route("/predict", methods=["GET", "POST"])

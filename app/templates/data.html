@@ -1,9 +1,0 @@
-{% extends "layout.html" %}
-{% block content %}
-    <h1 class="heading">Monster Table</h1>
-    <h2 class="highlight">Live Monster Data</h2>
-    <h3>Total Monsters: <span class="highlight">{{ total }}</span></h3>
-    {% if total > 0 %}
-        {{ df_table | safe }}
-    {% endif %}
-{% endblock %}

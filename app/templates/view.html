@@ -61,6 +61,10 @@
                 vegaEmbed('#graph', {{ spec | safe }});
             </script>
         </div>
+        <br>
+        <h3>Total Monsters: <span class="highlight">{{ total }}</span></h3>
+        {{ df_table | safe }}
+    {% else %}
+        <h3>Total Monsters: <span class="highlight">{{ total }}</span></h3>
     {% endif %}
-    <h3>Total Monsters: <span class="highlight">{{ total }}</span></h3>
 {% endblock %}
