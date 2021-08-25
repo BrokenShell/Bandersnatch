@@ -37,7 +37,7 @@ def view():
 
     alt.data_transformers.disable_max_rows()
     raw_data = API.db.get_df()
-    if API.db.get_count() == 0:
+    if API.db.get_count({}) == 0:
         return render_template(
             "view.html",
             total=0,
@@ -254,7 +254,7 @@ def train():
     time_stamp = API.model.time_stamp
     test_score = f"{100 * API.model.score():.3f}%"
     total = API.model.total_db
-    available = API.db.get_count() - total
+    available = API.db.get_count({}) - total
 
     return render_template(
         "train.html",

@@ -40,8 +40,8 @@ class Data:
     def get_df(self, limit=0) -> pd.DataFrame:
         return pd.DataFrame(self.find_many({}, limit=limit))
 
-    def get_count(self) -> int:
-        return self.connect().find({}).count()
+    def get_count(self, query_obj: Dict) -> int:
+        return self.connect().count_documents(query_obj)
 
     def __str__(self):
         return f"{self.get_df()}"
