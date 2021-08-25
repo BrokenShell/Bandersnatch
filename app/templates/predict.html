@@ -35,4 +35,13 @@
         <br>
         Confidence: <span class="highlight">{{ confidence }}</span>
     </h5>
+    <div id="chart">
+        <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vega-lite@4.8.1"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.0.0"></script>
+        <div id="graph"></div>
+        <script type="text/javascript">
+            vegaEmbed('#graph', {{ graph_json | safe }});
+        </script>
+    </div>
 {% endblock %}

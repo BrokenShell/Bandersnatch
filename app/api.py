@@ -1,6 +1,7 @@
 """ Bandersnatch """
 from zipfile import ZipFile
 
+import pandas as pd
 from Fortuna import random_int, random_float
 from MonsterLab import Monster, Random
 from flask import Flask, render_template, request, send_file
@@ -182,6 +183,58 @@ def predict():
     test_score = API.model.score()
     confidence = f"{100*probability*test_score:.2f}%"
 
+    graph_df = pd.DataFrame(
+        {
+            "Level": level_i,
+            "Rank Predictions": API.model([level_i, health, energy, sanity])[0]
+        } for level_i in range(1, 21)
+    )
+    text_color = "#AAA"
+    graph_color = "#333"
+    graph_bg = "#252525"
+    graph = alt.Chart(
+        graph_df,
+        title=f"Rank Predictions by Level",
+    ).mark_circle(size=100).encode(
+        x=alt.X(
+            "Rank Predictions",
+            axis=alt.Axis(title="Ranks"),
+        ),
+        y=alt.Y(
+            "Level",
+            axis=alt.Axis(title="Levels"),
+        ),
+        color="Rank Predictions",
+        tooltip=alt.Tooltip(list(graph_df.columns)),
+    ).properties(
+        width=400,
+        height=480,
+        background=graph_bg,
+        padding=40,
+    ).configure(
+        legend={
+            "titleColor": text_color,
+            "labelColor": text_color,
+            "padding": 10,
+        },
+        title={
+            "color": text_color,
+            "fontSize": 26,
+            "offset": 30,
+        },
+        axis={
+            "titlePadding": 20,
+            "titleColor": text_color,
+            "labelPadding": 5,
+            "labelColor": text_color,
+            "gridColor": graph_color,
+            "tickColor": graph_color,
+            "tickSize": 10,
+        },
+        view={
+            "stroke": graph_color,
+        },
+    )
     return render_template(
         "predict.html",
         level_ops=range(1, 21),
@@ -191,6 +244,7 @@ def predict():
         sanity=sanity,
         prediction=prediction,
         confidence=confidence,
+        graph_json=graph.to_json(),
     )
 
 
