@@ -24,7 +24,7 @@ class Model:
             stratify=target,
             random_state=42,
         )
-        self.total_db = db.get_count()
+        self.total_db = db.get_count({})
         self.total_trained = self.y_train.shape[0]
         self.total_tested = self.y_test.shape[0]
         self.model = RandomForestClassifier(
