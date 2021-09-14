@@ -1,8 +1,8 @@
 """ Bandersnatch """
+from random import randint, random
 from zipfile import ZipFile
 
 import pandas as pd
-from Fortuna import random_int, random_float
 from MonsterLab import Monster, Random
 from flask import Flask, render_template, request, send_file
 import altair as alt
@@ -123,15 +123,16 @@ def view():
 
 @API.route("/create", methods=["GET", "POST"])
 def create():
+    rand = Random()
     name = request.values.get("name")
-    monster_type = request.values.get("type") or Random.random_type()
-    level = int(request.values.get("level") or Random.random_level())
-    rarity = request.values.get("rarity") or Random.random_rank()
+    monster_type = request.values.get("type") or rand.random_type()
+    level = int(request.values.get("level") or rand.random_level())
+    rarity = request.values.get("rarity") or rand.random_rank()
 
     if not name:
         return render_template(
             "create.html",
-            type_ops=Random.random_name.cat_keys,
+            type_ops=list(rand.monsters_by_type.keys()),
             monster_type=monster_type,
             level_ops=list(range(1, 21)),
             level=level,
@@ -147,7 +148,7 @@ def create():
             API.db.insert_many(Monster().to_dict() for _ in range(int(com)))
         return render_template(
             "create.html",
-            type_ops=Random.random_name.cat_keys,
+            type_ops=list(rand.monsters_by_type.keys()),
             monster_type=monster_type,
             level_ops=list(range(1, 21)),
             level=level,
@@ -159,7 +160,7 @@ def create():
     API.db.insert(monster.to_dict())
     return render_template(
         "create.html",
-        type_ops=Random.random_name.cat_keys,
+        type_ops=list(rand.monsters_by_type.keys()),
         monster_type=monster_type,
         level_ops=list(range(1, 21)),
         level=level,
@@ -172,13 +173,13 @@ def create():
 @API.route("/predict", methods=["GET", "POST"])
 def predict():
 
-    def rand():
-        return round(random_float(1, 200), 2)
+    def rand_stat():
+        return round(randint(1, 200) + random(), 2)
 
-    level = int(request.values.get("level") or random_int(1, 20))
-    health = float(request.values.get("health") or rand())
-    energy = float(request.values.get("energy") or rand())
-    sanity = float(request.values.get("sanity") or rand())
+    level = int(request.values.get("level") or randint(1, 20))
+    health = float(request.values.get("health") or rand_stat())
+    energy = float(request.values.get("energy") or rand_stat())
+    sanity = float(request.values.get("sanity") or rand_stat())
     prediction, probability = API.model([level, health, energy, sanity])
     test_score = API.model.score()
     confidence = f"{100*probability*test_score:.2f}%"
@@ -284,8 +285,5 @@ def download():
     return send_file("saved_model/saved_model.zip", as_attachment=True)
 
 
-if __name__ == "__main__":
-    """ To run locally use the following command in the terminal:
-    $ python -m app.main
-    """
-    API.run()
+if __name__ == '__main__':
+    API.run(host="0.0.0.0")
