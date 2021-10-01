@@ -257,3 +257,4 @@ _id,Name,Type,Level,Rarity,Damage,Health,Energy,Sanity,Time Stamp
 612308697b77daa59d3f837f,Zombie Villager,Undead,4,Rank 4,4d10+2,36.55,42.32,41.68,2021-08-22 19:31:05
 612315151a7c633469c61ae4,Bandersnatch,Demonic,10,Rank 5,10d12,121.11,126.0,124.25,2021-08-22 20:25:09
 6137d439b60813332b8658f6,Bandersnatch,Demonic,4,Rank 0,4d2,7.75,7.32,8.18,2021-09-07 14:06:01
+6157623e7a975b07ac23e8c0,Bandersnatch,Demonic,20,Rank 5,20d12+3,240.03,235.43,241.52,2021-10-01 12:32:14
